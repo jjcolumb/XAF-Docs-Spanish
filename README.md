@@ -1,5 +1,5 @@
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jjcolumb/XAF-Considerations-for-Newcomers/blob/main/README.en.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/README.en.md)
 
 # XAF DevExpress para principiantes
 
