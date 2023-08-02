@@ -1,0 +1,2 @@
+
+# XAF DevExpress for newcomers
