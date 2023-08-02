@@ -1,4 +1,4 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/README.en.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/newcomers.en.md)
 
 [Volver atrás](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/README.md)
 
