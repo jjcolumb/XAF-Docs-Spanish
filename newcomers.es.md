@@ -1,4 +1,5 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/lianhdez95/XAF-Considerations-for-Newcomers)
+
 [Volver atrás]()
 
 # Consideraciones de XAF para recién llegados
