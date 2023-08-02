@@ -1,6 +1,6 @@
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/lianhdez95/XAF-Considerations-for-Newcomers)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/README.en.md)
 
-[Volver atrás]()
+[Volver atrás](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/README.md)
 
 # Consideraciones de XAF para recién llegados
 
