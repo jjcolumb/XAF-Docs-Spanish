@@ -1,6 +1,6 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/faq.en.md)
 
-[Back](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/README.md)
+[Volver atrás](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/README.md)
 
 # Preguntas frecuentes - Blazor UI (FAQ)
 
