@@ -1,5 +1,5 @@
 
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/xaf-xpo.es.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/ef-xpo.es.md)
 
 [Back](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/README.en.md)
 
