@@ -6,6 +6,7 @@
 - ### [Consideraciones de XAF para recién llegados](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/newcomers.es.md)
 - ### [Por qué se recomienda EF Core antes que XPO](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/ef-xpo.es.md)
 - ### [Preguntas frecuentes (FAQ)](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/faq.es.md)
+- ### [Manipulación de datos y lógica empresarial](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/datamandl.md)
 
 
 ## Demostraciones y ejemplos:
