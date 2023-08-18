@@ -8,7 +8,7 @@
 - ### [Preguntas frecuentes (FAQ)](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/faq.es.md)
 - ### [Manipulación de datos y lógica empresarial](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/datamandl.md)
 - ### [Interfaz de usuario y personalización del comportamiento](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/uiandbcustom.md)
-
+- ### [Filtrado de datos](https://github.com/jjcolumb/XAF-Docs-Spanish/blob/master/dfiltering.md)
 
 ## Demostraciones y ejemplos:
 
