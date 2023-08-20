@@ -16,7 +16,7 @@ Los miembros del espacio de objetos se declaran en la interfaz  [IObjectSpace](h
 -   [EFCoreObjectSpace](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.EFCore.EFCoreObjectSpace): se usa para acceder a los datos a través de  [DbContext](https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext) cuando se usa el modelo de datos  [de Entity Framework Core](https://docs.microsoft.com/en-us/ef/core).
 -   [NonPersistentObjectSpace](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.NonPersistentObjectSpace): se utiliza para administrar  [objetos no persistentes que no](https://docs.devexpress.com/eXpressAppFramework/116516/business-model-design-orm/non-persistent-objects)  están asignados a la base de datos.
 
-![image](https://github.com/jjcolumb/Data-Manupulation-and-Logic/assets/126447472/504d6839-f6ec-429c-92f6-3c2f6a9798aa)
+![image](https://github.com/lianhdez95/Data-Manupulation-and-Logic/assets/126447472/504d6839-f6ec-429c-92f6-3c2f6a9798aa)
 
 
 En la mayoría de los casos, accederá a Object Space a través de la interfaz  [IObjectSpace](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.IObjectSpace)  y no necesitará usar estas clases directamente.
@@ -94,7 +94,7 @@ Una referencia a un espacio de objetos se pasa automáticamente al método IComp
 
 El espacio de objetos también está disponible mediante argumentos pasados a varios eventos de la clase  [XafApplication](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.XafApplication).
 
-![image](https://github.com/jjcolumb/Data-Manupulation-and-Logic/assets/126447472/77d43bb4-8c86-4182-aec7-6b7a7123af2a)
+![image](https://github.com/lianhdez95/Data-Manupulation-and-Logic/assets/126447472/77d43bb4-8c86-4182-aec7-6b7a7123af2a)
 
 
 ## Crear un nuevo espacio de objetos
@@ -669,9 +669,9 @@ Las tareas empresariales comunes requieren lógica adicional antes de almacenar 
 
 **API útil**
 
-![image](https://github.com/jjcolumb/Data-Manupulation-and-Logic/assets/126447472/6f922ece-2924-4bb0-b4e2-512e04fe29a7)
-![image](https://github.com/jjcolumb/Data-Manupulation-and-Logic/assets/126447472/872e4bbb-49ae-413c-b117-f86ae30cd346)
-![image](https://github.com/jjcolumb/Data-Manupulation-and-Logic/assets/126447472/61399049-1e1c-4c04-b527-fd346b3601ad)
+![image](https://github.com/lianhdez95/Data-Manupulation-and-Logic/assets/126447472/6f922ece-2924-4bb0-b4e2-512e04fe29a7)
+![image](https://github.com/lianhdez95/Data-Manupulation-and-Logic/assets/126447472/872e4bbb-49ae-413c-b117-f86ae30cd346)
+![image](https://github.com/lianhdez95/Data-Manupulation-and-Logic/assets/126447472/61399049-1e1c-4c04-b527-fd346b3601ad)
 
 XAF guarda los cambios en una vista en las siguientes situaciones:
 
@@ -1423,8 +1423,8 @@ You can also notify that the  property value is changed from the  business class
 
 **API útil**
 
-![image](https://github.com/jjcolumb/Data-Manupulation-and-Logic/assets/126447472/54d539bc-e2bb-46cf-9b71-1a3ad690ad0d)
-![image](https://github.com/jjcolumb/Data-Manupulation-and-Logic/assets/126447472/e219b064-de62-41a7-8317-1e9d37c03e54)
+![image](https://github.com/lianhdez95/Data-Manupulation-and-Logic/assets/126447472/54d539bc-e2bb-46cf-9b71-1a3ad690ad0d)
+![image](https://github.com/lianhdez95/Data-Manupulation-and-Logic/assets/126447472/e219b064-de62-41a7-8317-1e9d37c03e54)
 
 En el código, puede modificar objetos de negocio para crear otros nuevos, eliminar objetos o editar las propiedades de los objetos. Si realiza esto en un ObjectSpace diferente del ObjectSpace de la Vista actual, actualice el ObjectSpace de la Vista actual para mostrar los cambios en la Vista. Llame al método  [IObjectSpace.Refresh](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.IObjectSpace.Refresh)  para mostrar nuevos datos en la vista.
 
@@ -1528,7 +1528,7 @@ No se recomienda usar el enfoque de este tema en aplicaciones XAF. En su lugar, 
 
 En una aplicación que no es XAF, no hay ningún objeto con el que crear un espacio de objetos. Una aplicación en XAF en sí misma no crea espacios de objetos. Internamente, utiliza el proveedor de  **espacio**  de objetos diseñado para crear espacios de objetos para el ORM utilizado actualmente y los registrados en su método reemplazado. En una aplicación que no sea XAF, puede crear manualmente una instancia del proveedor de espacio de objetos y, a continuación, llamar al método del proveedor para crear un  **espacio de objetos**.`XafApplication` `XafApplication` `XafApplication.CreateDefaultObjectSpaceProvider` `CreateObjectSpace`.
 
-![image](https://github.com/jjcolumb/Data-Manupulation-and-Logic/assets/126447472/dcadef43-c0d7-4c71-94bf-e2574323d20a)
+![image](https://github.com/lianhdez95/Data-Manupulation-and-Logic/assets/126447472/dcadef43-c0d7-4c71-94bf-e2574323d20a)
 
 
 >NOTA
@@ -1604,7 +1604,7 @@ En este tema se describe cómo acceder a un espacio de objetos, al  [sistema de 
 
 ### APIs útiles
 
-![image](https://github.com/jjcolumb/Data-Manupulation-and-Logic/assets/126447472/e9d8fe5d-1ba5-4ab0-bf04-285dd0c5fd94)
+![image](https://github.com/lianhdez95/Data-Manupulation-and-Logic/assets/126447472/e9d8fe5d-1ba5-4ab0-bf04-285dd0c5fd94)
 
 
 ## Prerrequisitos
