@@ -109,7 +109,7 @@ La propiedad  **Criteria**  del nodo  [IModelListView](https://docs.devexpress.c
 
 Utilice la propiedad  **Criteria**  de un nodo Vista de lista para especificar un criterio de filtrado que se aplicará a la vista de lista actual. Puede utilizar el cuadro de diálogo  **Generador de filtros**  para diseñar visualmente la expresión necesaria. Para invocar este cuadro de diálogo, haga clic en el botón de puntos suspensivos (![EllipsisButton](https://docs.devexpress.com/eXpressAppFramework/images/ellipsisbutton116182.png)) situado a la derecha del valor de la propiedad.
 
-![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/3142802c-9717-4ca3-9152-0ca1b6d1e6a3)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/904750b4-bdde-4c49-b507-9f67c93a7624)
 
 El valor de esta propiedad se agrega a la colección  **Criteria**  de  [ListView.CollectionSource](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ListView.CollectionSource)  de la vista de lista. Esto se realiza cuando se activa  [FilterController](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.FilterController). Por lo tanto, si desactiva este Controller, la propiedad  **Criteria**  no se tendrá en cuenta para ninguna vista de lista.
 
@@ -125,7 +125,7 @@ Este enfoque se puede aplicar a cualquier vista de lista, ya sea una raíz, anid
 
 El  [nodo Modelo de aplicación de](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works)  **filtros**  permite agregar criterios predefinidos a la acción  **SetFilter**  integrada. Al seleccionar un criterio en la ventana desplegable de la acción, la vista de lista actual se filtra utilizando este criterio.
 
-![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c9fb36fc-dab6-44ff-b3d5-946d10bfa03d)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/fcedf3e8-f3d3-4d3b-bf44-6cb7a4573b76)
 
 Utilice esta técnica para filtrar las vistas de lista cuando necesite que un usuario final pueda seleccionar el filtro necesario. Además, los usuarios finales que tengan acceso al modelo de aplicación podrán agregar o cambiar filtros predefinidos a través del  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor).
 
@@ -140,7 +140,8 @@ Para agregar elementos a la acción  **SetFilter**, haga lo siguiente.
 -   Invocar el menú contextual para las  **vistas**  requeridas |  **_<ListView>_**  |  **Filtra**  y selecciona el botón  **Agregar**  | Elemento de menú  **ListViewFilterItem**.
 -   Para el nuevo nodo  **Filtro**, especifique las propiedades  **ID,**  **Caption**  y  **Criteria**. El valor  **Criteria**  debe especificarse mediante la  [sintaxis del lenguaje Criteria](https://docs.devexpress.com/CoreLibraries/4928/devexpress-data-library/criteria-language-syntax). Para simplificar esta tarea, puede invocar el cuadro de diálogo  **Generador de filtros**  haciendo clic en un botón de puntos suspensivos (![EllipsisButton](https://docs.devexpress.com/eXpressAppFramework/images/ellipsisbutton116182.png)) situado a la derecha del valor  **Criterios**. Dentro de este cuadro de diálogo, puede diseñar visualmente una expresión de criterio.
     
-    ![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/9db69b47-ff5f-4b0b-8424-87b7e1b0f6b2)
+    ![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b8669970-03ef-4768-915a-f872a02a10ee)
+
 
     
 -   Repita los dos pasos anteriores si es necesario.
@@ -321,15 +322,15 @@ Para obtener información detallada, vea  [ListViewFilterAttribute](https://docs
 
 **ASP.NET Core Blazor**
 
-![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d77ef546-0997-4317-ae79-cc298ee6d599)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/acf5e0cd-1ea5-41fc-8306-99f70448ea2f)
 
 **Windows Forms**
 
-![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2c36f1f5-5b1f-4f8f-92b1-e58ce4d3b54f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/7b5c37ac-afe2-4ce5-960e-072b130cfe9f)
 
 **ASP.NET formularios web**
 
-![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/eaa7dd1f-add7-4ce4-9ddb-d0ef2fd556a7)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4d28f9e6-2691-4b9e-8156-3103be1a240f)
 
 La acción está disponible para las vistas de lista raíz (que se muestran en las imágenes). Además, puede utilizar esta acción cuando se muestra en la ventana desplegable del Editor de propiedades de búsqueda o en la ventana emergente de la Acción de  **vínculo**. En estos casos, la acción se representa mediante el editor Buscar  **y el botón**  **Ir**. Para que esté disponible, el recuento de los objetos de la vista de lista debe ser mayor que el valor especificado para la propiedad  [IModelOptions.LookupSmallCollectionItemCount](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelOptions.LookupSmallCollectionItemCount)  del nodo  **Opciones**  del  [modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works). Para obtener más información, consulte el tema  [Cómo: Agregar una acción de búsqueda a editores de propiedades de búsqueda y ventanas emergentes de vínculos](https://docs.devexpress.com/eXpressAppFramework/112925/ui-construction/controllers-and-actions/actions/how-to-add-a-search-action-to-lookup-property-editors-and-link-pop-up-windows).
 
@@ -439,7 +440,7 @@ public partial class MyController : ViewController {
 
 La siguiente imagen muestra cómo se especifica la propiedad  **TargetObjectsCriteria**  en el Editor de modelos:
 
-![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/01784951-e153-4be0-abb2-5cbf7a08393a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/416a68ce-56e7-45f1-ae49-2154003f9ed4)
 
 ## Obtener la cadena de criterios a través del editor de propiedades Criteria
 
