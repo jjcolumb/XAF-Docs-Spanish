@@ -16,7 +16,7 @@ Este artículo de la base de conocimientos documenta algunas de las capacidades 
 
 El eXpressApp Framework (XAF) utiliza un [Flujo de desarrollo de software híbrido](https://docs.devexpress.com/eXpressAppFramework/112558/fundamentals/xaf-overview) - un flujo que se encuentra en algún lugar entre una metodología de desarrollo tradicional "todo manual" y un enfoque totalmente "sin código". A pesar de todas sus fortalezas y ventajas, XAF no es la mejor opción para todos. Aquellos que deseen un marco de desarrollo sin código pueden descubrir que en algún momento del proceso de desarrollo, XAF requiere que los desarrolladores escriban código.
 
-![image](https://github.com/jjcolumb/XAF-Considerations-for-Newcomers/assets/126447472/4d84a4e9-6deb-4b40-a032-c348964e71aa)
+![image](https://github.com/lianhdez95/XAF-Considerations-for-Newcomers/assets/126447472/4d84a4e9-6deb-4b40-a032-c348964e71aa)
 
 
 En este artículo se definirá el flujo de desarrollo de XAF en términos claros para que no invierta recursos en un proyecto basado en XAF solo para descubrir (en una etapa posterior) que XAF todavía requiere que codifique manualmente partes de su aplicación con tecnología XAF. Además, este artículo ayudará a aclarar los siguientes temas de desarrollo relacionados con XAF:
@@ -41,7 +41,7 @@ Estas características son las favoritas entre los desarrolladores de XAF:
 
 Así es como Martin Praxmarer de PraKom Software GmbH describió los principales beneficios de XAF:
 
-![image](https://github.com/jjcolumb/XAF-Considerations-for-Newcomers/assets/126447472/105ffb69-4d48-4558-b0ba-5787d6dead19)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0fc4c10f-3297-4c83-aa84-992523a114a0)
 
 
 ## Martín Praxmarer
@@ -72,7 +72,7 @@ Por supuesto, aquellos que tienen éxito con XAF también están dispuestos a:
 
 Si no ha creado aplicaciones de línea de negocio para plataformas web y de escritorio en el pasado, o si es nuevo en .NET y Visual Studio, entonces sería mejor comenzar su viaje con un producto diferente. La XAF no puede sustituir a la experiencia práctica. En términos reales, los desarrolladores que están familiarizados con las bibliotecas de mapeo relacional de objetos (ORM) (por ejemplo, Hibernar con Java) y el patrón de diseño de interfaz de usuario Mode-View-Controller (MVC) (o han desarrollado marcos de andamiaje internos en el pasado) alcanzan la competencia con XAF con bastante rapidez (incluso si no están familiarizados with.NET sí mismos).
 
-![image](https://github.com/jjcolumb/XAF-Considerations-for-Newcomers/assets/126447472/7ff31364-96a0-45f1-80fe-ae816b94186e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/a0ebcaa4-f316-4d5d-b951-14ce597eb2eb)
 
 
 ## Sven Stening
@@ -87,7 +87,7 @@ XAF produce aplicaciones estándar de .NET WinForms, ASP.NET WebForms o ASP.NET 
 
 Debe pensar en XAF como un marco de uso general extensible con un conjunto finito de soluciones para una variedad de escenarios de uso (por supuesto, algunos escenarios de uso no se han considerado y no se han implementado). No debe esperar que XAF envuelva cada control de interfaz de usuario de DevExpress y sus características, o cubra todas las necesidades de los desarrolladores en plataformas compatibles. La funcionalidad no disponible requiere que escriba código. Aunque ampliamos continuamente XAF en función de los comentarios de los usuarios y los requisitos de uso empresarial, si falta algo en XAF, es posible que se vea obligado a implementarlo usted mismo.
 
-![image](https://github.com/jjcolumb/XAF-Considerations-for-Newcomers/assets/126447472/4f6493cc-4bf0-41d8-b431-f911d8e6475a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c61be28d-c784-4cce-91a0-0e4cb588d97e)
 
 
 ## Muhamad Nafis
@@ -174,7 +174,7 @@ Con estas pocas líneas de código, los desarrolladores de XAF pueden construir 
 
 Aquí hay un testimonio de David Desiderà, arquitecto de soluciones en [SpecTec](https://www.spectec.net/). David integró con éxito las API del sistema de seguridad de XAF con una aplicación WinForms heredada:
 
-![image](https://github.com/jjcolumb/XAF-Considerations-for-Newcomers/assets/126447472/ca44e311-ef21-445f-b394-d8908b4360e9)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/712098fb-2935-4b22-b805-1f6ae3009c00)
 
 
 ## David Desiderà
@@ -223,7 +223,7 @@ Para escribir este código, los desarrolladores de XAF necesitan saber lo siguie
 
 XAF tiene un techo increíblemente alto. El siguiente testimonio de de [CTL Computertechnik Lang](https://www.ctl.de/) habla de su potencial en manos del equipo adecuado.
 
-![image](https://github.com/jjcolumb/XAF-Considerations-for-Newcomers/assets/126447472/2f658684-3939-4bef-8a85-0ccd8705082f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d27297ce-44a2-44d0-8875-a9d52fd6fdfc)
 
 
 ## Michael Lang
@@ -250,7 +250,7 @@ VenDoc es una solución de software ERP construida por Martin Praxmarer de [PraK
 
 La siguiente captura de pantalla muestra un panel a la derecha que se creó con una plantilla y controles personalizados.
 
-![image](https://github.com/jjcolumb/XAF-Considerations-for-Newcomers/assets/126447472/ab1495ac-ed94-4a39-9329-3023567335d8)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2f80416a-ed60-4ab2-834c-02d7d8a50c4e)
 
 
 [Caso práctico de PraKom Software GmbH: controles XAF y WinForms](https://www.devexpress.com/aboutus/testimonials/prakom/)
@@ -259,12 +259,12 @@ La siguiente captura de pantalla muestra un panel a la derecha que se creó con 
 
 Por favor, revise una interesante captura de pantalla de Bahalddin Elsayed, un usuario experimentado y veterano de XAF de Dubai. Su aplicación WinForms con tecnología XAF integra Autodesk Forge. Este es un ejemplo perfecto de lo que es posible con las amplias opciones de personalización y extensibilidad de la interfaz de usuario de XAF. Para maximizar el potencial de XAF, Bahalddin y su equipo revisaron el código fuente de XAF y ampliaron sus capacidades según fuera necesario.
 
-![image](https://github.com/jjcolumb/XAF-Considerations-for-Newcomers/assets/126447472/f1041e80-7786-4a9b-bd7e-e297fb488abc)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/067c175e-6dd5-4094-8d76-9359789d8a7a)
 
 
 [Construcción de UI](https://docs.devexpress.com/eXpressAppFramework/112638/concepts/ui-construction) | [Usar un control personalizado que no está integrado de forma predeterminada](https://docs.devexpress.com/eXpressAppFramework/113610/concepts/ui-construction/using-a-custom-control-that-is-not-integrated-by-default)
 
-![image](https://github.com/jjcolumb/XAF-Considerations-for-Newcomers/assets/126447472/b7821556-ea53-40e4-a318-f68615e00983)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2fea3d6e-2ad1-42b7-bc82-b06f48e4aebe)
 
 
 ## Santiago Moscoso
@@ -326,7 +326,7 @@ Las tareas avanzadas, raras o extremadamente específicas a menudo son complejas
 -   [Una solicitud de programas de ejemplo simples](https://community.devexpress.com/blogs/ctodx/archive/2009/01/08/a-request-for-simple-example-programs.aspx)
 -   [Recopilar y analizar la información de diagnóstico](https://docs.devexpress.com/eXpressAppFramework/117344/concepts/debugging-testing-and-error-handling/collect-and-analyze-the-diagnostic-information)
 
-![image](https://github.com/jjcolumb/XAF-Considerations-for-Newcomers/assets/126447472/5b49c33b-052f-41ff-b273-320c3dd22e8c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/bf95fb05-663f-40dc-abe9-bdc92cd62bca)
 
 
 ## Paul Jacoby
