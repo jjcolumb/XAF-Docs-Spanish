@@ -16,7 +16,7 @@ Los miembros del espacio de objetos se declaran en la interfaz  [IObjectSpace](h
 -   [EFCoreObjectSpace](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.EFCore.EFCoreObjectSpace): se usa para acceder a los datos a través de  [DbContext](https://learn.microsoft.com/dotnet/api/microsoft.entityframeworkcore.dbcontext) cuando se usa el modelo de datos  [de Entity Framework Core](https://docs.microsoft.com/en-us/ef/core).
 -   [NonPersistentObjectSpace](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.NonPersistentObjectSpace): se utiliza para administrar  [objetos no persistentes que no](https://docs.devexpress.com/eXpressAppFramework/116516/business-model-design-orm/non-persistent-objects)  están asignados a la base de datos.
 
-![image](https://github.com/lianhdez95/Data-Manupulation-and-Logic/assets/126447472/504d6839-f6ec-429c-92f6-3c2f6a9798aa)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4e0d92c4-54cc-4eed-b8a9-7a127f48ec8f)
 
 
 En la mayoría de los casos, accederá a Object Space a través de la interfaz  [IObjectSpace](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.IObjectSpace)  y no necesitará usar estas clases directamente.
@@ -147,16 +147,14 @@ Debe [desechar](https://docs.microsoft.com/en-us/dotnet/api/system.idisposable) 
 
 # Crear, leer, actualizar y eliminar datos
 
--   Noviembre 11, 2022
--   2 minutos para leer
 
 Puede crear una lógica empresarial en los siguientes lugares:
 
-En Controladores
+**En Controladores**
 
 Puede declarar acciones nuevas y personalizar  [las existentes](https://docs.devexpress.com/eXpressAppFramework/112622/ui-construction/controllers-and-actions/actions)  y controlar otros eventos  [del Controller](https://docs.devexpress.com/eXpressAppFramework/112621/ui-construction/controllers-and-actions/controllers). Una vez que haya obtenido o creado una instancia de Espacio de objetos (como se describe en el tema  [Formas de acceder a un espacio de objetos (el contexto de base de datos para operaciones CRUD)](https://docs.devexpress.com/eXpressAppFramework/113707/data-manipulation-and-business-logic/object-space)), puede usarla para la manipulación de datos (crear, leer, actualizar o eliminar datos).
 
-En modelo (clases empresariales)
+**En modelo (clases empresariales)**
 
 Puede colocar lógica en los captadores y colocadores de propiedades, implementar métodos que se activan automáticamente cuando se crea, carga, guarda y elimina el objeto (consulte el tema  [IXafEntityObject](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.IXafEntityObject)) y declara  [métodos de acción](https://docs.devexpress.com/eXpressAppFramework/112619/ui-construction/controllers-and-actions/actions/how-to-create-an-action-using-the-action-attribute).
 
