@@ -16,7 +16,7 @@ This knowledge base article documents some of XAF's capabilities, and more impor
 
 The eXpressApp Framework (XAF) uses a  [hybrid software development flow](https://docs.devexpress.com/eXpressAppFramework/112558/fundamentals/xaf-overview)  - a flow that lies somewhere between a traditional 'all manual' development methodology and a totally 'codeless' approach. Despite all its strengths and advantages, XAF is not the best option for everyone. Those who desire a codeless development framework may discover that at some point in the development process, XAF requires developers to write code.
 
-![image](https://github.com/lianhdez95/XAF-Considerations-for-Newcomers/assets/126447472/4bbab983-7d25-47ce-b30e-c51c421b2616)
+![image](https://github.com/jjcolumb/XAF-Considerations-for-Newcomers/assets/126447472/4bbab983-7d25-47ce-b30e-c51c421b2616)
 
 
 This article will define XAF's development flow in clear terms so you do not invest resources into an XAF-based project only to discover (at a later stage) that XAF still requires you to manually code portions of your XAF-powered app. In addition, this article will help clarify the following XAF-related development topics:
