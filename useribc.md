@@ -1541,6 +1541,8 @@ public class Employee : BaseObject {
 ```
 A continuación se ilustra la vista de lista generada de forma predeterminada para esta clase.
 
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/746b8dcd-0822-4da7-9a36-736ac7cb02b5)
+
 
 Esta vista de lista está definida por  **Vistas**  |  **Employee_ListView**  nodo. Vamos a implementar un Generador Actualizador que genera dos vistas de lista adicionales, que son:
 
@@ -1612,6 +1614,7 @@ public sealed partial class CreateNodesInCodeModule : ModuleBase {
 
 Después de implementar y registrar Generator Updater, vuelva a generar la solución e invoque el Editor de modelos. Los nuevos nodos ListView se ilustran a continuación.
 
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4d522d35-3d20-46d7-aacb-afe9d1ec5fa0)
 
 
 >NOTA
@@ -1672,21 +1675,21 @@ public sealed partial class CreateNodesInCodeModule : ModuleBase {
 
 Después de implementar y registrar Generator Updater, vuelva a generar la solución e invoque el Editor de modelos para el proyecto de módulo. Los nuevos nodos Variant se ilustran a continuación.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/6efe61f7-c9ed-438d-9a53-88b8306ec2d8)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/3576f516-8609-40c5-b886-47699d1ce815)
 
 Ahora puede probar las vistas implementadas y las variantes de vista en tiempo de ejecución.
 
 **Aplicación de Windows Forms**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/94b0029f-e558-48e8-aee0-b8470e4bcdf7)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/e20ec446-07e9-47b5-9fdc-e62647da0b6e)
 
 **ASP.NET Aplicación de formularios Web Forms**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/948bc11a-5dfe-4f97-897f-81c794fb7a4f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2a0943c9-7f8c-4959-b33e-8800ce0ff2dc)
 
 **Aplicación Blazor**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/469a8d75-853a-448e-8bd3-4c51927274b5)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5fccffaa-eb5d-48a5-abc6-04841a8acc17)
 
 Puede utilizar un enfoque similar para crear actualizadores de generadores para generadores de nodos integrados o personalizados.
 
@@ -2258,22 +2261,23 @@ The Administrative UI allows application administrators to manage user settings 
     ```
     
 2.  Run the  [Model Editor](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  and  [create a new Navigation Item](https://docs.devexpress.com/eXpressAppFramework/402131/getting-started/in-depth-tutorial-blazor/customize-navigation-between-views/add-an-item-to-navigation-control)  for the  **ModelDifference_ListView**  List View.    
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/75b8fd99-a3b8-49cd-bcca-79dac2579a32)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/8febf496-9c37-4927-8294-95eaf5c50b17)
+
     
 
 Run the application and click this Navigation Item to open the Model Difference List View. Ensure that the Model Differences management Actions are available in the  **Tools**  category.
 
 **WinForms**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/a6745f38-b9d8-4454-be56-5c174116ab4f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/16e11f64-b438-421e-87ca-87bab2901496)
 
 **ASP.NET WebForms**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/54177445-7840-4dd5-882d-6914d347c02c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/356512f6-ff00-4c8d-9a6a-490ce1154767)
 
 **ASP.NET Core Blazor**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/9d74083c-0aec-48d6-9cb3-cd77db552c1f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f805054c-9fc4-4ffd-99f7-d0e5bb611657)
 
 Users who used the application at least once have initialized Model Differences. The List View lists these Model Differences. This View also contains the  **Shared Model Difference**  record that stores global settings. Click  **Create Model Differences**  to create Model Differences for unlisted users. Click  **Import Shared Model Difference**  to load shared Model Differences created in Visual Studio (the  _Model.xafml_  file). You can also copy, export, and reset a selected record.
 
@@ -2300,7 +2304,7 @@ La herramienta de combinación de modelos solo admite aplicaciones de formulario
 
 En este tema usaremos la aplicación MainDemo, ubicada en la carpeta %_PUBLIC%\Documents\DevExpress Demos  23.1\Components\XAF\MainDemo._  Abra la solución MainDemo (C# o VB), establezca  **MainDemo.Win**  como proyecto de inicio y ejecute la aplicación de Windows Forms. Seleccione el elemento  **Reanudar**  navegación. Verá la vista de lista del objeto  **Reanudación**. Utilice arrastrar y soltar para intercambiar la columna  **Archivo**  con  **Contacto**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/797e3216-90b4-4cf5-9640-d536b27a6741)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/213318a9-3347-460b-b155-bcfd0b86e8f1)
 
 Cierre la aplicación de Windows Forms. Las personalizaciones realizadas se guardan en el archivo  _Model.User.xafml_  ubicado en la carpeta de resultados del proyecto (_bin\Debug\_  de forma predeterminada).
 
@@ -2320,11 +2324,11 @@ Cierre la aplicación de Windows Forms. Las personalizaciones realizadas se guar
 
 Ahora vamos a combinar las personalizaciones del usuario final en el modelo de aplicación del proyecto de módulo. En el  **Explorador de soluciones**, haga clic con el botón secundario en el proyecto de aplicación  **MainDemo.Win**  y haga clic en  **Combinar modelo de usuario**. En el cuadro de diálogo  **Abrir**  invocado, elija el archivo  _Model.User.xafml._
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/aa8aaef2-58ed-4ea6-8d1e-c9870f3bfc04)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/15b0ae3c-2aab-4041-822a-c0472168d651)
 
 Como resultado, se invoca el cuadro de diálogo  **Herramienta de combinación de modelos**. Desplácese hasta el nodo  **Resume_ListView**  de la lista de árbol. Este título de nodo se muestra en negrita, ya que el nodo contiene personalizaciones. Utilice la casilla de verificación situada a la izquierda para seleccionar este nodo. En el menú desplegable siguiente, seleccione  **MainDemo.Module**  y haga clic en  **Combinar**. Las diferencias del nodo  **Resume_ListView**  se combinarán en el proyecto  **MainDemo.Module.**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/e3080570-7a51-4176-afd9-d58e60c70b40)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ed0a7342-6364-407e-a481-c1ece5028018)
 
 Por último, haga clic en  **Guardar**  para conservar los cambios y cierre el cuadro de diálogo  **Herramienta de combinación de modelos**.
 
@@ -2337,15 +2341,15 @@ Por último, haga clic en  **Guardar**  para conservar los cambios y cierre el c
 
 Después de la combinación, puede ver las personalizaciones de nodo  **Resume_ListView**  en el Editor de modelos invocadas para el proyecto  **MainDemo.Module.**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/83ea6717-ac02-4967-9729-370c286d6e17)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/024a9fc0-fc24-42f3-9f45-7f50b8da1ed1)
 
 Para probar los cambios en tiempo de ejecución, restablezca las diferencias del modelo de usuario. La forma más sencilla de hacerlo es eliminar el archivo  _Model.User.xafml_  de la carpeta de resultados del proyecto de aplicación. A continuación, ejecute la aplicación de Windows Forms para ver que un diseño se personaliza según sea necesario.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/4198110b-18da-4cdc-89f0-e2c0ccd0208b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5cc85866-92d3-4f01-bf77-3ba52e204ee6)
 
 A medida que las diferencias se trasladaron a un módulo independiente de la plataforma, puede ver que las personalizaciones también afectan a la aplicación ASP.NET formularios Web Forms.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/dc293c10-4b7f-4b47-9cb5-a201a53edd4d)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/25d6c2ba-f08e-4ea8-8e45-1643f72746e5)
 
 
 # Información general sobre los elementos de la interfaz de usuario
@@ -2357,13 +2361,13 @@ En este artículo se describen los elementos de la interfaz de usuario de XAF. L
 
 En XAF, un control de interfaz de usuario y una entidad abstracta relacionada definen un elemento de interfaz de usuario. Las siguientes imágenes muestran las ubicaciones de los elementos de interfaz de usuario en aplicaciones de formularios WinForms y ASP.NET formularios Web Forms:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/bf01e7ad-f759-4fe1-89af-fc8c1f2285aa)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/35477e02-6d6e-4bbb-a798-798d37feb36a)
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/c67bb41e-0c70-4af1-aa45-60a645aee4c8)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/19241639-3073-409d-8959-9e9a9b419ae9)
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/cdc948ef-256c-49d6-b57d-7d42de332e81)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4ef567de-4154-4e38-b8d0-ba11e538cd5b)
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/d873d676-9b20-48c0-9496-907ae92b49f9)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/96ce57ab-0aff-4e1a-8711-f7570cc7186f)
 
 ## Estructura de los elementos
 
@@ -2371,11 +2375,11 @@ Los siguientes gráficos muestran la estructura de estos elementos:
 
 **Vista detallada**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/5f3cfbbb-c5c1-46b9-a4f1-6d26dac43ec2)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2dc42663-48d5-42ac-9183-f758da82951a)
 
 **Vista de lista y vista de lista anidada**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/076b3a5f-1a82-4d66-969c-eb8b9bfe0f54)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/27236fa0-2ed1-4f60-bcef-895c9ebc14de)
 
 
 # Cómo: Incluir un control de interfaz de usuario personalizado que no está integrado de forma predeterminada (formularios Win, formulariosWebForms ASP.NET y ASP.NET  Core Blazor)
@@ -2387,12 +2391,12 @@ Estas tareas a menudo se realizan en un nivel de marco inferior y requieren más
 
 Para incluir un control de interfaz de usuario personalizado que no esté integrado de forma predeterminada, implemente un  [ListEditor](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Editors.ListEditor),  [PropertyEditor](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Editors.PropertyEditor)  o  [ViewItem](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Editors.ViewItem)  que ajuste el control y sirva como adaptador para la infraestructura XAF. También puede  [personalizar una plantilla](https://docs.devexpress.com/eXpressAppFramework/112696/ui-construction/templates/template-customization)  para colocar el control en una ubicación específica. Consulte la tabla a continuación para obtener detalles sobre las diferentes soluciones.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ac307523-6fa8-4b3c-b40f-4131c6640c0d)
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/c130e0ac-320a-4f0a-82e2-8f2a95b16611)
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/106fc7db-9341-476f-bdbf-0e032b79eaf2)
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/199a08b1-3453-4734-93c3-b2bee39cb638)
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/0894a90c-837d-4c30-985e-df670f8476ab)
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/a05bd839-fb12-460b-8f35-3abf62c3616c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5ef11391-c7bb-482a-a725-7597a9ca3959)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5e9514f2-99fb-4b0e-9337-cab613636a30)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/3b71b156-ed41-4bc8-9219-93e3a3a7194c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c5243822-e5e3-4c46-8042-7602e3e77bde)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d13789ba-fb14-42ad-a626-7c33f0c3d377)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/92753bae-cd01-47e5-be6c-2bc74b3a5529)
 
 
 >NOTA
@@ -2411,7 +2415,7 @@ Para incluir un control de interfaz de usuario personalizado que no esté integr
 
 En este tema se enumeran  [los controladores](https://docs.devexpress.com/eXpressAppFramework/112621/ui-construction/controllers-and-actions/controllers)  integrados y sus  [acciones](https://docs.devexpress.com/eXpressAppFramework/112622/ui-construction/controllers-and-actions/actions)  suministradas con los módulos base del sistema, formularios Windows Forms y ASP.NET formularios Web Forms. Tenga en cuenta que puede encontrar más información sobre controladores o acciones individuales en el Editor de  [modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  navegando a  **ActionDesign**  del  [modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works)  |  **Controladores**  o  **ActionDesign**  |  **Nodo de acciones**, respectivamente.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/636296b0-5d11-4ff4-b3be-2e003bf620fe)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4e06cb29-be15-4a57-b4bd-f64cfd1298a7)
 
 >NOTA
 >En este tema, nos referimos a las acciones integradas mediante sus valores de propiedad ActionBase.Id. Utilice el Editor de modelos para averiguar qué título se asigna a una acción.
@@ -3507,7 +3511,7 @@ Activado para todas las vistas. Destinado para uso interno. Configura el control
 
 Los  [controladores](https://docs.devexpress.com/eXpressAppFramework/112621/ui-construction/controllers-and-actions/controllers)  integrados y sus  [acciones](https://docs.devexpress.com/eXpressAppFramework/112622/ui-construction/controllers-and-actions/actions)  suministradas con los  [módulos adicionales](https://docs.devexpress.com/eXpressAppFramework/118046/application-shell-and-base-infrastructure/application-solution-components/modules#modules-shipped-with-xaf)  de  **eXpressApp Framework**  se enumeran en este tema. Tenga en cuenta que puede encontrar más información sobre un controlador o acción en particular en el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor): navegue hasta  **ActionDesign**  |[](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works)  **Controladores**  o  **ActionDesign**  |  **Nodo Acciones**. Para determinar si una acción se muestra o no en una ventana determinada, asegúrese de que el contenedor de acciones que muestra la acción está contenido en esta plantilla. Para determinar el contenedor de acciones de la acción, utilice  **ActionDesign**  del modelo de aplicación |  **Nodo ActionToContainerMapping**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/8493287d-50f4-4079-8332-9353d01e5719)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/6d83abc3-64db-4d51-aebd-d3d075273d66)
 
 
 ## Módulo de seguimiento de auditoría
@@ -4649,7 +4653,7 @@ Los controladores tienen dos propósitos principales:
 
 Al igual que con la mayoría de las entidades XAF, la información sobre los controladores que se encuentra en los  [módulos](https://docs.devexpress.com/eXpressAppFramework/118046/application-shell-and-base-infrastructure/application-solution-components/modules)  de la aplicación se carga en el  [modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works). Puede acceder a la configuración del controlador en el nodo  [IModelControllers](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelControllers). Consulte la descripción de este nodo para obtener información sobre posibles personalizaciones.
 
-## Controlador de ventana, controlador de vista y clases decontrolador
+## Controlador de ventana, controlador de vista y clases de controlador
 
 Físicamente, los controladores son descendientes de la clase  [Controller](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Controller). Tenga en cuenta que no necesitará crear descendientes directos de esta clase para proporcionar controladores para la aplicación. En su lugar, tratará con dos descendientes predefinidos: ViewController (incluidas sus versiones genéricas: ViewController<ViewType> y ObjectViewController[<ViewType, ObjectType>](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ObjectViewController-2)) y  [WindowController](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ViewController).  [](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ViewController-1)[](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.WindowController)Estas clases proporcionan los eventos  [Controller.Activated](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Controller.Activated)  y  [Controller.Deactivated](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Controller.Deactivated)  que permiten realizar acciones específicas cuando se crea o destruye la ventana (marco) correspondiente. Para tener acceso a Window (Frame) o su View en estos controladores de eventos, la clase ViewController ofrece las propiedades Controller.Frame y  **ViewController.View**[.](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Controller.Frame)  [](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ViewController.View)La clase WindowController expone la ventana correspondiente mediante la propiedad  [WindowController.Window.](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.WindowController.Window)
 
@@ -4661,7 +4665,7 @@ Los controladores de vista están diseñados para implementar características (
 
 Las acciones contenidas en un controlador de vista acompañan a las vistas para las que el controlador está activado. Por ejemplo, si se activa un Controller para una vista de lista anidada (vista de lista de una propiedad de colección), sus acciones se adjuntarán a esta vista, no a toda la ventana.
 
-![NestedFrameTemplate](https://docs.devexpress.com/eXpressAppFramework/images/nestedframetemplate115362.png)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2dda8406-d702-40e6-ae8c-74183de4e3fa)
 
 Los controladores de vista se activan tanto para Windows como para marcos cuando una vista se establece en una ventana o marco. Sin embargo, puede especificar el tipo o ID de la vista que necesita incluir en la ventana o marco. Para ello, utilice las siguientes propiedades de  **ViewController**:
 
@@ -4700,7 +4704,8 @@ Puede usar las plantillas de Controller listas para usar para crear un Controlle
 
 1.  En  **el Explorador de soluciones**, seleccione un proyecto al que desee agregar un Controller. Haga clic con el botón secundario en la carpeta  _Controllers_  ubicada dentro del proyecto para invocar el menú contextual y seleccione  **Agregar elemento DevExpress**  |  **Nuevo artículo...**  para invocar la  **Galería de plantillas de DevExpress**. Se mostrará el siguiente cuadro de diálogo.
     
-    ![Tutorial_EF_Lesson1_1](https://docs.devexpress.com/eXpressAppFramework/images/add-devexpress-item-view-controller.png)
+    ![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1e728371-1c6b-4664-a02d-3b557095b5d8)
+
     
 2.  Seleccione Controlador de  **ventana o Controlador de**  **vista**, especifique su nombre y presione el botón  **Agregar elemento**  para agregar un nuevo controlador al proyecto.
 3.  **Para los proyectos de .NET Framework.**  Utilice el  **Diseñador**  del controlador para agregar acciones desde el  **Cuadro de herramientas**  y personalizar las propiedades del controlador mediante la ventana  **Propiedades**. Para invocar el Diseñador, puede hacer clic con el botón secundario en el archivo del controlador en el  **Explorador de soluciones**  y seleccionar el elemento de menú contextual del  **Diseñador**  de  **vistas**.
@@ -4797,7 +4802,6 @@ Las acciones son elementos abstractos de  [la interfaz de usuario](https://docs.
 En la interfaz de usuario, XAF puede mostrar acciones como los siguientes controles:
 
 - Un botón de barra de herramientas
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/86faf858-3c4a-46a2-8280-54ab48d0eca1)
 
 - Un elemento de menú contextual
 ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/eb57041e-445c-49f8-8455-4c4ea55bb732)
