@@ -9,17 +9,17 @@ eXpressApp Framework utiliza la misma lógica de negocio de la aplicación para 
 
 Por ejemplo, puede declarar la siguiente clase simple:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/56a456df-5756-41b0-b7cc-3dcf1d9d3c43)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/9938cd3a-210f-467f-96a6-8da545530272)
 
 
 XAF identifica esta clase como parte del modelo de negocio y genera un nodo correspondiente en el modelo de  **aplicación**. Este es el aspecto del nodo en el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ae60e310-9d23-41d9-b146-17e0dc487053)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1ff5e405-e989-43d7-99fc-35b936d84228)
 
 
 Basándose en este  **modelo de aplicación**, XAF genera una interfaz de usuario para las plataformas Blazor, WinForms y ASP.NET WebForms. La siguiente imagen muestra un ejemplo de Blazor.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/385bd60d-036f-4497-8a73-6e97078f9d6e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5d5f1e99-8e63-4614-b8e4-cf68bf6e265d)
 
 
 # Cómo funciona el modelo de aplicación XAF
@@ -29,7 +29,7 @@ El  **modelo de aplicación**  son metadatos que definen  **la estructura de nav
 
 La siguiente imagen muestra el cuadro de diálogo integrado  **Editor de modelos**. Pruebe el comando  **Editar modelo**  en cualquiera de las demostraciones de  **eXpressApp Framework**  para acceder a este editor.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/393d0bea-f4aa-4b23-b124-d4e334d3f24a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ae915e72-c4dd-413e-9e9d-590ad65bb04b)
 
 
 ## Cómo XAF utiliza el modelo de aplicación
@@ -99,7 +99,7 @@ Si diferentes capas tienen valores diferentes para la misma propiedad, XAF utili
 
 La siguiente imagen ilustra esta estructura en capas:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/101c916f-7e8b-4e8b-8f8f-58eafad43065)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/592234d5-b33f-4bef-885a-3219733044cc)
 
 
 ## Diferencias en el modelo de aplicación: tipos de almacenamiento
@@ -113,7 +113,7 @@ XAF puede almacenar cambios en el modelo de aplicación (diferencias de modelo) 
 
 Los tipos de almacenamiento predeterminados para las capas se enumeran en la tabla siguiente:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/63f84b14-1b5e-4777-abd9-539fa13becd5)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b99b139b-0050-4c4e-abec-5d64b3472657)
 
 
 Puede cambiar el tipo de almacenamiento para las diferencias de administrador y usuario. Suscríbase a los siguientes eventos:
@@ -128,7 +128,7 @@ Para almacenar las diferencias de modelo en archivos, XAF utiliza archivos *.xaf
 -   **Diferencias de modelo**: contiene personalizaciones generales de la interfaz de usuario
 -   **Aspectos de diferencia del modelo**: contiene personalizaciones de interfaz de usuario localizadas
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/06d4d467-dfd7-4db6-89db-5a874f408cca)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/a94fa504-1b90-4e72-8c4d-4d60e82377e0)
 
 
 >PROPINA
@@ -136,7 +136,7 @@ Para obtener más información sobre la localización de modelos de aplicación,
 
 En la tabla siguiente se enumeran los nombres y las ubicaciones de los archivos *.xafml para diferentes capas del modelo de aplicación.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/2db8724e-6db3-47ca-bdb4-48403016878b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/7c2ee2b4-ac6f-42f9-abd4-dad46f9e73a9)
 
 
 La ubicación Diferencias del modelo de usuario se especifica en el archivo  _App.config._  Vea el código a continuación.
@@ -153,7 +153,7 @@ La ubicación Diferencias del modelo de usuario se especifica en el archivo  _Ap
 
 Los valores posibles son:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/102a810b-a934-442d-be2d-31c8f173a28e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d4836d40-2992-4b1c-aa1f-4eabcfa9cec3)
 
 
 ### Detalles del almacenamiento de la base de datos
@@ -163,7 +163,7 @@ Si necesita habilitar el  **almacenamiento**  de base de datos en  una aplicaci�
 
 XAF utiliza dos entidades para almacenar las diferencias de modelo en la base de datos. Las entidades forman una relación de uno a muchos.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/8797e761-029b-4b98-8d26-29f64366861c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/15a3bd69-18ae-41be-b340-0c73a1e890c1)
 
 
 #### Diferencia de modelo
@@ -207,7 +207,7 @@ La siguiente combinación de características no es compatible cuando se usan ju
 
 En este tema se enumeran las interfaces y los extensores del  [modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/112579/ui-construction/application-model-ui-settings-storage)  suministrados con XAF. XAF utiliza extensores para agregar propiedades a los nodos del modelo de aplicación.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/cf533e51-4e67-4d8e-9500-bc2a5fc7eb60)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ca5c6812-6e59-4344-a1b8-8190dfc1a700)
 
 
 # Modelo de aplicación: Generadores de nodos incorporados
@@ -215,12 +215,12 @@ En este tema se enumeran las interfaces y los extensores del  [modelo de aplicac
 
 Internamente, los módulos XAF utilizan los enfoques descritos en el tema  [Extender y personalizar el modelo de aplicación en código](https://docs.devexpress.com/eXpressAppFramework/112810/ui-construction/application-model-ui-settings-storage/customize-application-model-in-code/access-the-application-model-in-code)  para generar el contenido del modelo de aplicación. En este tema se proporciona una lista de generadores de nodos integrados. Puede utilizar esta lista al personalizar el modelo de aplicación mediante la implementación de un actualizador de generador. Aquí, puede averiguar qué generadores de nodos están disponibles para la personalización.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b3c80b4c-3414-410e-95c0-0c573a5868b9)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/9ffc9352-e9d7-4aee-9731-5c7a5197d6b7)
 
 
 ## Node Generators in Extra Modules
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/bdbf3ff0-83e6-467c-b7b3-bbe7fa944e4b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/38f82f58-17fb-4a0b-8d15-92fcd20a3f99)
 
 # Cambiar el modelo de aplicación
 
@@ -230,7 +230,7 @@ El modelo de aplicación puede establecer configuraciones en varios niveles. Pue
 
 Para editar la configuración en cualquiera de esos niveles, utilice el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor).
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/4fa91fad-1239-42c2-8eed-9f2aa3eb7ec2)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2912798c-7a69-44e9-bab9-c0cb6cd47565)
 
 
 ## Obtener o establecer la configuración del modelo en el código
@@ -242,7 +242,7 @@ Tenga en cuenta que la interfaz de usuario no refleja inmediatamente los cambios
 
 Para tener acceso al modelo de aplicación en código, utilice los siguientes objetos:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ecf57b96-dcdb-40f5-9d33-8c9580fb1e8a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/956909a0-b7ea-4a39-92f4-6daee85590e4)
 
 
 These properties return an  [IModelNode](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelNode)  descendant that encapsulates the corresponding node. You can use the  **Application**  property to access the Application Model’s root node. Refer to the following topic for additional information:  [How the XAF Application Model Works](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works).
@@ -291,7 +291,7 @@ El  [modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/1125
 
 Puede examinar y editar el  **modelo de aplicación**  en cualquiera de esas capas. Para ello, utilice el  **Editor de modelos**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/34e4d416-7a39-4f82-adcb-445bb6e335b6)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/3ac17905-75bb-4ecb-b714-6ba593cef473)
 
 
 # Formas de invocar el editor de modelos
@@ -316,17 +316,17 @@ En este tema se describe cómo invocar el Editor de modelos en diferentes escena
 
 En el Explorador de soluciones, haga doble clic en el archivo Model.xafml o  _Model.DesignedDiffs.xafml_  contenido en el proyecto de la solución XAF (módulo o proyecto de aplicación).
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/f0429112-490f-439f-a063-36d0f646b003)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/47c83356-5944-49c9-b438-07a7a67af679)
 
 
 Puede hacer clic con el botón derecho en el proyecto y elegir  **Abrir editor de modelos**  en el menú contextual.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/bf2d4340-6401-4dca-b1e5-ca0b5a6080be)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/79bd305f-68d5-4b8a-b763-ab075d948f58)
 
 
 El Editor de modelos se invocará en un panel de ventana.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/2c719a27-d28f-46c6-b170-8649c917ddbf)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5d8d8426-c775-4d53-9d80-8a7e9e7c973c)
 
 
 El panel del editor de modelos contiene los siguientes elementos:  [árbol de nodos](https://docs.devexpress.com/eXpressAppFramework/113328/ui-construction/application-model-ui-settings-storage/model-editor/node-tree),  [cuadrícula de propiedades](https://docs.devexpress.com/eXpressAppFramework/113329/ui-construction/application-model-ui-settings-storage/model-editor/property-grid)  y  [panel de búsqueda](https://docs.devexpress.com/eXpressAppFramework/113331/ui-construction/application-model-ui-settings-storage/model-editor/search-pane)  (opcional). Para cambiar el foco entre los elementos de la interfaz de usuario, presione la tecla TAB. En la parte inferior se muestra una descripción y un tipo de nodo/propiedad seleccionados.
@@ -343,25 +343,25 @@ Cuando se concede el  [permiso](https://docs.devexpress.com/eXpressAppFramework/
 
 Utilice la acción  **EditarModelo**  (o el acceso directo CTRL+MAYÚS+F1) para invocar la ventana Editor de modelos.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/11b741a8-afb9-420c-adfc-bfa831b711e4)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/7018ef2d-82b5-44df-883d-2f3d23fbc49a)
 
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/e3242e78-8efb-42e7-a014-c6c40e16bc22)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1ac0d33a-a262-40ee-95d8-684cd431d8a7)
 
 
 ### La vista en la acción del modelo
 
 Utilice la acción  **VerInModel**  (o el acceso directo CTRL+MAYÚS+F2) para invocar la ventana Editor de modelos con el elemento de nodo Ver seleccionado.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/a72d67d3-afea-4651-bbc3-6f860c003698)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1a9fef11-399c-4c3b-bff9-1a06c86c71d5)
 
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/39dfdd58-155d-4b72-85d8-a48ff59f869e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/8f2c8388-131f-4611-ad2c-34cbb1d21fb5)
 
 
 También puede utilizar elementos de acción para abrir el Editor de modelos con los nodos Clase o Validación seleccionados.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/d5166d28-0f41-41c8-ac24-289f5a947438)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/7a7d0236-2b07-49a8-a9ff-f8c0856a9064)
 
 
 ## Almacenamiento de diferencias de modelo de usuario
@@ -416,7 +416,7 @@ Estos ensamblados y ejecutables son [redistribuibles](https://docs.devexpress.co
 
 Después de invocar el Editor de modelos independiente, utilice el cuadro de diálogo Abrir modelo para especificar el  **modelo**  de aplicación que desea editar. Este cuadro de diálogo está abierto inicialmente. Para volver a invocarlo más tarde, haga clic en el botón  **Abrir modelo**  de la  [barra de herramientas](https://docs.devexpress.com/eXpressAppFramework/113327/ui-construction/application-model-ui-settings-storage/model-editor/menu-toolbars).
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/cc17e13b-32d5-4520-8fdc-2100ecd2dbdc)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f8c8fdc2-2a1f-4d72-9a84-a609d8720f8a)
 
 
 ### En .NET 6
@@ -428,7 +428,7 @@ Para utilizar el Editor de modelos independiente:
 
 Después de invocar el Editor de modelos independiente, utilice el cuadro de diálogo Abrir modelo para especificar el  **modelo**  de aplicación que desea editar. Este cuadro de diálogo está abierto inicialmente. Para volver a invocarlo más tarde, haga clic en el botón  **Abrir modelo**  de la  [barra de herramientas](https://docs.devexpress.com/eXpressAppFramework/113327/ui-construction/application-model-ui-settings-storage/model-editor/menu-toolbars).
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/7dd65ac5-0b08-4d85-a810-a1fbf75151ae)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ff11365f-5753-4098-8b33-89b1c5cfa2ee)
 
 
 ### Abrir y editar modelo de aplicación
@@ -439,8 +439,8 @@ También puede usar parámetros de línea de comandos para especificar un modelo
 
 `DevExpress.ExpressApp.ModelEditor.v23.1.exe appConfigFile | moduleAssemblyFile diffsPath | /?`
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/cfaeba1f-a22c-4fe1-8a1d-e2315b166075)
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/a1117c4a-3fcb-4052-a58f-09b32555d8ec)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/af882ecb-faaa-4989-8710-d6b0097e6982)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1260fb4b-62b2-40f9-9c02-d35c809d94d9)
 
 
 >NOTA
@@ -453,7 +453,7 @@ El archivo de configuración de la aplicación de formularios Windows Forms es:
 
 Se invocará el Editor de modelos representado como un formulario.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/4ec65a33-2289-4961-98c1-3d404190c2ec)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5ec905c9-485f-45ae-800a-1b265b218126)
 
 
 Como alternativa, puede hacer clic con el botón secundario en el archivo de configuración en el Explorador de Windows y hacer clic en el  _botón Abrir con..._* para elegir el ejecutable del Editor de modelos.
@@ -470,7 +470,7 @@ El  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/u
 
 La siguiente imagen ilustra la barra de herramientas que está disponible en tiempo de diseño.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/2adf5f1d-6b5b-470f-9856-08271e16135d)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/526754c4-4270-49ef-b017-2aad4c1d9a7f)
 
 Para guardar los cambios realizados en el Editor de modelos en tiempo de diseño, use el botón  **Guardar**  de Visual Studio o el acceso directo CTRL+S.
 
@@ -478,7 +478,7 @@ Para guardar los cambios realizados en el Editor de modelos en tiempo de diseño
 
 La imagen siguiente ilustra la barra de herramientas que está disponible cuando se  [invoca](https://docs.devexpress.com/eXpressAppFramework/113326/ui-construction/application-model-ui-settings-storage/model-editor/ways-to-invoke-the-model-editor)  el Editor de modelos en tiempo de ejecución (en la interfaz de usuario de WinForms de XAF en .NET Framework) o como una herramienta independiente.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/223f90d1-a26c-4008-982e-3d4739b9002b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b2f1547f-748c-4b6c-ad49-78f6f5a22614)
 
 ## Limitaciones
 
@@ -500,32 +500,32 @@ El  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/u
 
 Cada nodo tiene un título especificado por su propiedad  **Id**  y una imagen asociada. Los nodos que se modifican en la capa del modelo actual tienen títulos que se muestran en negrita. Las propiedades del nodo actualmente enfocado se muestran en la  [cuadrícula de propiedades](https://docs.devexpress.com/eXpressAppFramework/113329/ui-construction/application-model-ui-settings-storage/model-editor/property-grid)  a la derecha.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/e37f0393-e090-4f92-881d-8062235534da)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/cc24a504-b935-45f7-8b16-5a3890d7699a)
 
 ## Comandos del menú contextual
 
 El siguiente menú contextual está disponible al hacer clic con el botón secundario en un nodo.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/2bf1df36-a85c-4b66-9704-c625964085e2)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f1fa7845-b486-4f40-b366-a590137abd1d)
 
 La mayoría de los comandos disponibles en este menú se pueden aplicar no solo a un solo nodo enfocado, sino a varios nodos seleccionados a la vez. Para seleccionar varios nodos, utilice el enfoque estándar: mantenga pulsada la tecla MAYÚS y haga clic en un nodo para seleccionar nodos secuenciales, o mantenga pulsada la tecla CTRL y haga clic en un nodo para seleccionar nodos individuales. Los comandos del menú contextual se describen en la tabla siguiente.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b4f1a451-a03f-4a59-8386-915024e52e87)
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/79842e43-a409-40c8-99bc-ad5089b2fa7f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0abed61a-810f-46cc-9a58-39f1ca03ceb7)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0e7225ca-3278-4533-bd6f-3fd85b513edc)
 
 
 ## Funcionalidad de arrastrar y soltar
 
 -   Puede mover un nodo secundario de un nodo primario a otro mediante arrastrar y soltar. Es conveniente mover una acción a otro contenedor de acciones, mover un elemento de navegación a otro grupo y modificar el diseño de la vista detallada. La flecha amarilla a la izquierda indica el nodo de destino.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/3651290a-3e58-4206-82ae-ab7918b61b54)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b7132dc0-c623-49ee-b721-dfdcca55de38)
 
     
     Al arrastrar, puede colocar un puntero sobre el nodo de destino y se expandirá automáticamente después de un pequeño retraso. Para crear una copia del nodo en lugar de moverlo, simplemente mantenga presionada la tecla CTRL al arrastrar. Si el nodo de destino ya tiene un hijo con el mismo ID, se agregará el sufijo "_Copy".
     
 -   Puede reorganizar los elementos secundarios de un determinado nodo principal mediante arrastrar y soltar. Es conveniente al reordenar columnas de vista de lista o elementos de navegación. Mantenga pulsada la tecla MAYÚS y arrastre un nodo secundario hacia arriba o hacia abajo en la lista dentro de los límites de su nodo principal. La flecha azul a la izquierda indica la nueva posición del nodo.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/22c54f88-cba1-42f9-a1db-811b50c68651)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/412735d3-4955-4ce9-a4e9-93c71c5191df)
 
     
     Los índices de los nodos secundarios se modificarán automáticamente para que correspondan a la reorganización.
@@ -537,7 +537,7 @@ Puede seleccionar varios nodos y arrastrar y soltar varios nodos a la vez.
 
 Algunos nodos tienen un nodo secundario "virtual" denominado  **Links**. Está oculto por defecto; puede alternar su visibilidad mediante el  [comando](https://docs.devexpress.com/eXpressAppFramework/113327/ui-construction/application-model-ui-settings-storage/model-editor/menu-toolbars)  **Mostrar vínculos / Ocultar vínculos**. En este nodo, puede ver nodos que contienen referencias al nodo actual. La captura de pantalla siguiente ilustra el nodo  **Departamento**  del tipo  [IModelClass](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelClass). En el nodo  **Vínculos**, puede ver el  **elemento Creatable**  para el objeto Departamento, el tipo  **Miembros**  del departamento y las  **Vistas**  diseñadas para el tipo Departamento.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/3d8b4fa9-023f-4802-9b00-28f557e70058)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/898222a5-f191-40f5-a10c-a5f26cf77e93)
 
 
 Puede editar las propiedades de los nodos vinculados en su lugar o navegar a una ubicación de nodo real mediante el comando  **Ir al origen**.
@@ -546,12 +546,12 @@ Puede editar las propiedades de los nodos vinculados en su lugar o navegar a una
 
 Utilice el comando del menú contextual  **Agrupar/Desagrupar**  para activar/desactivar la agrupación. La siguiente captura de pantalla ilustra el nodo  **Vistas**  agrupadas.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/a2463893-f74a-4688-b16c-40554294c364)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b8871388-4777-4325-aa48-35ca98320f73)
 
 
 Las vistas que no dependen de una determinada clase empresarial (por ejemplo, DashboardView) pertenecen al nodo  **No especificado**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/9bd689b0-eeda-46bb-a0b9-443031d9a09e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d1647276-fd46-4ff2-bce3-28e3056ab0ab)
 
 
 De forma predeterminada, se admite la agrupación para los nodos secundarios de  **Vistas**,  **BOModel**,  **Controladores**  y  **Acciones**. Para personalizar la agrupación predeterminada o implementar reglas de agrupación para otros nodos, utilice la clase  [ModelEditorGroupingHelper](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ModelEditor.ModelEditorGroupingHelper).
@@ -562,7 +562,7 @@ De forma predeterminada, se admite la agrupación para los nodos secundarios de 
 
 El  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  proporciona la cuadrícula de propiedades que se muestra a la derecha del  [árbol de nodos](https://docs.devexpress.com/eXpressAppFramework/113328/ui-construction/application-model-ui-settings-storage/model-editor/node-tree). En este tema se proporciona información sobre las siguientes capacidades y características de esta cuadrícula.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/47398059-d70b-4c06-aa14-2a9b21e3a8b5)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4717e421-3651-4066-9d6b-f021b9b92046)
 
 
 La cuadrícula de propiedades permite personalizar los valores de propiedad para el nodo enfocado. Dependiendo de un tipo de propiedad, puede editar su valor en un cuadro de texto, seleccionar uno de los valores predefinidos en una lista desplegable o utilizar un  [editor mejorado](https://docs.devexpress.com/eXpressAppFramework/113330/ui-construction/application-model-ui-settings-storage/model-editor/enhanced-editors)  (invocable en una ventana emergente a través del botón de puntos suspensivos). También puede editar los valores de propiedad de varios nodos al mismo tiempo. Seleccione varios nodos en el árbol de nodos. La cuadrícula de propiedades contendrá sus propiedades comunes. Si cambia algunos valores, los cambios se aplicarán a todos los nodos seleccionados.
@@ -571,7 +571,7 @@ La cuadrícula de propiedades permite personalizar los valores de propiedad para
 
 La cuadrícula de propiedades está categorizada y puede contraer y expandir categorías, o cambiar a la ordenación alfabética. Se resalta una propiedad enfocada. Los valores modificados se muestran en negrita. Las celdas de cuadrícula tienen diferentes colores y estilos de fuente, por lo que puede distinguir fácilmente entre propiedades de diferentes tipos. Algunos de los tipos de propiedad tienen imágenes asignadas con el propósito de una mejor visualización. Los siguientes tipos están disponibles.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/6602fdf8-90b0-4c98-af96-cb2fb1c3432a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/04d6ec3c-eb56-4d1a-b365-cf622cd8c90e)
 
 
 Una propiedad puede adaptarse a varios de estos tipos. En este caso, los márgenes se combinan. Por ejemplo, la propiedad  **Id**  en la imagen anterior es obligatoria y es de solo lectura. Por lo tanto, su fuente es gris, negrita y cursiva.
@@ -580,7 +580,7 @@ Una propiedad puede adaptarse a varios de estos tipos. En este caso, los márgen
 
 La minibarra de herramientas que se muestra encima de la cuadrícula de propiedades proporciona los siguientes botones.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/fa7a72b3-d639-41d4-b8e4-5f9c8c264417)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/e17d371e-e3ac-4003-b6a9-34a17e5b5459)
 
 
 ## Validación de valores de propiedad
@@ -604,7 +604,7 @@ En el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/11258
 
 El  **Selector**  de imágenes está disponible para las propiedades que hacen referencia a imágenes y especifican nombres de imagen (por ejemplo, IModelClass.ImageName e  [IModelAction.ImageMode](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelAction.ImageMode)).  [](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelClass.ImageName)Si no conoce el nombre exacto de la imagen, haga clic en el botón de puntos suspensivos (![EllipsisButton](https://docs.devexpress.com/eXpressAppFramework/images/ellipsisbutton116182.png)) que se muestra a la derecha del nombre de una imagen y examine las imágenes disponibles en el cuadro de diálogo  **Selector de imágenes**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/75d7e55f-9ea4-41c8-876a-c0dcd1cee327)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0fba48c2-77a1-44f5-8ba6-fcc3972af01a)
 
 
 >NOTA
@@ -614,42 +614,42 @@ El Selector de imágenes enumera las imágenes disponibles en [los orígenes de 
 
 El  **Editor**  de expresiones está disponible para las propiedades que  [especifican expresiones (por](https://docs.devexpress.com/CoreLibraries/4928/devexpress-data-library/criteria-language-syntax)  ejemplo,  [IModelMember.Expression](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelMember.Expression)). Si no desea escribir una expresión manualmente, haga clic en el botón de puntos suspensivos (![EllipsisButton](https://docs.devexpress.com/eXpressAppFramework/images/ellipsisbutton116182.png)) que se muestra a la derecha de un valor de expresión y utilice el cuadro de diálogo  [Editor de expresiones](https://docs.devexpress.com/WindowsForms/6212/common-features/expressions/expression-editor)  invocado para seleccionar funciones, operadores y operandos.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b0fd5fb1-881a-46d3-b94c-7a52fb7ed125)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/069d336c-81f6-4484-9262-876f2a5a8bd1)
 
 
 ## Generador de filtros
 
 El  **Generador de filtros**  está disponible para las propiedades que especifican  [criterios](https://docs.devexpress.com/CoreLibraries/4928/devexpress-data-library/criteria-language-syntax)  (por ejemplo, IModelListView.Criteria,  [IModelListViewFilterItem.Criteria](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.IModelListViewFilterItem.Criteria)  e  [IRuleBaseProperties.TargetCriteria](https://docs.devexpress.com/eXpressAppFramework/DevExpress.Persistent.Validation.IRuleBaseProperties.TargetCriteria)).  [](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelListView.Criteria)Puede invocar el cuadro de diálogo  **Generador de filtros**  para diseñar visualmente el criterio requerido haciendo clic en el botón de puntos suspensivos (![EllipsisButton](https://docs.devexpress.com/eXpressAppFramework/images/ellipsisbutton116182.png)) que se muestra a la derecha de un criterio.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/7292cd9c-0e9b-4de3-9fe6-1a2ce8ae6df5)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/45372840-3dc9-4eaa-8029-b3496274abb0)
 
 
 ## Editor de máscaras
 
 El  **Editor**  de máscaras está disponible para las propiedades que especifican  [Editar máscaras](https://docs.devexpress.com/WindowsForms/583/controls-and-libraries/editors-and-simple-controls/common-editor-features-and-concepts/input-mask)  (por ejemplo,  [IModelCommonMemberViewItem.EditMask](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelCommonMemberViewItem.EditMask)). Si no desea escribir una máscara manualmente, haga clic en el botón de puntos suspensivos (![EllipsisButton](https://docs.devexpress.com/eXpressAppFramework/images/ellipsisbutton116182.png)) que se muestra a la derecha de un valor de máscara. El cuadro de diálogo proporciona varias máscaras predefinidas. También es posible crear máscaras personalizadas. El cuadro de diálogo  **Probar entrada**  le permite probar la máscara seleccionada.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/4a4aa76d-c1be-4861-899f-12150f0055c6)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c08d8465-9202-4ac4-923d-0115425b20f5)
 
 
 ## Diseñador de gráficos
 
 El  **Diseñador**  de gráficos está diseñado para especificar la configuración del Editor de listas de gráficos ([IModelChartSettings.Settings](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Chart.IModelChartSettings.Settings)). Para invocar al diseñador, haga clic en el botón de puntos suspensivos (![EllipsisButton](https://docs.devexpress.com/eXpressAppFramework/images/ellipsisbutton116182.png)) que se muestra a la derecha de una cadena de configuración. Para ver un ejemplo de cómo usar este diseñador, consulte el tutorial  [Cómo: Mostrar una vista de lista como gráfico](https://docs.devexpress.com/eXpressAppFramework/113314/ui-construction/list-editors/how-to-display-a-list-view-as-a-chart). Para obtener información detallada sobre las capacidades del Diseñador de gráficos, consulte el tema  [Diseñador de gráficos](https://docs.devexpress.com/WindowsForms/114070/controls-and-libraries/chart-control/design-time-features/chart-designer).
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/02d4aded-8b71-4fd0-abb0-c6850ad5e8f8)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0d66b552-2b12-4563-8af0-b8019e8b4c59)
 
 
 ## Diseñador de cuadrícula dinámica
 
 El  **Diseñador de cuadrícula dinámica**  está diseñado para especificar la configuración del Editor de listas de cuadrículas dinámicas ([IPivotSettings.Settings](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.PivotGrid.IPivotSettings.Settings)). Para invocar el asistente, haga clic en el botón de puntos suspensivos (![EllipsisButton](https://docs.devexpress.com/eXpressAppFramework/images/ellipsisbutton116182.png)) que se muestra a la derecha de una cadena de configuración. Para obtener información detallada sobre las capacidades del Diseñador de cuadrícula dinámica, consulte el tema de ayuda del  [Diseñador de cuadrícula dinámica](https://docs.devexpress.com/WindowsForms/1825/controls-and-libraries/pivot-grid/design-time-features/pivotgrid-designer).
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/262e84cf-521c-4692-9aa5-836bfb3711f0)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/847079d3-8113-4d4f-adb2-8e2059ddf33e)
 
 
 # Panel de búsqueda
 
 En aplicaciones XAF simples, es relativamente fácil navegar por el árbol del  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor). Sin embargo, a medida que la aplicación se vuelve más compleja y crece el número de nodos del modelo de aplicación, encontrar el nodo necesario en el árbol del editor de modelos puede ser más difícil. En este caso, se recomienda el uso de la característica de búsqueda de nodos descrita en este tema.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/646ebcd8-c556-4038-ba8f-a57b94c16398)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/a103c994-3f3d-4097-a071-03867563c1b4)
 
 Este panel se puede mostrar presionando CTRL+ALT+F o haciendo clic en el botón  **Buscar**  de la  [barra de herramientas del Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/113327/ui-construction/application-model-ui-settings-storage/model-editor/menu-toolbars).
 
@@ -657,11 +657,11 @@ El panel Buscar consta de tres secciones:  **Buscar, Esquema**  de  **modelo**  
 
 La sección  **Buscar**  contiene el cuadro combinado de búsqueda. Escriba el texto que desea encontrar y el contenido de  **los resultados**  de la búsqueda se actualizará instantáneamente a medida que escriba. El cuadro combinado de búsqueda almacena todas las búsquedas anteriores. Se puede acceder a ellos haciendo clic en el botón desplegable. El primer clic en el botón desplegable después de que se haya insertado el texto invoca un menú desplegable que muestra una lista de búsquedas anteriores que comienzan con caracteres escritos. El segundo clic en el botón desplegable invoca un menú desplegable con una lista de todas las búsquedas anteriores.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/8978dcbc-0358-4ca4-a27d-7997ccf51933)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/017b2382-cd7d-404e-a9f1-357aa7be0295)
 
 La sección  **Esquema del modelo**  especifica sobre qué nodos se realizará una búsqueda. Utilice el botón  **Ocultar/Mostrar esquema**  para alternar la visibilidad de la sección Esquema del modelo. De forma predeterminada, todos los nodos están seleccionados. Sin embargo, puede optar por buscar solo en los nodos necesarios.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/1c17ce90-5c88-4723-a124-712ecfd23308)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b6c8d898-1c2c-44d9-8008-75525c5daac3)
 
 La sección Resultados de la búsqueda muestra los nodos que se encontraron durante  **la búsqueda**. Seleccione cualquiera de estos nodos para enfocar el mismo nodo en el  [árbol de nodos](https://docs.devexpress.com/eXpressAppFramework/113328/ui-construction/application-model-ui-settings-storage/model-editor/node-tree).
 
@@ -674,11 +674,11 @@ Las capas superiores se crean en función de la configuración personalizada del
 
 Si la aplicación contiene nodos inutilizables, muestra el siguiente mensaje de advertencia al personalizar el modelo de aplicación mediante el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor):
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/6756a47b-c92a-4bcb-8c0f-deec76979738)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/987c5d28-caef-4d2e-a6aa-bb70c02eb4cc)
 
 También puede mostrar nodos inutilizables en el Editor de modelos haciendo clic en el botón  **Mostrar nodos inutilizables**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/5e3fee00-a873-4ecb-89f4-883e514e48d1)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/3a908f64-7fcf-4711-b716-3c7594077450)
 
 ## Cómo funciona
 
@@ -728,7 +728,7 @@ Puede usar el enfoque descrito en el tema  [Convertir diferencias de modelo](htt
 
 El Editor de modelos guarda su configuración entre ejecuciones (el nodo actualmente enfocado, la configuración del panel de búsqueda, etc.). En este tema se enumeran los almacenamientos de configuración utilizados por el Editor de modelos en diferentes circunstancias.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ba7d729f-6a4e-46b3-9567-483277cf07cc)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/e4c77378-befb-4663-823c-fa70d5bc865d)
 
 # Personalizar el modelo de aplicación en el código
 
@@ -740,7 +740,7 @@ El  [modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/1125
 
 Las siguientes clases XAF también tienen la propiedad  **Model**  para proporcionar acceso al nodo correspondiente en el modelo de aplicación:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ee42d98c-231b-432a-baf9-c6f14c4d5f87)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c02875f2-2a8a-4f91-ba5f-a69f40eab80e)
 
 
 Los nodos del modelo de aplicación implementan la interfaz  [IModelNode](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelNode). Puede usar  [miembros de IModelNode](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelNode._members)  para obtener nodos primarios y secundarios.
@@ -1028,7 +1028,7 @@ Vuelva a generar la solución. Invoque el  **Editor de modelos**  para el módul
 
 Ejecute la aplicación. Abra una vista de lista con un panel de grupo y agrupe la vista de lista por una columna. Puede ver el pie de página con los tipos de resumen especificados.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/028a605d-1113-4342-9399-a6a471f82542)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f8fbd72a-8a88-40db-ba63-7e28c9079480)
 
 
 # Agregar nodos y propiedades personalizados al modelo de aplicación en código
@@ -1036,7 +1036,7 @@ Ejecute la aplicación. Abra una vista de lista con un panel de grupo y agrupe l
 
 En este tema se describe cómo extender el modelo de  [aplicación](https://docs.devexpress.com/eXpressAppFramework/112579/ui-construction/application-model-ui-settings-storage)  generado automáticamente con nodos y propiedades personalizados en el código. Utilice el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  para editar visualmente el modelo de aplicación.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/00c8e14c-1665-474f-b93d-c9d31484ec8c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/055890d3-9921-4f1b-8f41-4343c59e6908)
 
 >PROPINA
 Si necesita cambiar las propiedades de nodo existentes, vea el tema siguiente: [Leer y establecer valores para nodos integrados del modelo de aplicación en código](https://docs.devexpress.com/eXpressAppFramework/112810/ui-construction/application-model-ui-settings-storage/customize-application-model-in-code/access-the-application-model-in-code).
@@ -1108,7 +1108,7 @@ En este ejemplo se muestra cómo agregar  _MyCustomProperty_  al nodo Modelo ra�
     
 3.  Vuelva a generar la solución y abra el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  para comprobar el resultado. El nodo  [raíz IModelApplication](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelApplication)  contiene  **MyCustomProperty**.
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/8852957a-f85a-46ec-95e2-d6330d503623)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2fe3b1db-5c46-4b2a-aae2-9e28c16d902f)
     
 
 Para agregar  **MyCustomProperty**  a otro nodo, pase la interfaz correspondiente a este nodo en lugar de  **IModelApplication**  a los  **extensores. Agregar**  método. En el tema siguiente se enumeran las interfaces disponibles:  [Interfaces de modelo de aplicación suministradas con XAF.](https://docs.devexpress.com/eXpressAppFramework/403535/ui-construction/application-model-ui-settings-storage/how-application-model-works/application-model-interfaces)
@@ -1197,7 +1197,7 @@ public interface IModelMyNodeWithChildNode : IModelNode {
 
 ```
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/5ad5614f-b36a-4fef-95ed-e25e6fff0e38)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ddc7a77c-5c93-41b2-aa0b-acb7bbb40b37)
 
 En el ejemplo siguiente se definen las interfaces IModelMyChildNode e  **IModelMyNodeWithChildNode derivadas de IModelNode**.[](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelNode)
 
@@ -1279,11 +1279,11 @@ namespace MySolution.Module {
 
 Vuelva a generar la solución y abra el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  para comprobar el resultado.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/33a555c1-829f-4bfe-9814-655a529c5fc9)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/a9a38e27-29a4-4e52-95e2-767e3550a286)
 
 Puede utilizar el menú contextual para agregar nodos secundarios al nodo  **MyNodeWithSeveralChildNodes**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/35b13694-b6c7-4428-a0c8-a6a64e514f3b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/3e577524-ce7b-4ba9-befd-4f67fad10878)
 
 ## Usar un generador de nodos para agregar varios nodos secundarios
 
@@ -1333,7 +1333,7 @@ namespace MySolution.Module {
 
 Vuelva a generar la solución y abra el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  para ver los cambios.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/e054c0b5-7525-44ce-8f1f-805ae3ea1fdb)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/a4006df2-1bd0-4424-9a3e-029fde734d19)
 
 Los generadores de nodos realizan cambios en  [la capa cero del modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works). XAF ejecuta el método  **GenerateNodesCore**  cuando se solicitan los datos  **MyNodeWithSeveralChildNodes**  por primera vez y almacena estos datos en el modelo de aplicación.
 
@@ -1366,7 +1366,7 @@ namespace MySolution.Module {
 
 Vuelva a generar la solución para actualizar el modelo de aplicación. La siguiente imagen muestra el resultado.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/17296624-8ffc-454f-99cc-da804751cc94)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/7b384445-4653-4f12-9163-f8205cf380e1)
 
 Si agrega o quita nodos secundarios, la lista desplegable refleja los cambios inmediatamente.
 
@@ -1406,7 +1406,7 @@ public static class ModelMyNodeWithChildNodesLogic {
 
 ```
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/807832ce-5d95-41bf-8d7c-907c8844e0ec)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/a869c052-195e-4cb9-8aa0-5cb5bd57020f)
 
 ## Usar actualizadores de generadores para personalizar nodos
 
@@ -1464,7 +1464,7 @@ public sealed partial class MySolutionModule : ModuleBase {
 
 Vuelva a generar la solución y abra el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  para ver el resultado.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/bc1c04f0-705d-4331-b778-4bce55c134b4)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f1a438e2-0a33-4cc4-936b-20b56ee69ac8)
 
 Es posible que no vea los cambios como se muestra en la imagen de arriba. Esto sucede si modifica estos valores de propiedad en el Editor de modelos antes de ejecutar el código. Los actualizadores del generador funcionan en la  [capa](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works)  cero del modelo de aplicación y los cambios realizados en tiempo de diseño anulan la configuración del actualizador. Restablezca las diferencias para el nodo  **MyNodeWithSeveralChildNodes**  para ver los cambios: haga clic con el botón secundario en el nodo y seleccione  **Restablecer diferencias**.
 
@@ -1541,7 +1541,6 @@ public class Employee : BaseObject {
 ```
 A continuación se ilustra la vista de lista generada de forma predeterminada para esta clase.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/034461be-56c3-4c3e-a3eb-eb4aefaee809)
 
 Esta vista de lista está definida por  **Vistas**  |  **Employee_ListView**  nodo. Vamos a implementar un Generador Actualizador que genera dos vistas de lista adicionales, que son:
 
@@ -1613,7 +1612,7 @@ public sealed partial class CreateNodesInCodeModule : ModuleBase {
 
 Después de implementar y registrar Generator Updater, vuelva a generar la solución e invoque el Editor de modelos. Los nuevos nodos ListView se ilustran a continuación.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b1b1c705-d7db-4bcb-b5af-c91a15130c52)
+
 
 >NOTA
 Los nodos y propiedades personalizados no están marcados en negrita en el Editor de modelos, ya que estos cambios se generan en el código. Puede consultar el _modelo.Diferencias diseñadas.  Origen XAFML_ para asegurarse de que no contiene personalizaciones relacionadas con los nodos generados.
