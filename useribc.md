@@ -8116,6 +8116,8 @@ Utilice la propiedad  [IsMain](https://docs.devexpress.com/eXpressAppFramework/D
 
 La siguiente imagen ilustra un mensaje de estado personalizado que se muestra junto con un mensaje predeterminado:
 
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f1f9868f-3798-4f23-b383-94b113248272)
+
 
 ## Reemplazar el mensaje de estado predeterminado
 
@@ -8134,7 +8136,7 @@ CustomizeWindowStatusMessagesEventArgs e) {
 
 La siguiente imagen ilustra un mensaje de estado personalizado mostrado, en lugar de uno predeterminado:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/d2e0c4e5-b45d-48a5-858d-fb33630cfc87)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0880cda3-3471-4243-aead-f71deff5b9c0)
 
 Puede utilizar el método  [WindowTemplateController.UpdateWindowStatusMessage](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.WindowTemplateController.UpdateWindowStatusMessage)  para actualizar los mensajes de estado cuando sea necesario.
 
@@ -8203,7 +8205,7 @@ En este artículo se describe cómo cambiar la forma en que una aplicación de W
 
 El  [Asistente para soluciones](https://docs.devexpress.com/eXpressAppFramework/113624/installation-upgrade-version-history/visual-studio-integration/solution-wizard)  crea una aplicación con la vista  [por fichas](https://docs.devexpress.com/WindowsForms/11355/controls-and-libraries/application-ui-manager/views/tabbed-view), por lo que la aplicación muestra cada vista invocada en una pestaña nueva.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/32e5422f-98f3-4f8c-be65-af649c39b0ff)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2a17e9d5-a2cb-422a-90bb-af40c6ad0b39)
 
 Las instrucciones siguientes explican cómo habilitar el modo de  _documento único (SDI)_  en lugar del modo de vista con fichas en una aplicación. En el modo SDI, cada vez que invoca una vista, aparece en una nueva ventana que sustituye a la anterior.
 
@@ -8213,7 +8215,7 @@ Las instrucciones siguientes explican cómo habilitar el modo de  _documento ún
     
 3.  Enfoque la propiedad y elija la opción  **SingleWindowSDI**  en el menú desplegable.`UIType`
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ee0180eb-52d1-4c3d-a1a8-35f020209cff)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/9715d32a-6470-4c11-b145-4c57cc8f8d79)
 
     
 4.  Ejecute la aplicación y vea el nuevo modo de visualización Ver en acción.
@@ -8232,7 +8234,7 @@ Si especifica el modo de visualización Ver en el código, XAF omite los cambios
 
 En este artículo se describe cómo habilitar la  [interfaz de usuario de la cinta de opciones en la](https://docs.devexpress.com/WindowsForms/2500/controls-and-libraries/ribbon-bars-and-menu/ribbon)  aplicación WinForms.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/daf904ed-c03e-474e-b358-90c9b60cb9c4)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/6fcb20e4-1c38-4a6e-ba9f-3b3c5c320b8f)
 
 >NOTA
 >
@@ -8246,12 +8248,12 @@ En este artículo se describe cómo habilitar la  [interfaz de usuario de la cin
     
 3.  Enfoque la propiedad y elija la opción  **Cinta de opciones**  en el menú desplegable.`FormStyle`
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/af504925-e5b1-4b66-b856-148730c71d99)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c5a40f15-8920-4dad-9f71-fbb6f2d41b15)
 
     
 4.  Ejecute la aplicación para ver el resultado.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/c630ad0a-bec0-4f48-8c1f-e2fcc33ce514)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/6dd6d77f-7228-4679-babc-0006e62d73ce)
 
     
 
@@ -8275,7 +8277,7 @@ Define el diseño y la apariencia de la ventana principal.
 
 **Contenido de la plantilla:**  `DevExpress.ExpressApp.Blazor.Templates.ApplicationWindowTemplateComponent`
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/847e3cbb-d044-4ae0-b030-41c3055f5c3a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/210bd8a5-6b8c-4620-a6b5-8f0f233c1b67)
 
 ### LogonWindowTemplate
 
@@ -8285,7 +8287,7 @@ Define el diseño y la apariencia de la ventana de inicio de sesión.
 
 **Contenido de la plantilla:**  `DevExpress.ExpressApp.Blazor.Templates.LogonWindowTemplateComponent`
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/f0a92e57-9037-4b5d-a549-8eaaf7ace34a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/22c40507-ae99-4f9c-85da-3b586fce4a1d)
 
 ### PopupWindowTemplate
 
@@ -8295,7 +8297,7 @@ Define el diseño y la apariencia de la ventana emergente. Ejemplos:  [Cómo: Aj
 
 **Contenido de la plantilla:**  `DevExpress.ExpressApp.Blazor.Templates.PopupWindowTemplateComponent`
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/c755ba09-ebea-4d89-899e-f8fa83b115f8)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/07ab5905-53eb-459c-b1b9-8027ac84fc88)
 
 ### NestedFrameTemplate
 
@@ -8305,7 +8307,7 @@ Define el diseño y la apariencia de los marcos anidados.
 
 **Contenido de la plantilla:**  `DevExpress.ExpressApp.Blazor.Templates.NestedFrameTemplateComponent`
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/cb8a494d-3458-4517-8748-71f15e3844d0)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/9f3f38f4-7409-49f7-b1e4-7055e17d9ca6)
 
 ## Personalizar plantillas integradas
 
@@ -8356,7 +8358,7 @@ public partial class PopupResizeController : WindowController {
 Este tutorial explica cómo cambiar el sistema de navegación integrado (utiliza un componente  [DxTreeView](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxTreeView)) con un componente  [DxMenu](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxMenu).
 
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/aa56770e-ec31-402e-bf57-c6a7392aa3fa)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/610a1e08-fec7-43e5-a751-df2a4d53f2b9)
 
 
 # Cómo: Crear una plantilla de aplicación de Blazor personalizada
@@ -8612,7 +8614,7 @@ Las aplicaciones XAF creadas en el  [Asistente para soluciones](https://docs.dev
     
 8.  Ejecute la aplicación. Ahora XAF representa el control de navegación como un menú desplegable.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/e3a9c456-4ea6-457e-be14-eeef14c7a93b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0f8e1c82-5f35-4cf8-b28d-4224bd5b43c2)
 
 
 
@@ -8765,7 +8767,7 @@ namespace MySolution.Module.Blazor.Controllers {
 ## Plantillas de aplicación de formularios Web Forms ASP.NET
 
 ### DefaultVerticalTemplateContentNew
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/664f20d5-053f-4304-a185-804b6f2c63bd)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5039803f-0924-43e7-8daa-b1e59a842018)
 
 **Clase:**  `DefaultVerticalTemplateContentNew`
 
@@ -8774,7 +8776,7 @@ namespace MySolution.Module.Blazor.Controllers {
 Se utiliza para mostrar las ventanas principales de Ventana y Vista de detalles (tanto en los modos de vista como de edición).
 
 ### DialogTemplateContentNew
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/5ca29666-75d6-478f-81a9-4af896a3c4ae)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/cbef4eeb-cb30-4710-9939-fc65bd9ec1a5)
 
 **Clase:**  `DialogTemplateContentNew`
 
@@ -8783,7 +8785,7 @@ Se utiliza para mostrar las ventanas principales de Ventana y Vista de detalles 
 Se utiliza para mostrar una ventana de diálogo (por ejemplo, una ventana desplegable del Editor de propiedades de búsqueda o una ventana emergente de PopupWindowShowAction).
 
 ### FindDialogTemplateContentNew
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/05ade023-d6d7-46dd-9d96-bf858d9819d1)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c0393fd0-a87b-4968-abe5-c4cc0ba7ee21)
 
 **Clase:**  `FindDialogTemplateContentNew`
 
@@ -8792,7 +8794,7 @@ Se utiliza para mostrar una ventana de diálogo (por ejemplo, una ventana desple
 Se utiliza para mostrar una ventana de diálogo (por ejemplo, una ventana desplegable del Editor de propiedades de búsqueda o una ventana emergente de PopupWindowShowAction) con el filtro de registros.
 
 ### NestedFrameControlNew
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/99620aab-4c47-425a-b668-7b6b35e600b0)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/db863e55-da7c-4ecb-b572-d6ce66254603)
 
 **Clase:**  `NestedFrameControlNew`
 
@@ -8801,7 +8803,7 @@ Se utiliza para mostrar una ventana de diálogo (por ejemplo, una ventana desple
 Se utiliza para mostrar una ventana (marco) anidada en otra ventana (marco), como un editor de propiedades de lista o un marco del editor de propiedades de detalle.
 
 ### LogonTemplateContentNew
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/5be1602c-bb47-49fa-87da-88e44d03b95e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/9b98a5a9-7085-4471-ada6-1593888381c8)
 
 **Clase:**  `LogonTemplateContentNew`
 
@@ -8816,7 +8818,7 @@ Se utiliza para mostrar una ventana de inicio de sesión.
 ## Plantillas clásicas de aplicación de formularios Web Forms ASP.NET
 
 ### DefaultVerticalTemplateContent
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/142de9de-f91f-4252-acef-1614faf35292)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d02537dd-54c7-4438-b7ec-edfbae507e58)
 
 **Clase:**  `DefaultVerticalTemplateContent`
 
@@ -8825,7 +8827,7 @@ Se utiliza para mostrar una ventana de inicio de sesión.
 Se puede utilizar para mostrar las ventanas principales de Ventana y Vista de detalles (tanto en los modos de vista como de edición). Esta plantilla es la plantilla estándar de la ventana principal con la barra de navegación vertical. Para obtener más información acerca de cómo utilizar esta plantilla, consulte el tema  [Apariencia de la aplicación de formularios Web Forms ASP.NET](https://docs.devexpress.com/eXpressAppFramework/113153/application-shell-and-base-infrastructure/themes/asp-net-web-application-appearance).
 
 ### DefaultTemplateContent
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/7893e15a-4749-486e-a1b0-eb36d9da260d)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/bc8b1ffb-051c-49c9-b6bc-21ecdf53def3)
 
 **Clase:**  `DefaultTemplateContent`
 
@@ -8834,7 +8836,7 @@ Se puede utilizar para mostrar las ventanas principales de Ventana y Vista de de
 Se utiliza para mostrar las ventanas principales de Ventana y Vista de detalles (tanto en los modos de vista como de edición). Esta plantilla es una plantilla opcional que tiene pestañas de navegación alineadas horizontalmente que conservan el espacio de la ventana principal.
 
 ### DialogTemplateContent
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/fe511a0d-f706-4cc2-80d4-1f09d5fe1780)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/92ed00cf-dc3e-4f6a-aa34-3ab4e10b4b6e)
 
 **Clase:**  `DialogTemplateContent`
 
@@ -8843,7 +8845,7 @@ Se utiliza para mostrar las ventanas principales de Ventana y Vista de detalles 
 Se utiliza para mostrar una ventana de diálogo (por ejemplo, una ventana desplegable del Editor de propiedades de búsqueda o una ventana emergente de PopupWindowShowAction).
 
 ### NestedFrameControl
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b90f94f6-b316-47bf-b4d1-93ee099ad2d0)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/62ed7a80-27bf-4b0a-b5df-c052b153c925)
 
 **Clase:**  `NestedFrameControl`
 
@@ -8852,7 +8854,7 @@ Se utiliza para mostrar una ventana de diálogo (por ejemplo, una ventana desple
 Se utiliza para mostrar una ventana (marco) anidada en otra ventana (marco), como un editor de propiedades de lista o un marco del editor de propiedades de detalle.
 
 ### LogonTemplateContent
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/1b98921c-6426-46e7-b2ee-6a04d724081e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/667e7a79-21c0-4037-86f5-94cd680bab96)
 
 **Clase:**  `LogonTemplateContent`
 
@@ -8861,7 +8863,7 @@ Se utiliza para mostrar una ventana (marco) anidada en otra ventana (marco), com
 Se utiliza para mostrar una ventana de inicio de sesión. Contiene el contenedor de acciones PopupActions.
 
 ### ErrorInfoControl
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/6386d37f-6504-49e8-8631-006eafc19c14)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/445b179e-b86b-4b00-9d00-f76b21cc882f)
 
 
 **Clase:**  `ErrorInfoControl`
@@ -8888,7 +8890,7 @@ De forma predeterminada, el contenido de la plantilla de ASP.NET aplicaciones de
 
 Abra la solución XAF existente o cree una nueva. Invocar la  [Galería](https://docs.devexpress.com/eXpressAppFramework/113455/installation-upgrade-version-history/visual-studio-integration/template-gallery)  de plantillas para el proyecto de aplicación ASP.NET formularios Web Forms, elija las  **XAF ASP.NET Web Forms Templates** | **Default Vertical Template Content**  y especifique un nombre (por ejemplo, "MyDefaultVerticalTemplateContent").
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/8301a73c-c6b9-4c38-abf4-7ecfde2c7be3)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5c034b07-257f-4978-a51f-87b50fe23989)
 
 >NOTA
 >
@@ -8905,11 +8907,11 @@ Se agregarán los siguientes archivos que implementan el control de usuario.
 
 Estos archivos se seleccionan en la imagen siguiente, que se tomó de la ventana  **Explorador de soluciones**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/6432d6be-8186-41ea-93c2-dac48396eba6)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/96869012-3195-4fe6-8feb-dcc584c023a2)
 
 Abra el archivo ASCX. Aquí, puede modificar el marcado de contenido. Por ejemplo, puede cambiar el estilo del Panel de actualización: reemplace su color "4a4a4a" con "2c86d3".
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/77f32816-e9ed-4eff-b6b6-cf50625e9580)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/8f80a226-44fe-4df2-9384-760b0b2dbb22)
 
 ## Usar la plantilla modificada en lugar de la predeterminada
 
@@ -8931,7 +8933,7 @@ protected void Session_Start(Object sender, EventArgs e) {
 
 La imagen siguiente ilustra el estilo de título de vista modificado en la aplicación en ejecución.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ca943c19-6b04-45c3-b57f-9308ebbc9a8c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/a929c65f-d4ad-41fd-9c51-fb9f7c8f4005)
 
 >NOTA
 >
@@ -8955,7 +8957,7 @@ La imagen siguiente ilustra el estilo de título de vista modificado en la aplic
 
 El contenedor de acciones debe colocarse dentro del control  **XafUpdatePanel**. El resultado se muestra a continuación.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b2d76d4a-99d8-4c8e-a08b-c6db16ff5e98)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ccbd2f67-eba1-4408-9a98-7ca736653727)
 
 Puede usar el mismo enfoque para agregar cualquier otro  [contenedor de acciones](https://docs.devexpress.com/eXpressAppFramework/112610/ui-construction/action-containers)  integrado o personalizado a una ubicación deseada dentro de una plantilla. Tenga en cuenta que la instancia personalizada del contenedor de acciones debe agregarse a la lista devuelta por el método  [IFrameTemplate.GetContainers](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Templates.IFrameTemplate.GetContainers)  de la plantilla.
 
@@ -8965,7 +8967,7 @@ Puede usar el mismo enfoque para agregar cualquier otro  [contenedor de acciones
 
 En ASP.NET aplicaciones XAF de formularios Web Forms, se muestran ventanas de diálogo emergentes mediante  [ASPxPopupControl](https://docs.devexpress.com/AspNet/3582/components/docking-and-popups/popup-control). Los usuarios finales pueden arrastrar el agarre de tamaño en la esquina inferior derecha para cambiar el tamaño de una ventana emergente si no está restringido en la configuración. También puede personalizar el tamaño inicial en el código. El tamaño de la ventana principal es igual al tamaño de la ventana del navegador. En este tema se describe cómo cambiar el tamaño y personalizar las ventanas emergentes mediante programación, en función de la vista mostrada.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/5c87ab8d-152b-4af4-842d-1bf6cc3aaaf6)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/184cc0be-52a9-4419-847d-ab39b822f84a)
 
 >PROPINA
 >
@@ -9004,7 +9006,7 @@ protected void Application_Start(object sender, EventArgs e) {
 
 Si personaliza ventanas emergentes en una aplicación de formularios Web Forms ASP.NET con la interfaz de usuario web clásica, puede establecer el alto y el ancho predeterminados en el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  mediante las propiedades IModelPopupWindowOptionsWeb.WindowHeight e  [IModelPopupWindowOptionsWeb.WindowWidth.](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Web.SystemModule.IModelPopupWindowOptionsWeb.WindowHeight)[](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Web.SystemModule.IModelPopupWindowOptionsWeb.WindowWidth)
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/0785edfe-c720-49b5-8f7f-bd520d3e691f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b512beb9-a073-49a7-970e-7a6c37b6ef94)
 
 ## Establecer el tamaño y el estilo de las ventanas emergentes individuales
 
@@ -9201,11 +9203,11 @@ Puede encontrar la lista de todos los contenedores de acciones en  **ActionDesig
 
 Las siguientes imágenes muestran la ubicación de Action Container en ASP.NET interfaz de usuario de la aplicación Core Blazor:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/61aa593b-8edf-4946-bf1d-632c743949d3)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d5ac5903-18c2-45d8-9f4e-c85d7d3ac60b)
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/81a1a6a2-09dc-4c67-aef9-8386993e0652)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/594db56a-2e93-400b-b350-8c1debe1ac05)
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/353cdb52-2b06-4903-a393-5c3c447e042b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d7418dee-63a0-4d43-a178-7baf13ddd8b6)
 
 ## Creación de contenedores de acciones
 
@@ -9231,7 +9233,7 @@ Puede controlar el evento  [ActionControlsSiteController.CustomizeContainerActio
 
 En ASP.NET aplicaciones Core Blazor, puede agrupar Acciones en un menú desplegable y especificar una Acción predeterminada que sirva como elemento de menú raíz.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/874596c9-684b-49e9-91b0-3144c19c5973)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/6e4dd23c-b89e-44be-b893-62a9d329984a)
 
 Cree una  [plantilla de aplicación Blazor personalizada](https://docs.devexpress.com/eXpressAppFramework/403452/ui-construction/templates/in-blazor/custom-blazor-application-template)  y especifique las siguientes propiedades del contenedor de acciones:
 
@@ -9261,7 +9263,7 @@ El menú desplegable no admite y con  [ItemType](https://docs.devexpress.com/eXp
 
 En ASP.NET aplicaciones de formularios Web Forms, puede agrupar acciones en un menú desplegable con la acción predeterminada colocada como elemento de menú raíz.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/8a0dd57c-8f89-46fb-8681-e97483f64572)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/934efc54-ca8f-4c44-81d9-90ef4ad6c6b9)
 
 Puede  [personalizar una plantilla de aplicación de formularios Web Forms ASP.NET](https://docs.devexpress.com/eXpressAppFramework/113460/ui-construction/templates/in-webforms/how-to-customize-an-asp-net-template)  para tener acceso a determinadas configuraciones del contenedor de acciones que no están disponibles en el modelo de aplicación. En el archivo ASCX, puede localizar un elemento requerido por su valor y establecer las siguientes propiedades:`WebActionContainer``ContainerId`
 
@@ -9337,13 +9339,13 @@ La clase  [CompositeView](https://docs.devexpress.com/eXpressAppFramework/DevExp
 
 XAF tiene dos tipos de vista compuesta reales:  [DashboardView](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.DashboardView)  y  [DetailView](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.DetailView). La clase  [ListView](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ListView)  también deriva de  **CompositeView**, pero no admite el diseño de los elementos de vista.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ba3a0f6d-4ec8-4215-b4df-7a173a2e71de)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/cca24ad8-a5e8-40c9-95c5-00cda4dbf9a6)
 
 La clase  [ObjectView](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ObjectView)  (un descendiente de  **CompositeView**) especifica la vista de objeto y tiene los subtipos  **DetailView**  y  **ListView**.  **ObjectView**  y sus descendientes están enlazados a los datos directamente: a un único objeto de datos o a una colección de objetos.
 
 ## Vista detallada
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/92b90ac6-81d5-4e4a-9b50-02e2930295e1)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1c04bc74-87de-4502-8090-bedec7d47dcd)
 
 Una vista detallada en una aplicación Blazor UI
 
@@ -9355,7 +9357,7 @@ La vista detallada tiene dos modos de edición: Editar y Ver. Las aplicaciones d
 
 ## Vista de lista
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/e782dca1-8779-4021-a4e7-38fc3e8c399b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/72b1cbf8-06e9-4ade-96df-64614544ccc3)
 
 Vista de lista en la aplicación Blazor UI
 
@@ -9373,7 +9375,7 @@ XAF tiene un tipo especial de vista de lista: la vista de lista de búsqueda. La
 
 ## Vista de panel
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/2a9ecbdc-a17e-48eb-bafb-426435453ca2)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b37c796b-ef5d-4c50-9071-502b1c50c8db)
 
 Una vista de panel en una aplicación de WinForms
 
@@ -9483,7 +9485,7 @@ Puede utilizar los atributos  **DefaultClassOptions**  y  **NavigationItem**  pa
 
 Puede utilizar el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  para agregar una vista de lista, una vista de detalles o una vista de panel a la navegación. El nodo  **NavigationItems**  define la estructura en forma de árbol de los elementos de navegación mediante nodos secundarios  [IModelNavigationItem](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.IModelNavigationItem). Cree un nuevo nodo NavigationItem dentro de la jerarquía existente y establezca la propiedad  [IModelNavigationItem.View](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.IModelNavigationItem.View)  en la vista de lista de destino para mostrar esta vista desde la navegación.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/3315e9f0-90c7-413c-a3ba-99a5bb83cff5)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/819a7613-7ffc-4252-ba51-9638a089fc1f)
 
 Para mostrar una vista detallada de la navegación, debe especificar adicionalmente el valor de la propiedad  [IModelNavigationItem.ObjectKey.](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.IModelNavigationItem.ObjectKey)
 
@@ -9570,7 +9572,7 @@ Puede diseñar un formulario personalizado o un control de usuario en Visual Stu
 
 La forma más recomendada de mostrar una ventana que no sea XAF en una aplicación WinForms es incrustar controles personalizados en un formulario XAF (por ejemplo,  [DashboardView](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.DashboardView)) mediante elementos de vista personalizados. Sin embargo, si no es adecuado para su caso, puede incrustar vistas XAF en una ventana personalizada creando vistas y agregando sus controles al formulario. En el caso más simple, basta con crear una instancia de View, configurarla según sea necesario, llamar a su método  [View.CreateControls](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.View.CreateControls)  y agregar su Control al formulario.[](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.View)
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/65043298-e11d-4e91-aa09-106c7aef9481)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/60f94b07-505f-4b3d-81cc-05c0c67fc5a4)
 
 En este ejemplo, se invoca la ventana personalizada con el  [ListView](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ListView)  XAF incrustado cuando se produce un evento  **Action Execute**. Cree un nuevo descendiente de  [ViewController](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.ViewController)  y agregue un nuevo  [objeto SimpleAction](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Actions.SimpleAction)  en su constructor. En el controlador de eventos  **Execute**  de la acción, cree una nueva instancia de un objeto  **NonXAFForm**  personalizado que sea un objeto de formulario. El control  [LayoutControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraLayout.LayoutControl)  se crea para colocar correctamente los controles personalizados en el diseño. El control  **ListView**  de XAF se crea mediante el método  [XafApplication.CreateListView](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.XafApplication.CreateListView.overloads)  y sus controles se generan mediante el método  **CreateControls**. Establezca los controles como elementos de diseño e invoque la ventana mediante el método  **Form.ShowDialog.**
 
@@ -9642,7 +9644,7 @@ void showWindowAction_Execute(object sender, SimpleActionExecuteEventArgs e) {
 
 ```
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/7f764468-56c0-492c-8357-d230ab7522f7)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/aa91239b-66b6-4770-b4ff-9b6ebe0d41a6)
 
 
 # Cómo: Mostrar un formulario Windows Forms personalizado
@@ -9684,7 +9686,7 @@ Los pasos siguientes describen cómo mostrar una ventana personalizada en el eve
     ```
     
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/912e21cd-873a-4c31-b5e6-d54a3d39971c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/7f13b25d-fe49-45c6-a037-44d75363bb56)
 
 ## Mostrar una ventana personalizada con datos XAF
 
@@ -9727,7 +9729,7 @@ new SimpleActionExecuteEventHandler(showWindowAction_Execute);
 
 ```
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/777d0328-944a-4219-b408-51f99e065422)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d0f05acb-e481-4aaf-ad9d-216c3221a209)
 
 Puede mostrar datos XAF en un control de un formulario existente agregando el constructor del formulario con el parámetro  **IObjectSpace**. En este constructor, especifique la propiedad  **DataSource**  del control mediante el método  [IObjectSpace.GetObjects.](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.IObjectSpace.GetObjects.overloads)  El fragmento de código siguiente muestra un ejemplo de este constructor.
 
@@ -9862,10 +9864,8 @@ public class ShowSingletonController : WindowController {
 Ejecute la aplicación y compruebe que la acción Mostrar singleton está disponible y que puede modificar el singleton utilizando esta acción.
 
 **WinForms**  
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/7551e581-be5f-4a25-9b0b-04f7fca56eb8)
 
 **ASP.NET formularios web**  
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b7317f4d-12d6-4745-9105-01d38df0955c)
 
 **Blazor**  
 ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/dfac401b-093b-4a35-a1c5-0bc6ada9d44a)
