@@ -4802,15 +4802,16 @@ Las acciones son elementos abstractos de  [la interfaz de usuario](https://docs.
 En la interfaz de usuario, XAF puede mostrar acciones como los siguientes controles:
 
 - Un botón de barra de herramientas
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b8511ae9-3036-4b75-9ede-924b324eac39)
 
 - Un elemento de menú contextual
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/eb57041e-445c-49f8-8455-4c4ea55bb732)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b3bc6a12-6104-4aaf-b42f-9b67ee9824e9)
 
 -  Un editor 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/47da527b-bb1c-4b6d-b26a-9d966abb2faa)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/41bff192-83b1-4beb-96a6-d43044a2c110)
 
 - Un botón simple 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ba6a235d-41c0-46be-8428-651f00fbd3f6)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/be4d673a-d232-4a81-aa03-b22e64cf6563)
 
 - Otros controles
 
@@ -4986,7 +4987,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## ASP.NET  Core Blazor
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/56d17fd5-a18f-435d-93a1-bbac11f92431)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/9baad881-8493-4cd9-8da4-0ba33b1ece4a)
 
 **Documentación**
 
@@ -5000,7 +5001,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## Formularios de Win
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/54f11e30-d4db-40b1-93b1-d59e34225d13)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2ad3b9ec-b810-4897-aef3-7e511ca225eb)
 
 **Documentación:**
 
@@ -5016,7 +5017,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## Formularios Web Forms ASP.NET
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/699441d7-b4ac-4ecd-943f-ef3b5baddada)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0cfe5225-261f-406b-833c-5b23a4ae2a23)
 
 **Documentación:**
 
@@ -5040,7 +5041,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## Formularios de Win
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/7fb73c6b-77da-46d7-b4ad-9e22c8cd94b2)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/dcac89ef-4732-4141-b00a-e30fe6a0e735)
 
 **Documentación:**
 
@@ -5058,7 +5059,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## Formularios Web Forms ASP.NET
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/71e01b42-5d1e-485d-9baa-db236fb7e77c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0717c59d-12e0-46c9-bb0d-c18786dfb51f)
 
 **Documentación:**
 
@@ -5081,7 +5082,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## Formularios de Win
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b1b75da0-d7c5-4c60-acc9-01f251f0f892)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/15d4b042-74a2-4d6d-aabe-5e19ae6fd829)
 
 **Documentación:**
 
@@ -5094,7 +5095,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## Formularios Web Forms ASP.NET
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/103bda78-6f5a-4f6c-b048-84f035815792)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4fc681dc-75d2-4433-8f6b-c74ddc632b5e)
 
 **Documentación:**
 
@@ -5110,7 +5111,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## Formularios de Win
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/0c5af38a-e416-4fd3-a35a-9ea32c1357e8)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/74c1ff24-0b32-4bc7-8413-f08c89ec05d9)
 
 **Documentación:**
 
@@ -5120,7 +5121,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## Formularios Web Forms ASP.NET
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b4efa5bb-c01a-4aff-9765-0a5c7411b622)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5e8303fd-346a-48cb-baf3-085db1d699a7)
 
 **Documentación:**
 
@@ -5136,7 +5137,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## Formularios de Win
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/6e53abf7-1cb4-4696-82be-306a321a336a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/e011135b-9c37-4480-93ea-6354d3fed138)
 
 ### Documentación
 
@@ -5145,7 +5146,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## Formularios Web Forms ASP.NET
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/dfe5e155-14ca-478c-b815-9b81b0e4b78b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0e833950-c460-4171-a467-72a3a8b41d7b)
 
 ### Documentación
 
@@ -5154,7 +5155,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## ASP.NET  Core Blazor
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b059c9de-3607-4447-a39d-d4e960e27ba1)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/81e28336-c022-48de-a70e-a7b17219428e)
 
 Consulte el tema siguiente para obtener más información sobre cómo configurar las opciones de búsqueda:  [Personalizar un editor de propiedades integrado (Blazor).](https://docs.devexpress.com/eXpressAppFramework/402188/ui-construction/view-items-and-property-editors/property-editors/customize-a-built-in-property-editor-blazor)
 
@@ -5166,7 +5167,7 @@ Utilice esta sección para agregar y manipular  [acciones](https://docs.devexpre
 
 ## Formularios de Win
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/91702a09-dec8-4899-bf94-c1a89af80ee2)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/321882bb-9067-4f26-8484-f5dfddfe8257)
 
 **Documentación:**
 
@@ -5181,7 +5182,7 @@ Utilice esta sección para agregar y manipular  [acciones](https://docs.devexpre
 
 ## Formularios Web Forms ASP.NET
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/c6922583-fe70-441f-815e-87f7fdc71bfd)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5ffd34c2-2508-4e9b-adb5-b83153a5a912)
 
 **Documentación:**
 
@@ -5196,7 +5197,7 @@ Utilice esta sección para agregar y manipular  [acciones](https://docs.devexpre
 
 ## ASP.NET  Core Blazor
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/3ebd188f-d49e-4b27-867c-b68999e8e292)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b6672838-fc12-4c7d-a133-46c2875da269)
 
 **Documentación:**
 
@@ -5211,7 +5212,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## Formularios de Win
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/d726c2d1-1340-4508-be36-ce42f186ec7e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c0adc730-7e1f-4797-b866-717864f1285b)
 
 **Documentación:**
 
@@ -5220,7 +5221,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 ## Formularios Web Forms ASP.NET
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/6e8caa3c-f6f3-4f20-a72e-b8666e848e20)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/6ad24317-e4a7-4353-a302-5bc541a8ff63)
 
 **Documentación:**
 
@@ -5239,7 +5240,7 @@ Puede realizar  [tareas comunes](https://docs.devexpress.com/eXpressAppFramework
 
 En este ejemplo se muestra cómo personalizar el control que visualiza una  [acción](https://docs.devexpress.com/eXpressAppFramework/112622/ui-construction/controllers-and-actions/actions)  en una interfaz de usuario. Se creará una acción personalizada, que permitirá a los usuarios introducir una fecha y filtrar la vista de lista en consecuencia. La acción implementada aceptará la entrada del teclado y proporcionará un calendario desplegable. El control que representa la acción se personalizará para aceptar la entrada del teclado mediante una máscara personalizada. La siguiente imagen muestra la acción resultante en una interfaz de usuario.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/4519c118-f84d-4f1a-af3e-90f129f26d78)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/3913dfc7-19cd-4d93-8e76-d4887085409b)
 
 >NOTA
 >
@@ -5429,7 +5430,7 @@ public class CustomizeActionControlControllerBlazor : Controller {
 
 ```
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/27ac5723-4d89-46fc-8e5a-8786b1ee2a61)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/6799cad0-586e-4b32-adbb-845e9ea8a1a0)
 
 
 # Cómo: Crear una acción mediante el atributo Action
@@ -5497,15 +5498,15 @@ public void Complete() {
 
 **WinForms**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/62e3e6c6-86d8-4a61-b238-0aaf7ae6b743)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/e8696a5c-4da1-4625-a8db-f5ff266fd3e6)
 
 **ASP.NET formularios web**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/5eb49323-2b61-47ff-b3f1-25e50777f2c2)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/cfa99086-b64d-48e5-9e18-ddb69f74ff67)
 
 **Blazor**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/be99f295-c869-415d-babf-40e478889f72)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/a2ecdd37-c94d-423e-9243-0e5fd0e9722f)
 
 ## Crear una acción que muestre el cuadro de diálogo emergente
 
@@ -5574,15 +5575,15 @@ Como resultado, la acción  **Task.Postpon**, que acompaña a las vistas de  **t
 
 **WinForms**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/3ab517b3-5737-4d72-b61b-814ad54efa2c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2d544498-5589-41a1-a9f7-2f7bd37d8a00)
 
 **ASP.NET formularios web**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/3657466a-da80-4c2b-a49e-de995854283e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ff93ef8f-8f1e-4b51-962a-4d85b8f9e26b)
 
 **Blazor**
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/a765df1c-2e89-4e95-af12-299f5829af47)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b661edaf-3e09-4227-8a30-6a9f55f149be)
 
 >PROPINA
 >
@@ -5612,13 +5613,13 @@ public class PostponeParametersObject {
 
 Si ya ha ejecutado una aplicación de formularios Windows Forms o ASP.NET Web Forms, es posible que observe que los editores de propiedades de búsqueda, que muestran propiedades de referencia, contienen una lista de objetos existentes del tipo especificado en el menú desplegable. Del mismo modo, la ventana emergente de la acción de vínculo muestra una lista de objetos disponibles del tipo especificado. La siguiente imagen muestra tanto la ventana desplegable del Editor de propiedades de búsqueda como la ventana emergente de la Acción de vínculo:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b8930d67-bcfd-4842-8dd1-50f895f8a1ee)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/05e75296-9c93-4c7f-ac23-35470369152b)
 
 Sin embargo, este enfoque para mostrar simultáneamente todos los objetos, no es apropiado cuando hay muchos objetos para mostrar. Por lo tanto,  **eXpressApp Framework**  proporciona una funcionalidad de  **búsqueda**  incorporada. En este tema se detalla cómo activarlo.
 
 La funcionalidad de búsqueda se activa en WinForms y ASP.NET aplicaciones de formularios Web Forms cuando una vista de lista en un editor de propiedades de búsqueda o una ventana emergente de acción de vínculo contiene más  **de**  25 objetos de forma predeterminada. Puede cambiar este número. Para ello, utilice la propiedad  [IModelOptions.LookupSmallCollectionItemCount](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelOptions.LookupSmallCollectionItemCount)  del nodo  **Opciones**  del  [modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works).
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/3dee6031-833c-400e-b68c-917a24d850c9)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/62399312-3105-4037-bf5b-8b77756d3605)
 
 Esta propiedad especifica el recuento mínimo de objetos que deben estar en una vista de lista para activar la funcionalidad de búsqueda.
 
@@ -5626,9 +5627,9 @@ En ASP.NET aplicaciones Core Blazor, la funcionalidad de búsqueda se activa en 
 
 La funcionalidad  **de búsqueda**  es proporcionada por un editor y el botón  **Buscar**:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/02b81d10-dd36-4866-9e56-f9e8b2363552)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/a7729a24-4ac0-4106-b100-737e28c778b6)
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/60525129-cb6d-448a-ba18-287b8f7de8d3)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/bfc10f84-52a7-40d9-aacd-a8703d582f0d)
 
 Este botón ejecuta la acción  [FilterController.FullTextFilterAction de FilterController.](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.FilterController.FullTextFilterAction)  [](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.FilterController)Esta acción filtra el origen de la colección de la vista de lista, buscando los objetos cuya representación de cadena de propiedades incluye el valor especificado por un usuario final. Las propiedades incluyen las que se enumeran en  **Vistas**  |  **_<ListView>_**  nodo que define la vista de lista, sin importar si es visible o invisible, persistente o no persistente. Para obtener más información, consulte la descripción de la clase  [FilterController](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.FilterController).
 
@@ -5745,7 +5746,7 @@ Para agregar la capacidad de analizar datos en su aplicación,  **eXpressApp Fra
 
 En la siguiente imagen se muestra la acción  **AnalyzeData**  que está disponible para una vista de lista de contactos. Al hacer clic en esta acción, se muestra un objeto Análisis recién creado en una vista de detalles invocada. Las propiedades  **Name**  y  **DataType**  del objeto se especifican automáticamente.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b39b4bbd-fa88-43a9-8d7f-af08dbe146ec)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/a4700b2a-5098-4e38-a9f0-efb27d3923ed)
 
 
 # Cómo: Personalizar la lista de elementos de la nueva acción
@@ -5823,7 +5824,7 @@ namespace CustomizeNewActionItemsListExample.Module.Controllers {
 
 Puede ocultar o deshabilitar una  [acción](https://docs.devexpress.com/eXpressAppFramework/112622/ui-construction/controllers-and-actions/actions). Si una acción (botón) está desactivada, aparece atenuada. La tabla siguiente muestra diferentes estados de acción.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ff608734-f67c-4fec-b17c-9d0fef825b2e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/e7d0b1c9-af06-49ae-adb9-d9d2c7f5609c)
 
 
 XAF le permite cambiar el estado de las acciones personalizadas e integradas. En el tema siguiente se describe cómo identificar las acciones integradas:  [determinar el controlador y el identificador de una acción](https://docs.devexpress.com/eXpressAppFramework/113484/ui-construction/controllers-and-actions/determine-an-actions-controller-and-identifier).
@@ -5981,7 +5982,7 @@ Como resultado, la  **acción1**  aparece atenuada en la interfaz de usuario cua
 
 Si  [reemplaza la acción predeterminada de una vista de lista](https://docs.devexpress.com/eXpressAppFramework/112820/ui-construction/controllers-and-actions/actions/how-to-replace-a-list-views-default-action), es posible que también desee ocultar la columna  **Editar**  acción sin desactivar la acción de  **edición**  que se muestra en la barra de herramientas. En este tema se describe cómo resolver esta tarea.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/70028662-38fd-400b-a91d-7d060d5fc231)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/56f5b9c3-b7ed-4a1e-9d48-c8e92f79e6f4)
 
 En un proyecto de módulo de formularios Web Forms ASP.NET, cree la siguiente clase  [de View Controller](https://docs.devexpress.com/eXpressAppFramework/112621/ui-construction/controllers-and-actions/controllers).
 
@@ -6016,7 +6017,7 @@ public class HideEditColumnController : ObjectViewController<ListView, Contact> 
 
 Como resultado, la columna  **Editar**  acción está oculta:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/c79fb0b0-356b-4dd3-b948-65824a2b452f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/460a1361-1107-4277-849a-9e2c801bc1b9)
 
 
 # Cómo: Inicializar un objeto creado mediante la nueva acción
@@ -6135,15 +6136,15 @@ En la interfaz de usuario de una aplicación XAF,  [las](https://docs.devexpress
 
 Suponga que tiene la acción  **MyAction**  implementada en  MyController  [Controller](https://docs.devexpress.com/eXpressAppFramework/112621/ui-construction/controllers-and-actions/controllers). La propiedad  [ActionBase.Category](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Actions.ActionBase.Category)  se establece en  **Ver**  para esta acción. Esto significa que la acción se muestra dentro del contenedor  **Ver**  acción. Este contenedor también puede contener otras acciones: acciones personalizadas y acciones de módulos a los que se hace referencia. Para reordenar las acciones del contenedor de acciones de  **vista**  (o cualquier otro contenedor de acciones), invoque el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  para el proyecto de aplicación WinForms, ASP.NET formularios Web Forms o ASP.NET Core Blazor. Localice  **ActionDesign**  |  **ActionToContainerMapping**  |  **Ver**  nodo. La siguiente imagen muestra que hay tres acciones en el contenedor  **de acciones de vista**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/c1470e56-90e7-469a-a00b-bd2af6bd82dd)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1fd542a0-599f-462e-b86a-d56f69bcd968)
 
 Para reordenar estas acciones, cambie la propiedad  **Index**  para cada acción. Por ejemplo, utilice el valor "0" para  **MyAction**, "1" - para  **Refresh**, "2" - para  **ExecuteReport**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ea41ffff-dbaa-44f7-a3d1-2e77fbb80e28)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/68fc1478-8df8-4b86-bab5-92d27a37e911)
 
 Si ejecuta la aplicación, puede asegurarse de que el orden de las acciones se cambia de la siguiente manera.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/7adce754-1930-45c9-8c4e-393a0ce8d6a8)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b8ca14d0-7966-4f0e-b244-ad6701778967)
 
 >NOTA
 >
@@ -6275,7 +6276,7 @@ public class WriteMailController : ViewController {
 
 La siguiente imagen muestra que la acción  **EscribirCorreo**  se ejecuta al hacer clic en un registro en la vista de lista de los objetos  **AddressBookRecord**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/dc6e57c9-9812-4962-9cd0-ee7c84f9a57d)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c0e9834f-afa0-44f7-bae7-b644575ce4c0)
 
 Puede observar que ahora no hay ninguna opción para invocar una vista detallada para editar un registro. Puede agregar al siguiente Controller para solucionar esto.
 
@@ -6302,7 +6303,7 @@ public class EditAddressBookRecordController : ViewController<ListView> {
 
 ```
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/8cf9233b-be74-4c4a-b575-827e93888ee0)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/74adc540-177c-4d6d-8858-0e07d5b407b4)
 
 >NOTA
 >
@@ -6376,7 +6377,7 @@ protected override void OnActivated() {
 
 La siguiente imagen ilustra que la acción  **PhoneCall**  se ejecuta al hacer clic en un registro en la vista de lista de los objetos  **AddressBookRecord**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/d2deb8e3-e470-403c-b313-932c737cd0dd)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/910598ff-a9b9-4abb-9005-568865965411)
 
 No se recomienda suscribirse al evento  **CustomProcessSelectedItem**  de  **ListViewProcessCurrentObjectController**, como se muestra al principio de este tema, ya que existe la posibilidad de que  **PhoneCallController**  se active después de  **WriteMailController**, por lo que la acción  **WriteMail**  seguirá siendo la predeterminada.
 
@@ -6404,11 +6405,11 @@ En la aplicación  **MainDemo**, la acción pertenece al contenedor de acciones.
 
 ASP.NET Core Blazor
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/dcff728c-8057-4623-8b92-bc3855201704)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1e51c8a5-924f-4052-8023-a3925600ca31)
 
 Windows Forms
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/d48c5399-a51a-40fa-9095-bdfaf656638c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4866f0e7-e294-4fed-a08f-ddce100e7338)
 
 Las instrucciones a continuación explican cómo mudarse a otra ubicación.`ClearTaskAction`
 
@@ -6418,19 +6419,19 @@ Las instrucciones a continuación explican cómo mudarse a otra ubicación.`Clea
     
 3.  Expanda el nodo  **RecordEdit**. Arrastre el nodo secundario  **ClearTasksAction**  al nodo  **View**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/6f55bdd7-9c18-4cba-bcdc-f774876858a5)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b58eb2d7-22e5-426e-8c6b-9c9141d359ae)
 
 
 4.  Guarde los cambios y ejecute la aplicación. Cuando se invoca la Vista de detalles del  **empleado**, la acción aparece en una ubicación diferente:`ClearTaskAction`
+
+**ASP.NET Core Blazor**
     
-    ASP.NET Core Blazor
-    
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/cfd8c21a-1a1f-4c26-8e4c-77db683795d1)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/6345ef0c-7358-4542-9f30-8110aa31f040)
 
     
-Windows Forms
+**Windows Forms**
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/5aed92c8-7134-49ec-b781-dbf9a63b2807)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0c7fb3a6-95d4-4788-98a9-7ef1db357eb4)
 
 
 >PROPINA
@@ -6454,11 +6455,13 @@ Un  _modelo de aplicación_  son metadatos que definen la estructura de navegaci
 Las instrucciones siguientes explican cómo cambiar la información sobre herramientas y el mensaje de confirmación del botón  **Borrar tareas**  en la  [barra de herramientas principal](https://docs.devexpress.com/eXpressAppFramework/400496/ui-construction/controllers-and-actions/actions/access-actions-in-different-ui-areas/menu-main-toolbar).
 
 1.  En el  **Explorador de soluciones**, expanda el proyecto y haga doble clic en el archivo  _Model.DesignedDiffs.xafml_  para abrirlo en el  **Editor de modelos**.`MainDemo.Module`
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/d6be1999-2535-45be-9c44-10dae9a130ac)
+
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4a9ebd18-0ba0-44c6-ba1f-fbe89d9d3a00)
     
     
 2.  Vaya a  **ActionDesign**  |  **Acciones**  |  **Nodo ClearTasksAction**. En el panel derecho, busque la sección  **Varios**  de las propiedades.
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/457b329b-3fef-45b4-925b-4b12d203a49e)
+
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ace401a3-e4cd-4c25-8f8f-3f6491a0318b)
     
     
 3.  Establezca la propiedad en .`ConfirmationMessage``This action will remove all tasks of the current Employee. Do you still want to proceed?`    
@@ -6466,24 +6469,27 @@ Las instrucciones siguientes explican cómo cambiar la información sobre herram
 5.  Guarde los cambios y ejecute la aplicación. Abra la vista Detalles del  **empleado**. Desplace el puntero del mouse sobre el botón  **Borrar tareas**  para ver la información sobre herramientas:
     
     ASP.NET Core Blazor
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/710405cf-5bc1-45d9-a008-b03a39cd4099)
+    ![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/61b4c46c-1c42-4987-a9e2-dcc506df20ba)
+
 
         
     Windows Forms
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ffb26344-18ec-4823-8a85-ca314b161a84)
+    ![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2cd25c04-8075-4e8d-adab-e0c18f1c6aba)
+
 
     
 6.  Haga clic en el botón  **Borrar tareas**  para ver el mensaje de confirmación:
     
     ASP.NET Core Blazor
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/c242cd6f-173a-4b01-89a9-e277a7eee1e2)
+    ![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0f1a0385-0c99-472d-a9c4-929c8aa4c256)
 
     
     Windows Forms
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/3566eb00-1a64-4215-9e4d-478af8806ca9)
+    ![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/942d4b71-b719-4997-91e3-9d4883d261da)
+
 
     
 
@@ -6598,7 +6604,7 @@ En este ejemplo, un comportamiento Action se personaliza a través de un único 
 Una ventana emergente contiene una  [vista](https://docs.devexpress.com/eXpressAppFramework/112611/ui-construction/views)  (vista de detalle o de lista) y  [acciones](https://docs.devexpress.com/eXpressAppFramework/112622/ui-construction/controllers-and-actions/actions), como cualquier otra ventana. Las acciones se muestran mediante los  [contenedores de acciones](https://docs.devexpress.com/eXpressAppFramework/112610/ui-construction/action-containers)  de la plantilla de la ventana. Si necesita agregar una acción a una ventana emergente, debe agregarla al contenedor de acciones de la plantilla adecuada. En este tema se detalla qué plantillas integradas se usan para mostrar ventanas emergentes y cómo agregar acciones a sus contenedores de acciones. Para obtener información sobre cómo mostrar una ventana (una ventana emergente o no) de una acción, consulte el tema  [Formas de mostrar una vista](https://docs.devexpress.com/eXpressAppFramework/112803/ui-construction/views/ways-to-show-a-view/ways-to-show-a-view).
 
 Las siguientes plantillas integradas se utilizan para mostrar ventanas emergentes:
-![Sin título](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/6bc98883-beb9-4ee4-a4d2-01f6e17f471f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/698eab92-e666-416e-9a1b-b0c01889f279)
 
 
 The  **ButtonsContainer**  Action Container displays all Action types as a button. However, the button’s  **Click**  event is handled in different ways for different Action types:
@@ -6825,19 +6831,19 @@ La acción de información de diagnóstico se implementa en el contenedor  **de*
 
 WinForms
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/06bac9ce-4ae5-45ee-a1cb-d4878e331cbf)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1319ea01-122b-44c8-996c-681a52f1b5ca)
 
 ASP.NET formularios web
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/18b96681-1a8a-442c-8e60-7960a8cec53d)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/006b5676-8973-4519-a930-454a5417e1d4)
 
 ASP.NET Core Blazor
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/5374d63c-726d-41df-9e3f-3c792d90e36e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/040aadf4-7376-49e6-860d-30c48d092eb5)
 
 La acción de  **información de diagnóstico**  es  [SingleChoiceAction](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Actions.SingleChoiceAction). Al hacer clic en el elemento de esta acción, invoca una ventana de diálogo con la vista de detalles  **de DiagnosticInfoObject_DetailView**. La propiedad contiene información en formato XML.`DiagnosticInfoObject.AsText`
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/375576e5-5895-437c-9104-e3bcaa9a9816)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5dccfe85-8188-45e6-863b-d7780c4fc72c)
 
 ## Analizar el resultado de la acción Información de diagnóstico
 
@@ -7103,7 +7109,7 @@ La propiedad  **Controller.Active**  también afecta a la visibilidad de todas l
 
 Los siguientes miembros le ayudarán a especificar las condiciones necesarias para la activación del Controller:
 
-![Sin título](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/25865db7-2962-4b7e-8bbc-9d1da22b0d0b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2c3d6f7f-07bc-4e08-9333-e7c014d4e22c)
 
 
 ### Activar un controlador para vistas y objetos particulares
@@ -7138,7 +7144,7 @@ En la mayoría de los casos, puede desactivar (desactivar) un  [Controlador](htt
 
 También es posible definir las  [vistas](https://docs.devexpress.com/eXpressAppFramework/112611/ui-construction/views)  y  [ventanas](https://docs.devexpress.com/eXpressAppFramework/112608/ui-construction/windows-and-frames)  de destino para cada acción individualmente. Para ello, utilice las siguientes propiedades:
 
-![Sin título](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/6b08de7d-4bb8-4ea2-a742-e8e2053d3882)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/6ec92f7c-2cf9-4125-8d8e-d3fc0e921ad5)
 
 
 Estas propiedades controlan si una acción está visible en determinadas vistas y ventanas. Consulte el tema  [ActionBase.Active](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Actions.ActionBase.Active)  para conocer otras formas de controlar el estado de visibilidad (por ejemplo, ocultar una acción en función del valor de propiedad de un objeto de negocio).
@@ -7182,7 +7188,8 @@ Aquí, el valor  **Controller.Name**  es el nombre del controlador de la acción
 
 Si conoce el identificador de la acción, puede determinar el controlador de la acción en el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  mediante la propiedad  [IModelAction.Controller](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelAction.Controller)  de  **ActionDesign**  |  **Acciones**  |  **_<Acción>_**  nodo. En el Editor de modelos, los identificadores de acción (consulte  [ActionBase.Id](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Actions.ActionBase.Id)) se usan como leyendas de nodo  **de acción**, en lugar de leyendas visibles en la interfaz de usuario. Por lo tanto, para localizar fácilmente una acción es el Editor de modelos, debe conocer su identificador.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/dbcc4f5e-b2ba-4555-bff7-ded18458613a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1fb88b94-32f2-4369-910f-612d8e4bffda)
+
 
 Si el identificador es desconocido, utilice la propiedad  [IModelAction.Caption](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelAction.Caption)  que especifica el título de acción visible para los usuarios para comprobar si esta es la acción que está buscando.
 
@@ -7318,7 +7325,7 @@ El  **marco eXpressApp**  proporciona  [plantillas](https://docs.devexpress.com/
 
 Se crea una plantilla mediante el método  [XafApplication.CreateTemplate.](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.XafApplication.CreateTemplate(System.String))  Este método es invocado por un objeto  [Window](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Window)  o  [Frame](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Frame). El tipo de plantilla se determina mediante la propiedad  **Context**  del objeto autor de la llamada, inicializada en el constructor. En la tabla siguiente se enumeran los contextos disponibles y los tipos de plantilla correspondientes.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/075c16eb-3487-4e3b-8ba8-ac3993777b9e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f32d85bd-fdef-40b2-91c8-fb516ba0b614)
 
 
 La plantilla creada se asigna a la propiedad  [Window.Template](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Window.Template)  de la ventana y, a continuación, la vista de la ventana (consulte Frame.View) se asigna a la plantilla mediante su método  [Frame.SetView.](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Frame.SetView.overloads)[](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Frame.View)
@@ -7327,7 +7334,7 @@ Para implementar una plantilla personalizada, utilice  [proyectos de módulo](ht
 
 Puede crear una plantilla personalizada heredando de un control e implementando la interfaz  [IFrameTemplate](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Templates.IFrameTemplate)  o  [IWindowTemplate](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Templates.IWindowTemplate). Para proporcionar ejemplos de implementación de plantillas, la instalación de  **eXpressApp Framework**  proporciona plantillas de código para cada tipo de plantilla. Para crear una plantilla para la aplicación mediante una plantilla de código, invoque la  [Galería de plantillas](https://docs.devexpress.com/eXpressAppFramework/113455/installation-upgrade-version-history/visual-studio-integration/template-gallery)  y elija la plantilla de código necesaria en la categoría  **Plantillas de WinForms de XAF**. Especifique un nombre para la nueva plantilla y pulse  **Agregar**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ad5adc02-cb35-43fc-86bb-1dabdb390ba0)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/14457294-0ed5-4c9e-b3b7-611368111059)
 
 Puede personalizar la plantilla agregada en tiempo de diseño o en código. Para ver un ejemplo de plantillas basadas en cinta de opciones, consulte el tema  [Cómo: Crear una plantilla personalizada de cinta de WinForms](https://docs.devexpress.com/eXpressAppFramework/112618/ui-construction/templates/in-winforms/how-to-create-a-custom-winforms-ribbon-template). Para otras plantillas, consulte el tema  [Cómo: Crear una plantilla estándar de WinForms personalizada](https://docs.devexpress.com/eXpressAppFramework/113706/ui-construction/templates/in-winforms/how-to-create-a-custom-winforms-standard-template). Tenga en cuenta que todas las plantillas integradas suministradas con XAF son totalmente personalizables con el diseñador de Visual Studio y puede agregar fácilmente contenedores de  [acciones personalizados](https://docs.devexpress.com/eXpressAppFramework/112610/ui-construction/action-containers).
 
@@ -7399,7 +7406,7 @@ Para personalizar los scripts de JavaScript usados por las plantillas, controle 
 ## Plantillas
 
 ### LightStyleMainForm
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/154f1495-99bd-41c3-b13c-f7e7a7737042)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/63622ab3-5d97-4b7b-8a5c-be922b23bda5)
 
 **Clase:**  `LightStyleMainForm`
 
@@ -7408,7 +7415,7 @@ Para personalizar los scripts de JavaScript usados por las plantillas, controle 
 Muestra la ventana principal sin bordes excesivos. Para usar esta plantilla, establezca la propiedad  [IModelOptionsWin.FormStyle](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Win.SystemModule.IModelOptionsWin.FormStyle)  en  **Standard**  y  [WinApplication.UseLightStyle](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Win.WinApplication.UseLightStyle)  en  **true**.
 
 ### LightStyleMainRibbonForm
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/f6af16cf-2631-4405-997f-ff37d50d6eee)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c5005dd8-c4da-4063-9db9-23d3f6ca94af)
 
 **Clase:**  `LightStyleMainRibbonForm`
 
@@ -7418,7 +7425,7 @@ Muestra la ventana principal con el estilo de formulario de  [la cinta de opcion
 
 ### OutlookStyleMainRibbonForm
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b0c99472-0be8-4aba-9694-a424013c97a8)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c624a440-bc7a-4fdf-819d-d9d1569ccd36)
 
 **Clase:**  `OutlookStyleMainRibbonForm`
 
@@ -7428,7 +7435,7 @@ Se utiliza para mostrar la ventana principal con el estilo de formulario de Outl
 
 ### DetailFormV2
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/415adfbe-a7ac-4a57-bf4c-639795a8f0cf)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/53663f94-428b-473e-9925-13c5556cfb77)
 
 **Clase:**  `DetailFormV2`
 
@@ -7438,7 +7445,7 @@ Muestra una vista detallada en una ventana nueva. Para utilizar esta plantilla, 
 
 ### DetailRibbonFormV2
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/c065db89-f6b6-48f7-9b83-98d8f95555c3)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/88e02080-3bf5-463c-a48b-2033ad9cea09)
 
 **Clase:**  `DetailRibbonFormV2`
 
@@ -7448,7 +7455,7 @@ Muestra una vista detallada en una ventana nueva con el estilo de formulario de 
 
 ### PopupForm
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/77d947fe-cb01-43f9-a45e-1d6815f3a1e2)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/625b13a9-6397-4ea9-99d0-3df789d1d4f6)
 
 **Clase:**  `PopupForm`
 
@@ -7457,7 +7464,7 @@ Muestra una vista detallada en una ventana nueva con el estilo de formulario de 
 Se utiliza para mostrar ventanas emergentes con una vista detallada. Por ejemplo, la plantilla PopupForm muestra un formulario de inicio de sesión.
 
 ### NestedFrameTemplateV2
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/dfb9fc73-e74a-4144-a937-8610a897f600)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/015cc697-8ccf-4d8f-8dbe-c7df82bb8f8e)
 
 **Clase:**  `NestedFrameTemplateV2`
 
@@ -7467,7 +7474,7 @@ Se utiliza para mostrar una ventana o marco anidado en otra ventana o marco. Por
 
 ### LookupForm
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/74d7576d-fe6c-440c-b981-1344f7936863)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4026c385-32fb-48d8-84d0-546bf09e550f)
 
 **Clase:**  `LookupForm`
 
@@ -7477,7 +7484,7 @@ Se utiliza para mostrar ventanas emergentes con una vista de lista. Por ejemplo,
 
 ### LookupControlTemplate
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/eaee5c66-e6e8-4702-a973-6854626e1ac6)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0afa79b0-5a0a-4b1e-856a-3d6e063c9a47)
 
 **Clase:**  `LookupControlTemplate`
 
@@ -7489,7 +7496,7 @@ Se utiliza para mostrar una ventana desplegable del Editor de propiedades de bú
 
 ### MainFormV2
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/436043b2-4ad7-4d11-a486-4f4e3063e166)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/7813243a-6eef-4bb2-b140-8dbca03d316b)
 
 **Clase:**  `MainFormV2`
 
@@ -7499,7 +7506,7 @@ Muestra la ventana principal. Para utilizar esta plantilla, establezca la propie
 
 ### MainRibbonFormV2
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/094b4322-3bcb-4587-babc-8122f70bafd9)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/79c44c8f-0e04-4ac0-a27c-205cbb6c018e)
 
 **Clase:**  `MainRibbonFormV2`
 
@@ -7557,7 +7564,7 @@ public class BarManagerCustomizationWindowController : Controller {
 
 Ejecute la aplicación para asegurarse de que no se permite la personalización de barras.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/9a2eeacc-2cb9-4997-b8d6-c47631fd6b07)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f1fb3d14-5e4a-4a3b-9b14-e20399f99735)
 
 
 # Cómo: Acceder al Administrador de documentos
@@ -7565,7 +7572,7 @@ Ejecute la aplicación para asegurarse de que no se permite la personalización 
 
 En este tema se muestra cómo tener acceso al  [Administrador de documentos](https://docs.devexpress.com/WindowsForms/11359/controls-and-libraries/application-ui-manager)  que  [MdiShowViewStrategy](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Win.MdiShowViewStrategy)  utiliza para mostrar  [vistas](https://docs.devexpress.com/eXpressAppFramework/112611/ui-construction/views)  en una aplicación de WinForms. Localizará los títulos de las pestañas a la izquierda y los orientará horizontalmente.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/fcbfe25b-3202-4a36-b6b1-4d8fb60aa466)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/662428fc-cf42-44a0-8ad4-f48008d843fd)
 
 >PROPINA
 >
@@ -7699,15 +7706,15 @@ En este ejemplo se muestra cómo hacer lo siguiente:
 
 1.  En el  **Explorador de soluciones**, haga clic con el botón secundario en el proyecto  **YourApplicationName.Win**  y elija  **Agregar elemento DevExpress**  |  **Nuevo artículo...**  para invocar la  [Galería de plantillas](https://docs.devexpress.com/eXpressAppFramework/113455/installation-upgrade-version-history/visual-studio-integration/template-gallery). Seleccione  **XAF WinFormsTemplates**  |  **Elemento de plantilla de formulario de cinta de opciones**. Haga clic en  **Agregar elemento**.
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b2fb568c-14ef-4fba-ae6a-11a88a3e72e0)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/30eb81c5-6cf2-4b67-9542-d978701482b5)
     
 2.  En el  **Ribbon Form Designer** invocado, enfoque el control de cinta de opciones, haga clic en la etiqueta inteligente de la esquina superior derecha y haga clic en  **Ejecutar diseñador**.
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/f4c691b8-d1f0-464d-877d-a2f813d79fd9)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/7894d83e-3cd1-4fe0-9dd7-8cd67ab27395)
     
 3.  En el Diseñador de controles de cinta  **XAF**  invocado, elija el elemento Barras de herramientas en el panel de navegación y cree un nuevo grupo de páginas de  [la cinta de opciones](https://docs.devexpress.com/WindowsForms/2493/controls-and-libraries/ribbon-bars-and-menu/ribbon/visual-elements/ribbon-page-group).  Puede agregarlo a una página de cinta existente o crear una categoría de página personalizada, agregar una nueva página de cinta de opciones y crear un nuevo grupo de páginas  [de cinta](https://docs.devexpress.com/WindowsForms/2494/controls-and-libraries/ribbon-bars-and-menu/ribbon/visual-elements/ribbon-page)  en esta  [página](https://docs.devexpress.com/WindowsForms/3327/controls-and-libraries/ribbon-bars-and-menu/ribbon/visual-elements/categories-and-contextual-tabs).
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/9f5e616a-583b-4114-b6f2-0c8469e8a895)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f654b898-a849-4234-91f1-e95cb3dff8f5)
     
     >NOTA
     >
@@ -7715,7 +7722,7 @@ En este ejemplo se muestra cómo hacer lo siguiente:
     
 4.  Cierre la ventana  **Diseñador de controles de cinta XAF**. En el Diseñador de formularios de la cinta de opciones, haga clic con el botón secundario en el nuevo grupo de páginas de  **la cinta de opciones**  y elija  **Agregar contenedor de vínculos locales (BarLinkContainerExItem).**
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/4f74ccd7-03c0-4e1d-9d0d-c81994dbec59)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/188e517d-27a7-4021-ac97-805bfec9c7bb)
 
     >PROPINA
     >
@@ -7723,11 +7730,11 @@ En este ejemplo se muestra cómo hacer lo siguiente:
     
 5.  Haga clic en la etiqueta inteligente en la esquina superior derecha del elemento contenedor. En la ventana de propiedades mostrada, establezca la propiedad  **Caption**  en .`My Actions`
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/4afef1dc-1f44-4ec5-8a84-7e57556ee0e4)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/e5989c41-d741-49b9-b9fe-fb1bc0ee4cb1)
     
 6.  Cree un contenedor de acciones desde el contenedor de vínculos. Abra el Diseñador de controles de  **la cinta de opciones XAF**, elija los  **controles de acción XAF**  |  **Contenedor**  de acciones en el panel de navegación y arrastre el elemento  **Mis**  acciones de la lista  **Controles de contenedor de barras**  a la lista  **Contenedores de acciones**.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/330b0063-282d-4eae-ac45-fb2a2367951a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/e47db8df-70d5-480c-a480-138e5a29fcc7)
 
     
     >PROPINA
@@ -7736,7 +7743,7 @@ En este ejemplo se muestra cómo hacer lo siguiente:
     
 7.  Seleccione el elemento  **Mis**  acciones en la lista  **Contenedores de acciones**  y especifique la propiedad  **ActionCategory**. Por ejemplo, establézcalo en .`MyActionCategory`
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/d50f0eb5-b38a-4613-9958-4b012f8e25fb)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/7a75ed53-5b45-4db1-88a1-f9731d9f4468)
     
 8.  Cree una acción desencadenada por el botón del control Ribbon. Para obtener instrucciones paso a paso, consulte el siguiente tutorial detallado de XAF .NET 6+ WinForms & Blazor UI:  [Agregar una acción simple](https://docs.devexpress.com/eXpressAppFramework/402157/getting-started/in-depth-tutorial-blazor/add-actions-menu-commands/add-a-simple-action).
     
@@ -7798,7 +7805,7 @@ En este ejemplo se muestra cómo hacer lo siguiente:
     
     La siguiente imagen ilustra el resultado:
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/2ca76e2e-99b6-4662-81e6-06d5b967a95a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/865b1b75-1f6a-4a2a-ac7f-337f4e661726)
     
 
 >PROPINA
@@ -7859,11 +7866,11 @@ En este ejemplo se muestra cómo hacer lo siguiente:
 
 1.  En el  **Explorador de soluciones**, haga clic con el botón secundario en el proyecto  **YourApplicationName.Win**  y elija  **Agregar elemento DevExpress**  |  **Nuevo artículo...**  para invocar la  [Galería de plantillas](https://docs.devexpress.com/eXpressAppFramework/113455/installation-upgrade-version-history/visual-studio-integration/template-gallery). Seleccione las  **plantillas de WinForms de XAF**  |  **Elemento de plantilla de formulario de detalle**. Haga clic en  **Agregar elemento**.
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ce2dd6b9-771e-44f7-8ad3-9f4aa256a17f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f8f49d36-87ad-4b08-bfc7-c6c9cd7a9f7f)
     
 2.  En el Diseñador de formularios de  **detalles**  invocado, haga clic en el botón  **[Agregar]**  en la barra de menú principal y elija  **Menú (BarSubItem)**.
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/e4cd75a3-20cf-4e78-8d04-ae14ff724891)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/04291b61-6a8c-4f25-97fa-b64998dfe956)
     
    > PROPINA
     >
@@ -7871,15 +7878,15 @@ En este ejemplo se muestra cómo hacer lo siguiente:
     
 3.  En la barra de menú principal, enfoca la  **barra SubItem1**  recién agregada y haz clic en la etiqueta inteligente en la esquina superior derecha. En la ventana de propiedades mostrada, establezca la propiedad  **Caption**  en .`My Actions`
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/42c1a964-30d7-43ed-9ce3-5577da9c7007)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/94987b9b-adc3-4956-bd9a-81bf075d8096)
     
 4.  Haga clic en el elemento  **Mis acciones**  y haga clic en  **[Agregar]**  en el menú que aparece. Seleccione  **Contenedor de vínculos locales (BarLinkContainerExItem)**  en el menú emergente invocado.
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/f1d1857c-904f-4f8d-859e-d3a3ccfad1ed)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ed095270-b029-4143-a7ee-7df44a75ef84)
     
 5.  Enfoque el contenedor de vínculos recién agregado. En la ventana  **Propiedades**, establezca la propiedad  **Caption**  en .`My Actions`
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/20a1361e-87e0-43ad-9f49-9401ba158708)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ff92ec5d-3237-4bac-acd2-df4a4415c424)
     
     >PROPINA
     >
@@ -7887,12 +7894,12 @@ En este ejemplo se muestra cómo hacer lo siguiente:
     
 6.  Cree un contenedor de acciones desde el contenedor de vínculos. En el panel inferior del Diseñador de  **formularios detallado**, enfoque el control  **barManager**  y haga clic en la etiqueta inteligente de la esquina superior derecha. En el menú que aparece, haga clic en  **Ejecutar diseñador**.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/cfe06bd5-6eae-42ff-9986-cd1d70e12cfb)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/426f9214-7849-4154-b71a-6e63d9664abd)
 
     
 7.  En el diseñador de  **BarManager**  de XAF invocado (una extensión específica de XAF del  [Diseñador de Bar Manager](https://docs.devexpress.com/WindowsForms/5353/controls-and-libraries/ribbon-bars-and-menu/bars/bar-manager-designer)), elija  **los controles de acción de XAF**  |  **Contenedor**  de acciones en el panel de navegación y arrastre el elemento  **Mis**  acciones de la lista  **Controles de contenedor de barras**  a la lista  **Contenedores de acciones**.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/46f33152-7063-4929-b62e-f0a5a2075bf1)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/6297e4db-cb30-4707-b939-80517298349c)
 
     
     >PROPINA
@@ -7952,7 +7959,7 @@ En este ejemplo se muestra cómo hacer lo siguiente:
     
     La siguiente imagen ilustra el resultado.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/4b59f111-aa59-4b7e-90bc-81533eff64c4)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/451dc1b0-5280-46e5-8539-3e075c63fe80)
 
 >PROPINA
 >
@@ -7992,7 +7999,7 @@ winApplication.CreateCustomTemplate += delegate(object sender, CreateCustomTempl
 
 En las aplicaciones WinForms XAF, los usuarios finales pueden arrastrar el agarre de tamaño en la esquina inferior derecha para cambiar el tamaño de las ventanas. También puede personalizar el tamaño inicial del formulario en el código. En este tema se describe cómo cambiar el tamaño y personalizar las ventanas mediante programación en función de la vista mostrada. Las ventanas de diálogo emergentes se utilizan como ejemplo.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/88f5fa67-b3e7-4283-bddd-0e110437feb4)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/a777f3b4-6a2e-4848-8044-0b5653ba370f)
 
 >PROPINA
 >
@@ -8070,7 +8077,7 @@ Vea el ejemplo en la descripción de la clase  [PopupWindowShowAction](https://d
 
 Una barra de estado de una  [ventana](https://docs.devexpress.com/eXpressAppFramework/112608/ui-construction/windows-and-frames)  típica de una aplicación XAF de formularios Windows Forms muestra un nombre de usuario autenticado actualmente cuando la aplicación utiliza un  [sistema de seguridad](https://docs.devexpress.com/eXpressAppFramework/113366/data-security-and-safety/security-system).
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/10dcd4cf-569a-494c-ada8-b751e4959b4a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/61ee1ce3-0136-4a0d-af14-796067536de3)
 
 En este tema se describe cómo agregar un mensaje de estado personalizado y cómo reemplazar el mensaje predeterminado por uno personalizado.
 
@@ -8109,7 +8116,6 @@ Utilice la propiedad  [IsMain](https://docs.devexpress.com/eXpressAppFramework/D
 
 La siguiente imagen ilustra un mensaje de estado personalizado que se muestra junto con un mensaje predeterminado:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/048ac921-365e-4e1f-abde-19786e263e51)
 
 ## Reemplazar el mensaje de estado predeterminado
 
