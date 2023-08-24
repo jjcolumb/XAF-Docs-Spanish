@@ -16480,12 +16480,13 @@ Puede ver ejemplos con editores de listas de cuadrícula dinámica en la demostr
 1.  Haga doble clic en el archivo  _Model.DesignedDiffs.xafml_  del proyecto  **Module.Win**  para invocar el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  para este proyecto.
 2.  Navegar a las  **vistas**  |  **Order_ListView**  nodo. En la lista desplegable de la propiedad  **EditorType**  ([IModelListView.EditorType](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelListView.EditorType)), seleccione "DevExpress.ExpressApp.PivotGrid.Win.PivotGridListEditor" en lugar del Editor de lista predeterminado de XAF.
     
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ec14a114-2dc4-4861-8922-5fa8fb6c52dc)
 
     
 3.  Haga doble clic en el archivo  _Model.DesignedDiffs.xafml_  del proyecto  **Module.Web**  para invocar el Editor de modelos para este proyecto.
 4.  Navegar a las  **vistas**  |  **Order_ListView**  nodo. En la lista desplegable de la propiedad  **EditorType**, seleccione en lugar del Editor de lista predeterminado de XAF.`DevExpress.ExpressApp.PivotGrid.Web.ASPxPivotGridListEditor`
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/372eccf4-0c72-4901-92be-8ebdb0451731)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/a918675f-1b7f-4f6a-bf2a-afb5be4dd832)
 
     
 
@@ -16494,18 +16495,18 @@ Puede ver ejemplos con editores de listas de cuadrícula dinámica en la demostr
 1.  Invoque el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  desde el proyecto  **Module.Win.**
 2.  Navegar a las  **vistas**  |  **Order_ListView_PivotGrid**  |  **Nodo PivotSettings**.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/eae9a19c-1bbe-4c39-a680-51e9e936bcbb)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ec67aa87-77cc-45d0-9919-160a28f64aab)
 
     
 3.  Establezca el valor de la propiedad IPivotSettings.ShowChart en y  [IPivotSettings.CustomizationEnabled](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.PivotGrid.IPivotSettings.CustomizationEnabled)  en  [.](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.PivotGrid.IPivotSettings.ShowChart)`true``false`
 4.  Seleccione la propiedad  [IPivotSettings.Settings](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.PivotGrid.IPivotSettings.Settings)  y haga clic en el botón de puntos suspensivos para invocar el  [Diseñador de cuadrícula dinámica](https://docs.devexpress.com/WindowsForms/1825/controls-and-libraries/pivot-grid/design-time-features/pivotgrid-designer).
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/71ea3708-dc7a-4241-954d-2be6d6bc9b40)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d21619b4-1bcc-4032-a699-1aed2f1c8d3c)
 
     
 5.  En el Diseñador de  **cuadrícula dinámica**, vaya a  **Principal**  |  **Diseño**. Coloque el campo  **Nombre del producto**  en el área de encabezado de fila, el campo  **Cliente**  en el área Área de encabezado de columna y el campo  **Unidades compradas**  en el  [área de encabezado](https://docs.devexpress.com/WindowsForms/1685/controls-and-libraries/pivot-grid/ui-elements/row-header-area)  de  [datos](https://docs.devexpress.com/WindowsForms/1688/controls-and-libraries/pivot-grid/ui-elements/data-header-area), como se muestra en la captura de pantalla.[](https://docs.devexpress.com/WindowsForms/1686/controls-and-libraries/pivot-grid/ui-elements/column-header-area)  Arrastre los campos  **Categoría de producto**  y  **Precio**  al área  [Área de encabezado de filtro](https://docs.devexpress.com/WindowsForms/1684/controls-and-libraries/pivot-grid/ui-elements/filter-header-area)  para excluirlos de la tabla dinámica. Esto produce una tabla de cuadrícula dinámica que resume las ventas por cliente.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/a13763de-63c6-49aa-9156-1e90d1784328)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/32275902-8e8f-42cd-837a-8b3381a6763e)
 
     
 6.  De la misma manera, especifique la configuración del  [módulo de cuadrícula dinámica](https://docs.devexpress.com/eXpressAppFramework/113303/analytics/pivot-grid-module)  en el proyecto  **Module.Web.**
@@ -16514,12 +16515,12 @@ Puede ver ejemplos con editores de listas de cuadrícula dinámica en la demostr
 
 1.  Ejecute la aplicación de Windows Forms y seleccione el  [elemento de navegación](https://docs.devexpress.com/eXpressAppFramework/113198/application-shell-and-base-infrastructure/navigation-system)  **Ordenar**  para mostrar la tabla dinámica.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/62a5b4c0-ebbe-458f-a8a8-4b07e579dda6)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/cf0059c9-71fe-4530-809a-c40aaa058e55)
 
     
 2.  Ejecute la aplicación ASP.NET formularios Web Forms y compruebe que la tabla dinámica  **Pedir**  también está disponible.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/1a1761b5-8731-409c-b594-6495b1abba2d)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/11c1aadb-b495-45fe-9d93-fdc4ee924046)
 
     
 
@@ -16814,7 +16815,7 @@ Utilice el método  [Frame.GetController<ControllerType>()](https://docs.devexpr
 
 -   XAF utiliza DevExpress WinForms y ASP.NET controles de formularios Web Forms en las aplicaciones. Puede acceder y personalizar estos controles y widgets utilizando sus miembros. Si necesita ayuda,  [envíe un nuevo ticket](https://supportcenter.devexpress.com/ticket/create) al Centro de soporte y especifique la plataforma del control en el campo  **Plataforma/Categoría**.
 -   Si personaliza un control como se describe en las secciones anteriores y esto no surte efecto, controle uno de los siguientes eventos específicos de la plataforma:
-![Sin título](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/d1d34f13-f6e6-4aff-b447-f5bb9ad71ba0)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0e04d426-9bc5-4e7c-b140-b4fffacd5828)
 
 
 -   En ASP.NET aplicaciones de formularios Web Forms, también puede realizar personalizaciones específicas en el lado cliente (vea  [Información general sobre la funcionalidad del lado cliente](https://docs.devexpress.com/AspNet/4222/common-concepts/client-side-functionality)).
@@ -16989,7 +16990,7 @@ Después de ejecutar el código anterior:
     
 2.  Cuando un usuario hace clic en esta acción, la aplicación abre una vista detallada para el objeto seleccionado en una ventana emergente.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/83c5af99-05f9-4849-9fd4-d102cf3c4db0)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/7aa88da3-a7d1-4fb4-9e0d-baf544f43cee)
 
     
 3.  La ventana emergente utiliza un espacio de objetos independiente y muestra la acción  **de guardar**  que permite a los usuarios confirmar explícitamente los cambios. Puede utilizar cualquiera de las siguientes opciones para personalizar este comportamiento:
@@ -17055,7 +17056,7 @@ Este artículo cubre dos enfoques:
 
 En este tema se usa el escenario 'Vista de detalles de  **contacto**  con una vista de lista anidada de  **tareas**'. Puede encontrar las clases de negocio  **Contact**  y  **DemoTask**  correspondientes en la aplicación MainDemo (%_PUBLIC%\Documents\DevExpress Demos  23.1\Components\XAF\MainDemo_).
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/0f93b779-c3f5-4928-9e55-d5fe9901d6d1)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/6ab54f6c-6b54-4bb1-981a-b10a11b851e6)
 
 >NOTA
 >
