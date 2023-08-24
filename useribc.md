@@ -9832,7 +9832,7 @@ Después de agregar el código anterior, se creará un objeto singleton en la ba
 
 Una aplicación XAF puede mostrar un objeto singleton de diferentes maneras, dependiendo del propósito del singleton. En este tema se detallan dos técnicas posibles. El primero usa un  [PopupWindowShowAction](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Actions.PopupWindowShowAction)  y el segundo agrega un elemento en el control de navegación del formulario principal.
 
-### Usar la ventana emergenteMostraracción
+### Usar la ventana emergente Mostrar acción
 
 El código siguiente ilustra el controlador de ventana ShowSingleton que contiene la acción  **ShowSingleton**.  Esta acción muestra una ventana emergente con la vista detallada del objeto Singleton.
 
@@ -9864,28 +9864,30 @@ public class ShowSingletonController : WindowController {
 Ejecute la aplicación y compruebe que la acción Mostrar singleton está disponible y que puede modificar el singleton utilizando esta acción.
 
 **WinForms**  
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/e34559bc-62b8-4007-8da8-89baada5f3d3)
 
 **ASP.NET formularios web**  
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/48148116-82b9-4356-9266-ace92212196c)
 
 **Blazor**  
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/dfac401b-093b-4a35-a1c5-0bc6ada9d44a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/28b62206-2e11-4182-b718-e012f3f7af95)
 
 ### Agregar un elemento al control de navegación
 
 Agregue el nodo  **NavigationItem**  al  [modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works)  mediante el Editor de  [modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  (vea  [Agregar un elemento al control de navegación](https://docs.devexpress.com/eXpressAppFramework/402131/getting-started/in-depth-tutorial-blazor/customize-navigation-between-views/add-an-item-to-navigation-control)). Establezca la propiedad  **View**  del nodo recién agregado en  **Singleton_DetailView**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/cddde017-b403-44b2-80a1-47baf1a25b43)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/3c433016-6404-48e5-abfe-36122f42f840)
 
 Ejecute la aplicación y compruebe que el elemento de navegación singleton está disponible.
 
 **WinForms**  
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/7c5d9d9a-ffa9-423b-a87f-135ee0e892f5)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/29fa19ce-f50c-4f54-9d0f-cd27d2dc2711)
 
 **ASP.NET formularios web**  
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/641e74d6-cb76-4598-b94d-0cb78d2ade77)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/e8f0a30c-5357-4285-8c47-20c82fabc5d0)
 
 **Blazor**  
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/79102533-41a9-4ede-a388-6d687c61e1f1)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f89672fe-323c-47e2-bfcf-c0f759bcc72a)
 
 
 # Diseño
@@ -9933,7 +9935,7 @@ public class ObjectA : BaseObject {
 ```
 Los nodos  **Columnas**  de ListView y  **LookupListView**  contienen nodos secundarios generados para esta clase.  La siguiente imagen ilustra este nodo en el Editor de modelos:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/7b5fb4eb-a05d-4e91-80e0-2bf1fb9d2f58)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0a26d49d-fdec-499a-b18d-d5d17f66da14)
 
 El orden de columna especificado mediante las propiedades  [IModelNode.Index](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelNode.Index)  corresponde a su orden de declaración. Estas columnas son visibles cuando sus valores  **de índice**  son positivos o cero.
 
@@ -9952,7 +9954,7 @@ public class ObjectA : BaseObject {
 
 ```
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/f04fd780-f698-4ed3-971d-f69adbb86155)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/9fdd7b6a-731e-4cba-b261-f8f2ad555f69)
 
 El atributo  **FriendlyKeyProperty**  tiene el mismo efecto.
 
@@ -9968,7 +9970,7 @@ public class ObjectA : BaseObject {
 
 ```
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/d61cb786-e03c-4bde-8eac-b6b82100620a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/9eff0cff-68cd-4e28-b6a6-aae88bc6127c)
 
 El atributo  **DefaultProperty**  reemplaza este comportamiento.
 
@@ -10033,7 +10035,7 @@ public class ObjectB : BaseObject {
 
 Se genera una columna para representar la propiedad  **PropertyA3**  de forma predeterminada.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/cbc8cd54-9fc0-4ff9-85d8-19efe759be07)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/3e9616fa-394a-4e3e-9432-0c6e51bff6ff)
 
 En la interfaz de usuario,  **PropertyA3**  muestra el valor de PropertyB2, porque  **PropertyB2**  es  la propiedad predeterminada de la clase  **ObjectB**.
 
@@ -10050,7 +10052,7 @@ public class ObjectA : BaseObject {
 
 ```
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ee26e05d-e7f1-4c49-8fef-7fa9683e5dbf)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/eabe3fae-ba8f-4147-a637-53dbf4592794)
 
 ## Columnas, generadas en vistas de lista de clases heredadas
 
@@ -10092,7 +10094,7 @@ Normalmente, las columnas de las propiedades de esta clase se generan como de co
     
     La propiedad predeterminada de la clase antecesora se utiliza como predeterminada en la vista de lista de una clase derivada. En la vista de lista general, la columna de esta propiedad obtiene el índice cero y se muestra primero. En la vista Lista de búsquedas, la columna de clase ancestra de propiedad predeterminada es la única columna generada. La siguiente imagen ilustra las columnas generadas cuando  **ProprertyA2**  es la propiedad predeterminada de la clase  **ObjectA**:
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/34569ac9-1cfe-4cea-b345-0d89ef26f7c7)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/6fd5fa91-f343-494f-91a8-ed5270785cc4)
     
 -   **El comportamiento previsto, cuando la clase derivada no tiene campos ni propiedades públicas**
     
@@ -10103,7 +10105,7 @@ Normalmente, las columnas de las propiedades de esta clase se generan como de co
 
 Cada columna tiene una propiedad  [IModelColumn.Width](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelColumn.Width)  que especifica su ancho en ASP.NET aplicación Core Blazor y Windows Forms. En la tabla siguiente se muestran los valores de ancho predeterminados:
 
-![Sin título](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/18c4a60d-3f5e-4ac8-ab43-42d7145a3574)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f0480efb-b057-4079-84a2-bea024aca6c1)
 
 
 >NOTA
@@ -10136,23 +10138,23 @@ Debe realizar personalizaciones en el nivel de  [proyecto de módulo](https://do
 
 Cada nodo  **ListView**  tiene un nodo secundario  **Columns**, que proporciona acceso a la configuración de columnas. Cuando se selecciona el nodo  **Columnas**, la lista de propiedades de la derecha se reemplaza por una superficie de diseño que imita la cuadrícula de la vista actual, llena de datos de ejemplo. Esto le permite ver cómo se muestra la cuadrícula en tiempo de ejecución. Tenga en cuenta que la cuadrícula de datos de WinForms se muestra en tiempo de diseño. Sin embargo, las personalizaciones se aplican correctamente para las aplicaciones WinForms y ASP.NET Web Forms. El nodo  **Columnas**  expone un árbol de nodos que representa el conjunto de columnas disponibles en la vista actual. Cada nodo proporciona acceso al conjunto completo de propiedades de columna.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/64256181-3aa8-4548-ae1d-fe1c1ab62cb5)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/3a200127-08c6-420a-aa29-1e566f25b454)
 
 Puede modificar la configuración predeterminada si no cumple sus requisitos. Ajuste la escala de las columnas arrastrando un separador entre dos encabezados de columna o arrastre y suelte los encabezados de columna para reorganizar las columnas. Puede ocultar una columna arrastrándola fuera de la tabla. También puede aplicar  [ordenación](https://docs.devexpress.com/WindowsForms/827/controls-and-libraries/data-grid/end-user-capabilities/end-user-capabilities-sorting),  [agrupación](https://docs.devexpress.com/WindowsForms/828/controls-and-libraries/data-grid/end-user-capabilities/end-user-capabilities-grouping)  y  [filtrado](https://docs.devexpress.com/WindowsForms/829/controls-and-libraries/data-grid/end-user-capabilities/end-user-capabilities-filtering). Para mostrar columnas ocultas, haga clic con el botón derecho en el encabezado de la tabla y seleccione el  **Selector de columnas**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/a08d5f7c-9760-4c3f-9747-e6f8d1022946)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/bace02bf-9bf0-43a9-9807-bea5fb14055a)
 
 Se invoca la ventana Personalización y puede arrastrar la columna requerida desde esta ventana a la Vista y viceversa. Siga las indicaciones gráficas que muestran la ubicación futura de la columna.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/d59a09b3-255e-465c-a4fc-b783358ad47c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/14822af3-c496-4c21-a515-296366863bfb)
 
 Puede utilizar los botones  **Agregar...**  y  **Quitar**  para administrar las propiedades que se muestran en la ventana  **Personalización**. Para mostrar una propiedad que no está en la lista (por ejemplo, la propiedad o el  [campo personalizado](https://docs.devexpress.com/eXpressAppFramework/113583/business-model-design-orm/types-info-subsystem/use-metadata-to-customize-business-classes-dynamically)  de un objeto al que se hace referencia), haga clic en Agregar**...**  y, en la ventana  **Modelo de objetos**, elija la propiedad necesaria y haga clic en  **Agregar**. La propiedad aparece ahora en la ventana  **Personalización**  y puede agregarla a la cuadrícula como se describe anteriormente.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/efb9142b-a9d9-4851-97ad-7d8c28a7aa76)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/8d270455-7992-495c-b0d3-fa6a58a3c1bc)
 
 Si necesita  [aplicar un resumen](https://docs.devexpress.com/WindowsForms/830/controls-and-libraries/data-grid/end-user-capabilities/end-user-capabilities-applying-summaries), seleccione el nodo  **ListView**, establezca su propiedad  **IsFooterVisible**  en  **True**  y, a continuación, seleccione  **ListView**  |  **Nodo Columnas**. El pie de página ahora se muestra en la vista de lista y puede agregarle los resúmenes necesarios.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/c26c2397-43d8-44b1-b973-aa78bdf4b39f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/091e9127-43e0-4ff8-a88e-819afd5694b0)
 
 Además de la capacidad de configurar visualmente columnas, las siguientes personalizaciones están disponibles mediante los nodos secundarios  **del nodo Columnas**:
 
@@ -10183,11 +10185,11 @@ Consulte la lista de miembros de  [IModelColumn](https://docs.devexpress.com/eXp
 
 Las capacidades de personalización del tiempo de ejecución de  **WinForms**  son las mismas que las de  **ListView**  del  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  |  **Proporciona el nodo Columnas**. Consulte la sección  [Personalización en tiempo de diseño](https://docs.devexpress.com/eXpressAppFramework/113679/ui-construction/views/layout/list-view-columns-customization#1)  para obtener más información.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/01587a74-bf4b-43bc-8f5e-4ed613687af2)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/15f50c75-654a-44bf-a293-454fff194da9)
 
 Las capacidades de personalización de cuadrícula de  **ASP.NET formularios Web**  Forms son ligeramente diferentes de WinForms. Debe usar el menú contextual del encabezado para ocultar columnas en lugar de arrastrarlas. Además, el cambio manual de tamaño de columna no está disponible.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/f7d47211-8ad0-4e4f-a2af-e8ab64e8ea58)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d542e189-0619-4d9f-91b4-15b6b45cfa15)
 
 Puede usar la acción  **ResetViewSettings**  para deshacer todas las personalizaciones en tiempo de ejecución en la vista de lista actual.
 
@@ -10195,7 +10197,7 @@ Puede usar la acción  **ResetViewSettings**  para deshacer todas las personaliz
 
 Si ha configurado columnas para una vista de lista de clase empresarial y, a continuación, ha agregado o quitado las propiedades públicas de la clase, el conjunto de columnas cambia automáticamente y es posible que deba volver a configurarlo. Sin embargo, puede "bloquear" las personalizaciones estableciendo la propiedad  **FreezeColumnIndices**  del nodo  **ListViewView**  en  **True**. En este caso, el estado actual del índice de columna se copia en las diferencias del modelo y se ignoran los cambios en las capas anteriores. Las columnas que se generan posteriormente están ocultas de forma predeterminada. Al volver a establecer la propiedad  **FreezeColumnIndices**  en  **False,**  se restablece la configuración de columna a la configuración generada de forma predeterminada.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/5da2eb9c-7baa-4018-be47-405930d01a8b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/78fc78e7-7c22-4319-9fe8-35a245a6885f)
 
 
 # Diseño de bandas de vista de lista
@@ -10203,7 +10205,7 @@ Si ha configurado columnas para una vista de lista de clase empresarial y, a con
 
 Band es un grupo lógico de columnas. En los controles  [Cuadrícula de datos de WinForms](https://docs.devexpress.com/WindowsForms/3455/controls-and-libraries/data-grid)  y  [ASP.NET vista de cuadrícula de formularios Web Forms](https://docs.devexpress.com/AspNet/5823/components/grid-view), una banda se visualiza como un encabezado que se muestra encima de los encabezados de las columnas que combina. En este tema se describe el uso de la característica  [Vistas de cuadrícula con bandas](https://docs.devexpress.com/WindowsForms/114637/controls-and-libraries/data-grid/views/banded-grid-views)  en una aplicación XAF de WinForms y la característica  [Bandas](https://docs.devexpress.com/AspNet/9873/components/grid-view/concepts/data-representation-basics/columns/bands)  en una aplicación XAF de formularios Web Forms de ASP.NET.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/cbc93d46-279f-44dd-a1c3-eb87afac5100)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2f22e5ff-72e4-436a-b824-76022cd09a04)
 
 >NOTA
 >
@@ -10213,7 +10215,7 @@ Band es un grupo lógico de columnas. En los controles  [Cuadrícula de datos de
 
 El diseño de bandas se define en el  [modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/112579/ui-construction/application-model-ui-settings-storage)  mediante la estructura del nodo  [IModelBandsLayout](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelBandsLayout).
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/a3f0273b-cbdc-408c-9f33-c0ce563f8bd6)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5ff3b44b-5c10-48b0-a5c3-11b922bec142)
 
 Puede agregar nodos secundarios  [de IModelBand](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelBand)  mediante el  **comando Agregar...**  | Comando de menú contextual  **de banda**  para definir bandas y, a continuación, arrastrar y colocar columnas en las bandas creadas. Puede agregar una banda dentro de una banda existente para crear una jerarquía de bandas compleja.
 
@@ -10223,7 +10225,7 @@ Puede agregar nodos secundarios  [de IModelBand](https://docs.devexpress.com/eXp
 
 La configuración de diseño de bandas sólo tiene efecto en la vista de lista cuando la propiedad  [IModelBandsLayout.Enable](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelBandsLayout.Enable)  se establece en  **true**. De forma predeterminada, esta propiedad se establece en  **false**  y no se pueden agregar bandas.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/606e93e9-ed1e-4c47-911a-28cd19b0ac0c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/722329ff-8e9d-483c-bd17-990d27408c27)
 
 La propiedad  [IModelListView.EditorType](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelListView.EditorType)  de la vista de lista con bandas debe ser GridListEditor o  [ASPxGridListEditor](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Web.Editors.ASPx.ASPxGridListEditor)  (el tipo real de editor de listas está disponible en el modelo del proyecto específico de la plataforma).[](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Win.Editors.GridListEditor)  Otros  [editores de listas](https://docs.devexpress.com/eXpressAppFramework/113189/ui-construction/list-editors)  integrados no admiten bandas.
 
@@ -10231,17 +10233,17 @@ La propiedad  [IModelListView.EditorType](https://docs.devexpress.com/eXpressApp
 
 En una aplicación WinForms, las  [vistas de cuadrícula con bandas](https://docs.devexpress.com/WindowsForms/114637/controls-and-libraries/data-grid/views/banded-grid-views)  se utilizan para mostrar bandas. Le permite organizar los encabezados de columna entre filas. También puede estirar los encabezados de columna verticalmente para que ocupen más de una fila. La posición vertical del encabezado de columna se identifica mediante la propiedad  [IModelBandedColumnWin.RowIndex](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Win.Model.IModelBandedColumnWin.RowIndex)  de  **Views**  |  **_<ListView>_**  |  **BandsLayout**  |  **Banda**  |  **Nodo columna**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/d9869199-4c6c-4aeb-b0f3-45fe5d1e951a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/fb21e9f6-f7e7-49b2-ab5e-65cb87d31c24)
 
 Esta propiedad especifica el número de fila basado en cero de la columna actual dentro de una banda. En la imagen siguiente, el  **RowIndex**  de la columna  **Asunto**  es  **1**. El  **RowIndex**  de las columnas  **Estado**  y  **Asignado a**  es  **0**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/e0ef3e5c-d4ca-418d-adae-1a92fd4921c7)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/28c1f826-a6ee-48f8-8416-674f82cffbed)
 
 ## Visibilidad de los encabezados
 
 Puede ocultar los encabezados de banda y columna mediante las propiedades IModelBandsLayoutWin.ShowBands e  [IModelBandsLayoutWin.ShowColumnHeaders](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Win.Model.IModelBandsLayoutWin.ShowBands)  de  **Views**  |[](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Win.Model.IModelBandsLayoutWin.ShowColumnHeaders)  **_<ListView>_**  |  **Nodo BandsLayout**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/47c69d02-1a9b-4960-ab55-7337f363847f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ddf82aad-3959-4bae-bc5b-9a142b1728dc)
 
 Estas propiedades solo están disponibles en proyectos de WinForms.
 
@@ -10254,13 +10256,13 @@ Un usuario puede reorganizar bandas, reordenar columnas dentro de una banda, mov
 -   [IModelBandsLayoutWin.AllowChangeColumnParent](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Win.Model.IModelBandsLayoutWin.AllowChangeColumnParent)
 -   [IModelBandsLayoutWin.AllowColumnMoving](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Win.Model.IModelBandsLayoutWin.AllowColumnMoving)
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/2bea14c4-4c3c-40a9-959d-ac92a0bcfb87)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d30a0413-df75-418b-a07f-6761eb703991)
 
 Estas propiedades solo están disponibles en proyectos de WinForms.
 
 Puede usar la acción  **Restablecer configuración**  de vista para deshacer todas las personalizaciones en tiempo de ejecución en la vista actual.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/e6814032-5873-4182-9ca1-faae0ad1d8d7)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f47b61a5-b016-4a8b-85b3-faf9c4e669a1)
 
 >IMPORTANTE
 >
@@ -10283,7 +10285,7 @@ eXpressApp Framework genera automáticamente todas las vistas de panel y vistas 
 
 Las vistas de panel y las vistas de detalle se generan utilizando la información almacenada en las  **vistas**  del  [modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works)  |  **Nodos DashboardView**  y  **DetailView**. Estos nodos tienen dos nodos secundarios:  **Items**  y  **Layout**. El primero se usa para rellenar la colección  [CompositeView.Items.](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.CompositeView.Items)  Este último es utilizado por el Administrador de diseño de la vista para organizar los elementos de diseño creados para cada elemento de la colección  **Items**. En la siguiente imagen se muestran los nodos  **Elementos**  y  **Diseño**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/790a7c1b-03fe-472b-b887-01314983aca3)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d05a8733-b4a1-4a77-9a96-696e5fc1916d)
 
 Las reglas mediante las cuales se genera el nodo  **Diseño**  para las vistas de detalle son las siguientes.
 
@@ -10297,7 +10299,7 @@ Las reglas mediante las cuales se genera el nodo  **Diseño**  para las vistas d
 
 Considere el siguiente ejemplo. En la siguiente imagen, la imagen de la izquierda ilustra un diseño generado automáticamente para una vista detallada de la clase empresarial  **Contact**  de muestra. La imagen de la derecha ilustra la estructura del diseño generado automáticamente.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/04bcacfc-488d-47fe-b002-f5dde1527c19)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/27c2d976-8bce-417c-be9d-b335b4eb3bf9)
 
 -   La clase  **Contact**  hereda de la clase  **Person**, que tiene algunas propiedades públicas. Por lo tanto, se crean dos grupos de diseño anidados en el grupo de diseño  **de editores simples**:  **contacto**  y  **persona**.
 -   La clase  **Contact**  tiene sólo cuatro propiedades públicas, por lo que sus editores de propiedades se colocan directamente en el grupo de diseño de  **contactos**.
@@ -10319,17 +10321,17 @@ Puede personalizar el diseño de Vista en el  [Editor de modelos](https://docs.d
 
 Cuando se selecciona el nodo  **Diseño**, el Diseñador de modelos muestra una superficie de diseño que imita la vista actual. Esta superficie de diseño le permite ver cómo se mostrará la vista en tiempo de ejecución. El nodo  **Diseño**  expone un árbol de nodos que comprende grupos, grupos con fichas, elementos de diseño, etiquetas, separadores, etc.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/099e7431-87ea-47a9-a2e7-e85d7b4b9513)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f40116da-6aaf-45e8-8fbc-13ae859b6dcb)
 
 Para modificar un diseño predeterminado de Ver elementos, haga clic con el botón derecho en un espacio vacío y elija  **Personalizar diseño**. Esto invocará el formulario Personalización que le permite arrastrar Ver elementos cuando sea necesario. Las indicaciones gráficas mostrarán la posición objetivo del elemento.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/68428fdd-6714-44ca-a9d7-f32f76616fac)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/dfbc673b-e2e5-4fe7-b672-6bc878fd1de2)
 
 En el Diseñador de modelos, puede quitar y restaurar elementos de vista arrastrando los elementos necesarios desde la vista al formulario  **Personalización**  y viceversa.
 
 Para ver el árbol de diseño Ver elementos, utilice la ficha  **Vista de árbol de diseño**  del formulario  **Personalización**. Invoque el menú contextual para obtener opciones de personalización adicionales.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/55d755c4-2be3-469b-baa4-ad6de0d936aa)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/43dd95fe-139e-4616-824f-4e147d90d4b8)
 
 Para obtener más información acerca del formulario  **Personalización**, la ficha Vista de árbol de diseño y su menú contextual, consulte el artículo siguiente:  [Personalización predeterminada en tiempo de ejecución](https://docs.devexpress.com/WindowsForms/2307/controls-and-libraries/form-layout-managers/layout-and-data-layout-controls/design-time-and-runtime-customization/default-runtime-customization).
 
@@ -10358,7 +10360,7 @@ En los nodos secundarios del nodo Diseño, puede encontrar las siguientes opcion
 
 Puede agregar nuevos elementos a una vista de detalles. Haga clic con el botón derecho en  **DetailView**  |  **Elementos**, desplácese hasta el grupo  **Agregar...**, elija el tipo de elemento Ver requerido y personalice el  **elemento**  recién agregado según sea necesario.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/8f7277aa-9b45-4279-8466-56e054ac3771)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/cddb99ba-866d-41cc-86e0-47e2ca921cc7)
 
 Después de agregar el nuevo elemento, colóquelo en la Vista detallada como se describe anteriormente.
 
@@ -10413,17 +10415,17 @@ Para entrar en el modo de personalización, haga clic con el botón derecho en u
 
 ASP.NET Core Blazor
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/77d2bd16-e687-4de7-8bbb-df7f48a55bf6)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1555e338-92fb-4e6f-91f3-7807d0613cf1)
 
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/a12fa071-a993-49cd-853c-4b65bb21e698)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c64e97e8-98f6-444e-979e-a0a3713ccd41)
 
 
 Windows Forms
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/4d24baa1-8da6-4b5f-83aa-00ad57b3bc24)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/6a593095-5b12-4189-8bd2-72a2d3c2e67a)
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/222bd8f8-c71f-4986-a359-d67a07ee238b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ca145989-f97c-4483-951e-8f2af02f00bf)
 
 
 XAF utiliza el modelo de aplicación para guardar los cambios de diseño realizados en tiempo de ejecución. La próxima vez que invoque una vista personalizada, la vista mostrará los cambios más recientes. Si necesita revertir los cambios, haga clic con el botón derecho en un espacio vacío en Ver en tiempo de ejecución y seleccione la opción  **Restablecer diseño**  en el menú contextual. En las aplicaciones de Windows Forms, también puede utilizar la acción  **ResetViewSettings**.
@@ -10444,7 +10446,7 @@ Las siguientes son notas importantes sobre los elementos de diseño.
 
 1.  Cuando agrega una nueva propiedad y, por lo tanto, realiza un cambio en la estructura de clase empresarial que creó al principio de esta aplicación XAF, el diseño de vista detallada de la  [clase empresarial](https://docs.devexpress.com/eXpressAppFramework/113664/business-model-design-orm)  se programa para regenerarse automáticamente. Si esto ocurre, desaparecerán todas las personalizaciones aplicadas manualmente al diseño Vista detallada. Para evitar que esto suceda, establezca la propiedad  [IModelDetailView.FreezeLayout](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelDetailView.FreezeLayout)  en  **true**. Esto le permitirá congelar el diseño de la vista detallada de acuerdo con los últimos cambios guardados, prohibiendo así la regeneración. Sin embargo, tenga en cuenta que si usa esta propiedad, es responsable de agregar manualmente nuevos elementos de diseño al diseño de la Vista detallada.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/427317dc-5d50-4caf-94b7-3759f49f9155)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/bc3abbf5-6ff0-42e1-bec2-4388af5f2781)
 
     
     Si establece la propiedad  [IModelDetailView.FreezeLayout](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelDetailView.FreezeLayout)  en  **true**, el Editor de modelos copia el estado actual del diseño en la capa del  [modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works)  editada actualmente. Tenga en cuenta que aún puede quitar un nodo secundario del nodo secundario  **Items**  del nodo  **DetailView**. En este caso, sin embargo, será imposible mantener un diseño congelado. Por lo tanto, el elemento de vista correspondiente al nodo eliminado se reemplazará por un  [elemento](https://docs.devexpress.com/eXpressAppFramework/112612/ui-construction/view-items-and-property-editors)  de espacio vacío en la  [vista detallada](https://docs.devexpress.com/eXpressAppFramework/112611/ui-construction/views). Establecer la propiedad  **FreezeLayout**  en  **false**  es análogo a ejecutar el comando "Restablecer diferencias" del  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor), que revertirá todas las personalizaciones a su estado predeterminado original.
@@ -10455,34 +10457,34 @@ Las siguientes son notas importantes sobre los elementos de diseño.
     
 2.  En la aplicación de Windows Forms, el ancho de un elemento de diseño no está bloqueado de forma predeterminada. XAF calcula el ancho en función de las dimensiones del grupo de diseño principal. Por lo tanto, los elementos de diseño de diferentes grupos de diseño pueden tener una alineación diferente.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/677faa46-18db-4340-8770-a3f682cea957)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c6340301-6be3-4fd9-b2d7-723ef0bf0bf6)
 
     Coloque los elementos en el mismo grupo para mantenerlos alineados.
     
 3.  En las aplicaciones de Windows Forms, si mueve un elemento de diseño a un grupo de nivel superior, aparece un espaciado adicional entre el elemento movido y el siguiente elemento. Vea la imagen a continuación.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/29150bbb-4d52-4e7f-b552-2014deb5a180)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b710ab78-31b8-49ae-a5e5-54ffcc116eb9)
 
     
     Si desea mantener el mismo espaciado entre los elementos, manténgalos en el mismo grupo.
     
 4.  Los elementos y grupos anidados dentro de cada grupo se pueden organizar vertical u horizontalmente (consulte  [IModelLayoutGroup.Direction](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelLayoutGroup.Direction)). La siguiente imagen ilustra un fragmento de diseño con anidamiento complejo.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b7b000d6-a014-418c-aebc-e1453480406b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/29cdf590-eaac-49a4-bba8-03ab8009cd27)
 
     
     Todos los componentes dentro del mismo grupo tienen la misma orientación, como se muestra con flechas dobles. Para organizar dos grupos horizontalmente, formando así dos columnas de Elementos, debe colocar estos dos grupos en otro grupo. Este proceso se llama envoltura. Debe tener en cuenta que se pueden crear automáticamente grupos de ajuste adicionales al arrastrar elementos en la superficie de diseño Diseño.
     
 5.  En las aplicaciones de Windows Forms, si mueve u oculta un elemento de diseño, su grupo de diseño permanece en el formulario. En la imagen de abajo, el elemento "Notas" se mueve del grupo "Notas" al grupo "Foto".
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/af58f904-1ed8-4dea-9d0a-ef250939903b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4e6a5b2f-c251-4489-9b48-0d9230de69a3)
 
     
     El grupo "Notas" se vacía. Este grupo de diseño vacío puede interferir con el diseño. Por lo tanto, es posible que deba eliminar el grupo de diseño vacío. También puede utilizar la propiedad  [IModelWinLayoutManagerOptions.InvisibleGroupVerticalDistance](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Win.SystemModule.IModelWinLayoutManagerOptions.InvisibleGroupVerticalDistance)  para especificar cómo afecta el grupo vacío al espacio vertical entre los elementos visibles.
     
 6.  El nodo  **Opciones**  del modelo de aplicación contiene el nodo secundario  **LayoutManagerOptions**. Como su nombre lo indica, las propiedades de este nodo le permiten personalizar ciertas configuraciones relacionadas con la generación de diseño.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/02079e23-eddd-466a-a17c-a0aa4dd74700)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/28b8f02e-9815-4180-ba58-727f09a1ddbc)
     
     >NOTA
     >
@@ -10739,11 +10741,11 @@ Esta funcionalidad está disponible de forma predeterminada.
 
 Para activar el  _modo de personalización_, haga clic con el botón derecho en un espacio vacío de la Vista detallada que desee editar y seleccione la opción  **Personalizar diseño**  en el menú contextual.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ce4377a4-d573-4191-8b52-743c785e8308)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d815f266-6c9f-468f-8b7f-6e6b23a86ec7)
 
 El  _formulario de personalización_  invocado contiene una vista estructurada de todos los elementos de vista disponibles en la vista de detalle y una lista de elementos de vista ocultos en la vista de detalles.
 
-![Formulario de personalización En una vista detallada de una aplicación XAF ASP.NET Core Blazor, DevExpress](https://docs.devexpress.com/eXpressAppFramework/images/xaf-blazor-detail-view-customization-form-devexpress.png)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/56dbf092-10fa-4b82-9997-fb53c76b4fab)
 
 Para desactivar el modo de personalización, cierre el  **formulario**  de personalización o haga clic con el botón derecho en un espacio vacío y seleccione la opción  **Ocultar formulario de personalización**  en el menú contextual.
 
@@ -10821,7 +10823,7 @@ Haga clic en un grupo, haga clic con el botón derecho en el encabezado de un gr
 
 Si necesita revertir los cambios, haga clic con el botón derecho en un espacio vacío en una vista detallada en tiempo de ejecución y seleccione la opción  **Restablecer diseño**  en el menú contextual.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b150b762-55bf-4bed-8ae2-aa9dfcc14f9d)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/70701d50-08ad-4a3f-8017-ef3bed6eac68)
 
 ## Limitaciones de la personalización del diseño en tiempo de ejecución
 
@@ -10896,7 +10898,8 @@ public class Task : BaseObject {
 
 Como resultado, todas las propiedades visibles de la clase  **Project**  se agregarán a las vistas de  **tareas**  (a  **las vistas**  |  **_<ListView>_**  |  **Columnas**  y  **vistas**  |  **_<DetailView>_**  |  **Nodos de elementos**  en el  [modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/112579/ui-construction/application-model-ui-settings-storage)). Las nuevas columnas y Ver elementos se resaltan en rojo en la imagen siguiente.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/067c3620-5838-40a7-a6e8-8c114a2ab93e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/460385ce-aee2-4799-b9d5-5ad462861fb9)
+
 
 Las columnas/elementos innecesarios se pueden eliminar en el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor).
 
@@ -10906,7 +10909,7 @@ Puede pasar otros valores de la enumeración  [ExpandObjectMembers](https://docs
 
 Puede agregar una columna/elemento a una vista de lista o de detalles en el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor), utilizando el menú contextual de  **Vistas**  |  **_<ListView>_**  |  **Columnas**  y  **vistas**  |  **_<DetailView>_**  |  **Nodos de elementos**. Utilice la notación  **ReferencePropertyName.PropertyName**  al especificar el valor  [IModelMemberViewItem.PropertyName.](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelMemberViewItem.PropertyName)  La imagen siguiente muestra cómo agregar la columna  **Project.Deadline**  a la vista Lista de  **tareas**  en el Editor de modelos.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/2bb23adf-fb12-4ff1-bab7-232bee57ada3)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/decd1612-332e-437c-a075-72fb19c77201)
 
 Puede agregar un nodo  **PropertyEditor**  a las  **vistas**  |  **_<DetailView>_**  |  **Elementos**  de manera similar, pero tenga en cuenta que también debe agregar un elemento de diseño correspondiente a  **las vistas**  |  **_<DetailView>_**  |  **Nodo de diseño**. Se proporciona un ejemplo en el tutorial  [Agregar un editor a una vista de detalles](https://docs.devexpress.com/eXpressAppFramework/403217/getting-started/in-depth-tutorial-blazor/customize-data-display-and-view-layout/add-an-editor-to-a-detail-view).
 
@@ -10929,11 +10932,11 @@ public class Task : BaseObject {
 
 Como alternativa, puede ejecutar el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  para el proyecto específico de la  _plataforma_  (WinForms o ASP.NET formularios Web Forms) y establecer la propiedad  [IModelCommonMemberViewItem.PropertyEditorType de BOModel](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelCommonMemberViewItem.PropertyEditorType)  |  **_<Clase>_**  |  **Miembros Propios**  |  **_<Member>_**  nodo a  **DetailPropertyEditor**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/b4ccce93-e917-42a5-a2e5-cc3dcd17d50a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/61deaf80-ecf3-41ac-89b6-78a76195d8b4)
 
 La imagen siguiente muestra la propiedad  **Project**  mostrada mediante  **DetailPropertyEditor**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/04c58799-fa16-46a4-89e9-55a001614ed6)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1db70b88-42cb-4598-8cb2-262f60fbe2b6)
 
 ## [#](https://docs.devexpress.com/eXpressAppFramework/115793/ui-construction/views/layout/display-properties-of-a-referenced-object-in-the-master-objects-view#calculatedproperty)Agregar una propiedad calculada
 
@@ -10953,7 +10956,7 @@ public class Task : BaseObject {
 
 También puede  [agregar un campo calculado personalizado en el Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/113583/business-model-design-orm/types-info-subsystem/use-metadata-to-customize-business-classes-dynamically)  y hacer referencia a la propiedad requerida mediante  [IModelMember.Expression.](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelMember.Expression)
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/97d01501-a173-4d07-863f-abd5b2e1cb9f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/bc61954e-f811-428c-9616-727388e3dcab)
 
 En ambos casos, la propiedad  **Deadline**  sólo se leerá en las vistas de  **tareas**. Si necesita editarlo, implemente la interfaz  [INotifyPropertyChanged](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged) y declare  **Deadline**  de la siguiente manera.
 
@@ -10993,7 +10996,7 @@ En XPO, no es necesario implementar  **INotifyPropertyChanged**; el método prot
 
 En este tema se explica cómo mostrar varias  [vistas](https://docs.devexpress.com/eXpressAppFramework/112611/ui-construction/views)  en paralelo en una sola pantalla dentro de una vista de  [panel](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.DashboardView). La vista de panel puede mostrar cualquier número de vistas no relacionadas en un solo  [fotograma](https://docs.devexpress.com/eXpressAppFramework/112608/ui-construction/windows-and-frames).
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/8df7c742-37c8-49f0-b9a9-0ac6661a49b6)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/020eab80-24d1-4ee8-a1b8-7211f27fe36f)
 
 ## Crear una vista de panel
 
@@ -11001,11 +11004,11 @@ En este tema se explica cómo mostrar varias  [vistas](https://docs.devexpress.c
 
 Abra el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)  para el proyecto (o para un módulo específico de la plataforma). Haga clic con el botón secundario en el nodo  **Vistas**  y agregue una  [vista de panel](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.DashboardView).`MySolution.Module`
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/eb6b73bf-5583-47fe-92d7-988d9d356388)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/da312edc-a480-4e9b-ae47-f70c0bcff157)
 
 Establezca la propiedad  **Id**  de la vista en  **MyDashboardView**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/5add570e-d0c8-4853-8687-ad2420d8e0ef)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/96bdf3e3-5f28-4a64-8068-4ee8e8b59e61)
 
 ### Especificar las vistas que se mostrarán en la vista Panel
 
@@ -11013,11 +11016,11 @@ La vista de panel muestra vistas internas dentro de los  [elementos de vista de 
 
 Haga clic con el botón secundario en el nodo  **Elementos**  y agregue un elemento de vista de panel.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/136931fa-07b2-4158-bc5f-0b2eedce0eeb)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/6212f38b-d2ea-4e33-ad50-22310009c5c8)
 
 Utilice la propiedad  **View**  para seleccionar una vista mostrada en el elemento Vista de panel recién creado. Especifique el  **identificador**  del elemento Vista de panel.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/46e1b2e9-4a80-4e65-80eb-bcc85d68441d)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/eee3aa53-1568-4c74-b824-e133eab48107)
 
 Repita los pasos anteriores para agregar otro elemento de vista de panel.
 
@@ -11025,21 +11028,21 @@ Repita los pasos anteriores para agregar otro elemento de vista de panel.
 
 Configure el diseño de la vista de panel como desee. Para obtener una explicación detallada de cómo personalizar un diseño de vista, consulte el tema siguiente:  [Personalización del diseño de elementos de vista](https://docs.devexpress.com/eXpressAppFramework/112817/ui-construction/views/layout/view-items-layout-customization).
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/52e584db-f782-471e-9412-c598924d0435)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/232e93b7-6ebe-46a9-86b3-b8cac57a35ba)
 
 ### Crear un elemento de navegación
 
 Cree un elemento de navegación para permitir a los usuarios invocar la vista de panel. En el Editor de modelos, haga clic con el botón secundario en  **NavigationItems | Elementos**  y agregue un elemento de navegación.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/9c88c95d-b70c-47c9-8269-7adcb199eb95)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/b633679c-5552-45df-8ab2-d08cb5db19a2)
 
 Establezca las propiedades  **Id**  y View en  **MyDashboardView**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/0cfbdb14-dc80-4535-9c2b-dacef6039f1e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/deffb086-af48-43c2-b30d-9f93ff5f1e81)
 
 Ejecute la aplicación y abra el elemento "MyDashboardView" para ver la vista de panel recién creada en acción.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/1ef71be4-465e-401e-8a6f-d1c4db41acfb)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f9cfe2f2-520d-4708-8cf1-a07d5a540862)
 
 ## Elementos de vista de panel disponibles
 
@@ -11066,7 +11069,7 @@ En este tema se muestran algunas maneras de hacer que la edición de datos esté
 
 La siguiente imagen ilustra una vista de lista editable:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/7b077836-d687-49ce-9027-97a708ea9881)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1f63660a-43e0-4773-841a-332087db5361)
 
 En una aplicación XAF de WinForms, seleccione una fila y haga clic en una celda de propiedades para editar un objeto existente. Utilice la acción  **Nuevo**  o la  **fila Nuevo elemento**  de la cuadrícula para agregar un nuevo objeto.
 
@@ -11084,15 +11087,15 @@ El  _diseño dividido_  le permite mostrar las vistas de detalle y lista en la m
 
 WinForms
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/f3bc8009-957f-486f-bf95-387f7885ec4c)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0b94db03-5a75-4a21-88ae-e76afb1d21f9)
 
 ASP.NET formularios web
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/29a8a452-2526-47e6-a611-ecba0e5e1207)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/defb21a2-b8aa-4285-a3a4-339d4abdea88)
 
 ASP.NET Core Blazor
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/58dc014d-7b23-4652-abfa-444fc55f2b52)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4341f822-fd65-4fda-b503-4aba6a98c8d6)
 
 Para habilitar el diseño dividido para una vista de lista específica, siga estos pasos:
 
@@ -11110,7 +11113,7 @@ Tenga en cuenta que en las aplicaciones XAF Blazor, cuando se establece en , la 
 
 La aplicación WinForms muestra un cuadro de diálogo de confirmación si un usuario enfoca otro elemento en la ventana después de editar una celda en el editor en contexto o en la Vista detallada:
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/547054e4-301e-4195-b166-1db9915b8615)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/555bc195-8e46-45bc-b7a3-711fe259f901)
 
 Los cambios realizados en una vista de lista editable se pueden guardar automáticamente sin confirmación al seleccionar otro objeto en la vista o enfocar otro elemento en la ventana. Utilice las propiedades ModificationsController.ModificationsHandlingMode y  [ModificationsController.ModificationsCheckingMode](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.ModificationsController.ModificationsCheckingMode)  para cambiar este comportamiento para las vistas de lista editables[.](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.ModificationsController.ModificationsHandlingMode)
 
@@ -11120,11 +11123,11 @@ Los cambios realizados en una vista de lista editable se pueden guardar automát
 
 Además de la acción de  **edición**  estándar, ASP.NET aplicaciones XAF de formularios Web Forms admiten una  [acción](https://docs.devexpress.com/eXpressAppFramework/112622/ui-construction/controllers-and-actions/actions)  **InlineEdit**. Puede encontrar esta acción en el menú contextual de un Editor de listas. Para especificar el modo de edición en contexto, utilice la propiedad  [IModelListViewWeb.InlineEditMode](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Web.SystemModule.IModelListViewWeb.InlineEditMode)  de  **Views**  |  **_<ListView>_**  nodo.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/33c1129d-2a99-4b72-8d28-c7dc81185ea3)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/5a5340f2-5d47-434d-8582-1a360b5b6f5c)
 
 [ASPxGridListEditor](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Web.Editors.ASPx.ASPxGridListEditor)  tiene en cuenta el valor de esta propiedad cuando la propiedad  [IModelView.AllowEdit](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelView.AllowEdit)  se establece en . En la tabla siguiente se explican e ilustran los posibles valores de la propiedad:`True``InlineEditMode`.
 
-![Sin título](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/eae4e03e-032e-4125-9582-71c7ca591394)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/350a9fa2-e0fb-4bca-8ae3-dd35605dce72)
 
 
 El modo de edición por lotes cambia el comportamiento de la vista de lista de las siguientes maneras:
@@ -11148,12 +11151,12 @@ XAF tiene dos modos de edición para las propiedades de recopilación en una apl
 
 1.  Las propiedades de la colección siempre se muestran en una vista detallada, pero sólo se pueden modificar cuando la vista detallada está en modo de edición.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/db78f53c-68ae-479b-b02d-91502795d70d)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/67761e2e-3ad6-49fb-9c03-151130ecc8c0)
 
     
 2.  Las propiedades de la colección no se muestran en el modo de edición. Se muestran y se pueden editar en el modo de visualización.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/32a335d2-f318-4d9d-8401-de4460699229)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/423212ed-0431-4166-9832-472a4e0d2e97)
 
     
 
@@ -11213,7 +11216,7 @@ public class CustomizeInlinePropertyEditorController : ViewController<ListView> 
 
 ```
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/58d36847-dcb7-4eaf-ac9d-c53f1c5246fc)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/2815fbc3-dc9f-42cf-a94a-b68bf1bf257b)
 
 ### Personalización de edición en contexto (propiedad Modo de ediciónen línea)
 
@@ -11221,15 +11224,15 @@ Puede utilizar la propiedad  [IModelListViewBlazor.InlineEditMode](https://docs.
 
 Inline
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/953d55a6-f5b8-4d9f-94cf-55b2c38abdbf)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/e88655a9-59aa-4a5d-8321-17167dfbde4c)
 
 Editar formulario
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/557bbf45-8fcf-4b97-bc86-e4f5ee74322a)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1ce594d0-71e7-4b3f-8283-4c762d990756)
 
 Formulario de edición emergente
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/ebac9756-65cc-46cc-8dd2-cc2e621af5b6)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/62aa7971-455a-4c01-81e9-fd5c6c01a25b)
 
 ### Personalizar Editarplantilla de formulario
 
@@ -11306,7 +11309,7 @@ En el modo de diseño dividido, la vista de lista y la vista de detalle tienen t
     
     ```
     
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/6e4e2a87-0288-49ca-86c8-8ea883542310)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4fae0e4f-9648-4e86-b102-98537500f88b)
 
 
 
@@ -11323,7 +11326,7 @@ En el modo de diseño dividido, la vista de lista y la vista de detalle tienen t
 
 En la tabla siguiente se explican los diferentes modos:
 
-![Sin título](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/bb55741b-1245-4986-aa9f-ca742ca84f58)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c2294e9d-36b7-4c2b-a1b0-0d174741f20c)
 
 
 Una vez que seleccione el modo, navegue a su tema para obtener más información.
@@ -11345,7 +11348,7 @@ Para usar propiedades no persistentes en estos modos, decórelos con el atributo
 
 Para especificar el modo de acceso a datos de una vista de lista, invoque el  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor), vaya a  **Vistas**  | <ListView> y establezca la propiedad  [IModelListView.DataAccessMode](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelListView.DataAccessMode)  en uno de los valores de  [CollectionSourceDataAccessMode](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.CollectionSourceDataAccessMode).
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/5748de1d-6ac0-4120-a656-2c2a5472aa5b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ab1aaaaf-1ac8-49a6-97c6-b0842e389d58)
 
 El cuadro combinado de  **DataAccessMode**  muestra sólo los modos que son compatibles con el Editor de listas seleccionado (propiedad  [EditorType](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelListView.EditorType)  de un nodo). Si utiliza un editor de listas personalizado, especifique sus modos admitidos en el método estático  **DataAccessModeHelper.RegisterEditorSupportedModes.**  Llame a este método desde el código ejecutado en tiempo de diseño antes de cargar el Editor de modelos (por ejemplo, desde el constructor de un módulo). Pase el tipo del Editor de listas y una lista de modos admitidos a este método. De lo contrario, el Editor de modelos muestra todos los modos para este Editor de lista.
 
@@ -11493,7 +11496,7 @@ TIP
 
 En este artículo se describe cómo cargar datos de View de forma asincrónica en aplicaciones WinForms. Esta capacidad le permite mantener la capacidad de respuesta de la interfaz de usuario mientras la aplicación obtiene los datos necesarios. Los usuarios finales pueden navegar a otra vista mientras la operación está en curso. También pueden cerrar la pestaña antes de que la vista cargue todos los datos, lo que cancelaría la operación de carga de datos.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/965224b2-eb12-4e62-81a6-d5ccf73061d0)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/09cd7432-87e9-4fd0-b201-abc1b8e8a1cc)
 
 ## Prerrequisitos
 
@@ -11522,41 +11525,43 @@ public partial class MySolutionWindowsFormsApplication : WinApplication {
 
 Puede habilitar esta función para las vistas que se ajusten a todas las condiciones siguientes.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/8b1d6225-8e38-4fb4-b795-aeabce74acbf)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/4e04d3f1-b6cc-48e4-933d-a69a12237d8a)
 
 
-## Enable Asynchronous Loading
 
-Set the  [UseAsyncLoading](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelAsync.UseAsyncLoading)  property to  **true**. The following Model Editor nodes allow you to specify this property for supported Views:
+## Habilitar carga asincrónica
 
--   Navigate to the  **Options**  node to enable this feature for all Views in your application. The value you specified in this node is the default for  **UseAsyncLoading**  in the View-specific nodes.
+Establezca la propiedad  [UseAsyncLoading](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelAsync.UseAsyncLoading)  en  **true**. Los siguientes nodos del Editor de modelos permiten especificar esta propiedad para las vistas admitidas:
+
+-   Desplácese hasta el nodo  **Opciones**  para habilitar esta característica para todas las vistas de la aplicación. El valor especificado en este nodo es el predeterminado para  **UseAsyncLoading**  en los nodos específicos de la vista.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/8157090e-e6f1-4dd8-9659-ecf8f469d6ae)
-
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/9e5b63ca-bc8a-4f8e-87cb-150d4342bc96)
     
--   Navigate to the  **Views** | **_<ListView>_**  node to enable this feature for a specific List View.
+-   Navegar a las  **vistas**  |  para habilitar esta característica para una vista de lista específica.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/eedb3a3f-892d-44d0-9611-edace2c79533)
-
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c72eebf1-c9bc-417b-8c81-d13bc5f93d10)
     
--   Navigate to the  **Views** | **_<DetailView>_**  node to enable this feature for a Detail View.
+-   Navegar a las  **vistas**  |  para habilitar esta característica para una vista detallada.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/41ca3f16-a81c-42d3-b807-ada50fb88043)
-
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f9176de3-e8ed-4b31-a92f-1995ac2538c3)
     
 
-## Important Notes
+## Notas importantes
 
-### Detail Views
+### Vistas detalladas
 
-Detail Views always load associated collections in the main thread. These operations lock the UI. If you enable the  [UseAsyncLoading](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelAsync.UseAsyncLoading)  option, the View loads only its current object asynchronously. In other words, this option only helps you resolve high load times for the current object (for example, when this object has properties with complex logic or you use a remote database).
+Las vistas de detalle siempre cargan las colecciones asociadas en el subproceso principal. Estas operaciones bloquean la interfaz de usuario. Si habilita la opción  [UseAsyncLoading](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelAsync.UseAsyncLoading), la vista carga sólo su objeto actual de forma asincrónica. En otras palabras, esta opción sólo ayuda a resolver tiempos de carga elevados para el objeto actual (por ejemplo, cuando este objeto tiene propiedades con lógica compleja o se utiliza una base de datos remota).
 
-If  [DetailView.UseAsyncLoading](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.DetailView.UseAsyncLoading)  is set to  **true**, note the following:
+Si  [DetailView.UseAsyncLoading](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.DetailView.UseAsyncLoading)  se establece en  **true**, tenga en cuenta lo siguiente:
 
--   when  [IModelAsync.UseAsyncLoading](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelAsync.UseAsyncLoading)  is  **true**, the  [DetailView.CurrentObject](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.DetailView.CurrentObject)  property is set to  _null_  in the  **Controller.OnActivate**  method;
--   when you open a Detail View from the  [Navigation](https://docs.devexpress.com/eXpressAppFramework/113198/application-shell-and-base-infrastructure/navigation-system), the  [DetailViewCreatingEventArgs.Obj](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.DetailViewCreatingEventArgs.Obj)  argument of the  [ViewCreating](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.XafApplication.ViewCreating)  and  [DetailViewCreating](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.XafApplication.DetailViewCreating)  events is set to  _null_;
--   when you open a Detail View from a List View (by double-clicking a record or using the  **OpenObject**  Action), the  [DetailViewCreatingEventArgs.Obj](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.DetailViewCreatingEventArgs.Obj)  argument of the  [ViewCreating](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.XafApplication.ViewCreating)  and  [DetailViewCreating](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.XafApplication.DetailViewCreating)  events is set to the object from the List View’s Object Space;
--   when  [IModelAsync.UseAsyncLoading](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelAsync.UseAsyncLoading)  is  **true**  and you use  [DetailView.ObjectSpace](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.CompositeView.ObjectSpace)  before the Detail View’s object is initialized (for example, in  **Controller.OnActivated**), an exception occurs. Move the logic that depends on this property to the  [CurrentObjectChanged](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.View.CurrentObjectChanged)  handler.
+-   cuando  [IModelAsync.UseAsyncLoading](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelAsync.UseAsyncLoading)  es  **true**, la propiedad  [DetailView.CurrentObject](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.DetailView.CurrentObject)  se establece en  _null_  en el método  **Controller.OnActivate**;
+-   al abrir una vista detallada desde la  [navegación](https://docs.devexpress.com/eXpressAppFramework/113198/application-shell-and-base-infrastructure/navigation-system), el argumento  [DetailViewCreatingEventArgs.Obj](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.DetailViewCreatingEventArgs.Obj)  de los eventos ViewCreating y  [DetailViewCreating](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.XafApplication.DetailViewCreating)  se  [](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.XafApplication.ViewCreating)establece en  _null_;
+-   al abrir una vista detallada desde una vista de lista (haciendo doble clic en un registro o mediante la acción  **OpenObject**), el argumento  [DetailViewCreatingEventArgs.Obj](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.DetailViewCreatingEventArgs.Obj)  de los eventos ViewCreating y  [DetailViewCreating](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.XafApplication.ViewCreating)  se establece en el objeto del  [](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.XafApplication.DetailViewCreating)espacio de objetos de la vista de lista;
+-   cuando  [IModelAsync.UseAsyncLoading](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelAsync.UseAsyncLoading)  es  **true**  y se utiliza  [DetailView.ObjectSpace](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.CompositeView.ObjectSpace)  antes de inicializar el objeto de la vista de detalles (por ejemplo, en  **Controller.OnActivated**), se produce una excepción. Mueva la lógica que depende de esta propiedad al controlador  [CurrentObjectChanged](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.View.CurrentObjectChanged).
+
+### Vistas de lista
+
+Si habilita la opción  [UseAsyncLoading](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Model.IModelAsync.UseAsyncLoading), no manipule  [IObjectSpace](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.IObjectSpace)  de una vista de lista hasta que se carguen todos los datos.
 
 ### List Views
 
@@ -11618,11 +11623,11 @@ public class EnableConfirmationController : ObjectViewController<ListView, Conta
 
 La siguiente imagen muestra el mensaje de confirmación predeterminado que se muestra cuando un usuario cancela la carga de datos.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/2cf094e8-1eed-4e3e-839c-63212124b69f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/d44404bb-2df7-4b1b-a4a8-05286e90dec7)
 
 Para cambiar el texto del mensaje de confirmación, abra el Editor de modelos, vaya a  **Localización**  |  **Confirmaciones**  |  **ConfirmCancelAsyncOperation**  y cambie su  **valor**.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/0da765c4-e84e-4c4b-bf1a-71461b1c0343)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/0c2a44a7-f2c1-4c94-b982-c01e774dfea5)
 
 ## Deshabilitar acciones personalizadas durante la carga de datos
 
@@ -11650,7 +11655,7 @@ public class UpdateCustomActionsOnAsyncLoadingController : AsyncLoadingIndicatio
 
 La siguiente imagen muestra cómo afecta este controlador a la interfaz de usuario.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/f93a4579-f624-4df2-a72a-f752c7052b6b)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/bf4c300a-78f6-44da-a08a-67595a0bf279)
 
 ## Personalizar indicación de carga
 
@@ -11690,7 +11695,7 @@ public class CustomAsyncLoadingIndicationController : AsyncLoadingIndicationCont
 
 La siguiente imagen muestra el resultado.
 
-![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/85df78e0-719c-48c7-a14d-2410abdf65d7)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/f035bab3-2522-4167-a5a0-6462ea29dfa1)
 
 
 # Cómo: Procesar devoluciones de llamada XAF en el servidor desde eventos del lado cliente e implementar lógica de interfaz de usuario personalizada
@@ -11723,7 +11728,7 @@ Siga los pasos que se indican a continuación para mostrar la lista de objetos r
     
 -   Reemplace el método  **OnViewControlsCreated**, obtenga acceso al control ASPxPivotGrid y registre un nuevo script para el evento  [ASPxClientPivotGrid.CellClick](https://docs.devexpress.com/AspNet/js-ASPxClientPivotGrid.CellClick)  del lado cliente.[](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxPivotGrid.ASPxPivotGrid?v=23.1)  Para crear el script, utilice el método  **XafCallbackManager.GetScript**  con los siguientes parámetros:
 
-![Sin título](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/211c51d6-e700-45c0-b2a2-53082fc5d03f)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/22c3edde-9ca1-41ff-8b15-d9b2e8d0c1a5)
 
 ```csharp
     using DevExpress.ExpressApp;
@@ -11944,19 +11949,19 @@ La vista de lista de  **tareas de demostración**  de  esta aplicación muestra 
     
 3.  Establezca la propiedad  [PreviewColumnName](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.IModelListViewPreviewColumn.PreviewColumnName)  en .`Text`
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/9ad58567-1fe0-4511-b06e-e1a2b01cae59)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/1d40def5-900b-49ee-89a3-c9905f71e0a2)
 
     
 4.  Navegar a las  **vistas**  |  **MySolution.Module.BusinessObjects**  |  **Nota**  |  **Note_ListView**  |  **Columnas**  |  **Nodo de texto**.
     
 5.  Establezca la propiedad en . Esto oculta la columna  **Texto**  de una cuadrícula. Por lo tanto, los valores de columna solo se muestran en una sección de vista previa de fila.`Index``-1`
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/301a3331-120e-4766-ad34-af01dbb05a91)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/cd8540eb-81e6-44a2-9d7d-b320b5dca2f1)
 
     
 6.  Ejecute la aplicación. Desplácese hasta la vista Lista de  **notas**  para ver la sección de vista previa.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/a4a53619-8f38-4d94-9f85-6b18b866849e)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c9d5d921-396a-4c04-8af4-162702c2d047)
 
 
 # Ver elementos y editores de propiedades
@@ -11966,70 +11971,65 @@ Las vistas de  [panel y las vistas de detalle](https://docs.devexpress.com/eXpre
 
 XAF proporciona los siguientes tipos básicos de elementos de vista:
 
-![Sin título](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/e57eaba4-065c-4537-bfe3-436cb361033d)
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/c5c3e847-84fb-4aa7-bfdd-d7111d2fddd8)
 
 
-## Customize View Items
 
-You can use the following approaches to customize View Items:
+## Personalizar elementos de vista
 
--   [Access and Customize View Items in Code](https://docs.devexpress.com/eXpressAppFramework/112612/ui-construction/view-items-and-property-editors#access-and-customize-view-items-in-code)
--   [Customize the Application Model](https://docs.devexpress.com/eXpressAppFramework/112612/ui-construction/view-items-and-property-editors#customize-the-application-model)
--   [Create Custom View Items](https://docs.devexpress.com/eXpressAppFramework/112612/ui-construction/view-items-and-property-editors#create-custom-view-items)
+Puede utilizar los siguientes enfoques para personalizar los elementos de vista:
 
-### Access and Customize View Items in Code
+-   [Obtener acceso y personalizar elementos de vista en código](https://docs.devexpress.com/eXpressAppFramework/112612/ui-construction/view-items-and-property-editors#access-and-customize-view-items-in-code)
+-   [Personalizar el modelo de aplicación](https://docs.devexpress.com/eXpressAppFramework/112612/ui-construction/view-items-and-property-editors#customize-the-application-model)
+-   [Crear elementos de vista personalizados](https://docs.devexpress.com/eXpressAppFramework/112612/ui-construction/view-items-and-property-editors#create-custom-view-items)
 
-You can use the following approaches to access or customize View Items:
+### Obtener acceso y personalizar elementos de vista en código
 
--   [How to: Access the Grid Component in a List View](https://docs.devexpress.com/eXpressAppFramework/402154/ui-construction/list-editors/how-to-access-list-editor-control)
--   [How to: Access the ASPxDocumentViewer and ASPxWebDocumentViewer Controls](https://docs.devexpress.com/eXpressAppFramework/113612/shape-export-print-data/reports/task-based-help/how-to-access-the-report-preview-controls-web)
--   [How to: Access the Dashboard Control](https://docs.devexpress.com/eXpressAppFramework/117454/analytics/dashboards/access-the-dashboard-control)
--   [How to: Access the Master Object from a Nested List View](https://docs.devexpress.com/eXpressAppFramework/113161/ui-construction/ways-to-access-ui-elements-and-their-controls/how-to-access-master-detail-view-and-nested-list-view-environment)
--   [How to: Customize a Built-in Property Editor (WinForms)](https://docs.devexpress.com/eXpressAppFramework/113104/ui-construction/view-items-and-property-editors/property-editors/customize-a-built-in-property-editor-winforms)
--   [How to: Customize a Built-in Property Editor (ASP.NET Web Forms)](https://docs.devexpress.com/eXpressAppFramework/113114/ui-construction/view-items-and-property-editors/property-editors/customize-a-built-in-property-editor-asp-net)
--   [How to: Disable and Hide Property Editors Based on a Business Rule](https://docs.devexpress.com/eXpressAppFramework/113221/ui-construction/view-items-and-property-editors/property-editors/disable-and-hide-property-editors-based-on-a-business-rule)
--   [How to Implement Dependent Views in a Dashboard View Filter Based on Selection](https://github.com/DevExpress-Examples/XAF_how-to-implement-dependent-views-in-a-dashboardview-filter-based-on-selection-e4916)
--   [Validate a Property Editor Value](https://docs.devexpress.com/eXpressAppFramework/113251/validation/declare-validation-rules)
--   [Access Layout Control](https://docs.devexpress.com/eXpressAppFramework/404428/ui-construction/views/layout/access-layout-control)
--   [Secure or Protect a Property Editor Value](https://docs.devexpress.com/eXpressAppFramework/113366/data-security-and-safety/security-system)
--   [Ways to Access UI Elements and Their Controls](https://docs.devexpress.com/eXpressAppFramework/120092/ui-construction/ways-to-access-ui-elements-and-their-controls/ways-to-access-ui-elements-and-their-controls)
+Puede usar los siguientes enfoques para acceder o personalizar Ver elementos:
 
-### Customize the Application Model
+-   [Cómo: Obtener acceso al componente de cuadrícula en una vista de lista](https://docs.devexpress.com/eXpressAppFramework/402154/ui-construction/list-editors/how-to-access-list-editor-control)
+-   [Cómo: Obtener acceso a los controles ASPxDocumentViewer y ASPxWebDocumentViewer](https://docs.devexpress.com/eXpressAppFramework/113612/shape-export-print-data/reports/task-based-help/how-to-access-the-report-preview-controls-web)
+-   [Cómo: Obtener acceso al control Dashboard](https://docs.devexpress.com/eXpressAppFramework/117454/analytics/dashboards/access-the-dashboard-control)
+-   [Cómo: Obtener acceso al objeto maestro desde una vista de lista anidada](https://docs.devexpress.com/eXpressAppFramework/113161/ui-construction/ways-to-access-ui-elements-and-their-controls/how-to-access-master-detail-view-and-nested-list-view-environment)
+-   [Cómo: Personalizar un editor de propiedades integrado (WinForms)](https://docs.devexpress.com/eXpressAppFramework/113104/ui-construction/view-items-and-property-editors/property-editors/customize-a-built-in-property-editor-winforms)
+-   [Cómo: Personalizar un editor de propiedades integrado (ASP.NET formularios Web Forms)](https://docs.devexpress.com/eXpressAppFramework/113114/ui-construction/view-items-and-property-editors/property-editors/customize-a-built-in-property-editor-asp-net)
+-   [Cómo: Deshabilitar y ocultar editores de propiedades basados en una regla de negocio](https://docs.devexpress.com/eXpressAppFramework/113221/ui-construction/view-items-and-property-editors/property-editors/disable-and-hide-property-editors-based-on-a-business-rule)
+-   [Cómo implementar vistas dependientes en un filtro de vista de panel basado en la selección](https://github.com/DevExpress-Examples/XAF_how-to-implement-dependent-views-in-a-dashboardview-filter-based-on-selection-e4916)
+-   [Validar un valor del editor de propiedades](https://docs.devexpress.com/eXpressAppFramework/113251/validation/declare-validation-rules)
+-   [Control de diseño de acceso](https://docs.devexpress.com/eXpressAppFramework/404428/ui-construction/views/layout/access-layout-control)
+-   [Asegurar o proteger un valor del editor de propiedades](https://docs.devexpress.com/eXpressAppFramework/113366/data-security-and-safety/security-system)
+-   [Formas de obtener acceso a los elementos de la interfaz de usuario y sus controles](https://docs.devexpress.com/eXpressAppFramework/120092/ui-construction/ways-to-access-ui-elements-and-their-controls/ways-to-access-ui-elements-and-their-controls)
 
-The  [Application Model](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works)  displays nodes for all View Items in your application. You can use the Application Model to customize View Items.
+### Personalizar el modelo de aplicación
 
--   **ViewItems**  node
+El  [modelo](https://docs.devexpress.com/eXpressAppFramework/112580/ui-construction/application-model-ui-settings-storage/how-application-model-works)  de aplicación muestra nodos para todos los elementos de vista de la aplicación. Puede utilizar el modelo de aplicación para personalizar Ver elementos.
+
+-   **Nodo ViewItems**
     
-    This node has child nodes that correspond to the basic View Item types. These View Items are used to construct Detail Views. Examples of these base types are Static Text, Static Image, Property Editor, etc. Each base type is actually represented in the UI by a particular descendant class. This descendant is specified via the  **DefaultItemType**  property. If there are multiple descendants available, you can select the desired class via the property’s drop-down list.
+    Este nodo tiene nodos secundarios que corresponden a los tipos básicos de elementos de vista. Estos elementos de vista se utilizan para construir vistas detalladas. Ejemplos de estos tipos de base son texto estático, imagen estática, editor de propiedades, etc. Cada tipo base está representado realmente en la interfaz de usuario por una clase descendiente determinada. Este descendiente se especifica mediante la propiedad  **DefaultItemType**. Si hay varios descendientes disponibles, puede seleccionar la clase deseada a través de la lista desplegable de la propiedad.
     
-    Since different data types require different Property Editors, the PropertyEditors node supplies child nodes corresponding to data types. These child nodes specify the default Property Editor for each data type, using the EditorType property.
+    Dado que los distintos tipos de datos requieren diferentes editores de propiedades, el nodo PropertyEditors proporciona nodos secundarios correspondientes a los tipos de datos. Estos nodos secundarios especifican el Editor de propiedades predeterminado para cada tipo de datos, utilizando la propiedad EditorType.
     
-    The following picture illustrates the  **ViewItems**  node:
+    La siguiente imagen ilustra el nodo  **ViewItems**:
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/cca14e1b-5bde-4c7e-bbd9-b8f22fa2266a)
-
+![image](https://github.com/jjcolumb/XAF-Docs-Spanish/assets/126447472/ad9565d2-8482-4b75-ade5-90a3ea56c46b)
     
--   **Views**  |  **DashboardView**  or  **DetailView**  |  **Items**  node
+-   **Vistas**  |  **DashboardView**  o  **DetailView**  |  **Nodo Elementos**
     
-    This node lists the current Detail View’s items. By default, it contains only Property Editor nodes. Their  **PropertyEditorType**  property specifies the Property Editor type used in a UI. Of course, you can change the default property value by selecting another property editor type from the dropdown list.
-    
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/5a5e404f-8395-4ead-907e-3e3df47276e2)
-
+    Este nodo enumera los elementos de la vista de detalles actual. De forma predeterminada, sólo contiene nodos del Editor de propiedades. Su propiedad  **PropertyEditorType**  especifica el tipo de editor de propiedades utilizado en una interfaz de usuario. Por supuesto, puede cambiar el valor de propiedad predeterminado seleccionando otro tipo de editor de propiedades de la lista desplegable.
 
     
-    You can change other properties such as  [DisplayFormat](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Editors.PropertyEditor.DisplayFormat),  [EditMask](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Editors.PropertyEditor.EditMask)  etc. See  [Format a Property Value](https://docs.devexpress.com/eXpressAppFramework/402141/getting-started/in-depth-tutorial-blazor/customize-data-display-and-view-layout/format-a-property-value).
+    Puede cambiar otras propiedades como  [DisplayFormat](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Editors.PropertyEditor.DisplayFormat),  [EditMask](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Editors.PropertyEditor.EditMask), etc. Consulte  [Dar formato a un valor de propiedad](https://docs.devexpress.com/eXpressAppFramework/402141/getting-started/in-depth-tutorial-blazor/customize-data-display-and-view-layout/format-a-property-value).
     
-    You can also add other View Items to a Detail View. To do this, use the  [Model Editor](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor)‘s context menu. If you add a Static Text, Static Image or Control item, you can use the  **ItemType**  property to specify the actual class used to represent this item in a UI.
+    También puede agregar otros elementos de vista a una vista detallada. Para ello, utilice el menú contextual del  [Editor de modelos](https://docs.devexpress.com/eXpressAppFramework/112582/ui-construction/application-model-ui-settings-storage/model-editor). Si agrega un elemento Static Text, Static Image o Control, puede usar la propiedad  **ItemType**  para especificar la clase real utilizada para representar este elemento en una interfaz de usuario.
     
--   **Views**  |  **DashboardView**  or  **DetailView**  |  **Layout**  node.
+-   **Vistas**  |  **DashboardView**  o  **DetailView**  |  **Nodo de diseño**.
     
-    This node specifies the layout of the current View’s items. Items can be grouped or located separately. You can change the default layout, by using the context menu and specifying property values in the Model Editor. In addition, the Model Editor allows you to view the resulting items layout. When the Layout node is selected, the property list to the right is displayed with a design surface that emulates the current View. To drag the View Items, right-click on the empty space, and select  **Customize Layout**. The Customization form will be invoked. Close this form, to go back to the view mode of the emulated View.
+    Este nodo especifica el diseño de los elementos de la vista actual. Los elementos se pueden agrupar o ubicar por separado. Puede cambiar el diseño predeterminado mediante el menú contextual y especificando valores de propiedad en el Editor de modelos. Además, el Editor de modelos le permite ver el diseño de los elementos resultantes. Cuando se selecciona el nodo Diseño, se muestra la lista de propiedades de la derecha con una superficie de diseño que emula la vista actual. Para arrastrar Ver elementos, haga clic con el botón derecho en el espacio vacío y seleccione  **Personalizar diseño**. Se invocará el formulario Personalización. Cierre este formulario para volver al modo de vista de la vista emulada.
     
-    ![image](https://github.com/lianhdez95/XAF-User-Interface-and-Behavior-Customization/assets/126447472/9e013396-d92b-4d2f-811e-20d50b48a91c)
-
+    [![image](https://user-images.githubusercontent.com/126447472/260335740-9e013396-d92b-4d2f-811e-20d50b48a91c.png)](https://user-images.githubusercontent.com/126447472/260335740-9e013396-d92b-4d2f-811e-20d50b48a91c.png)
     
-    Para obtener más información, consulte el tema  [Personalización del diseño de los elementos de](https://docs.devexpress.com/eXpressAppFramework/112817/ui-construction/views/layout/view-items-layout-customization)  vista.
-    
+   
 
 ### Crear elementos de vista personalizados
 
